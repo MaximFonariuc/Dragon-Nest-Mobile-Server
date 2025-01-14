@@ -1,0 +1,51 @@
+01:54:08 [Info] main(main.cpp:42) [gateserver.exe] is start ....
+01:54:08 [Debug] Process_Setup(process.cpp:18) Start Init <GateConfig>
+01:54:08 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [gate] server id [1]
+01:54:08 [Info] GateConfig::ReadSettings(config.cpp:94) nps: 1000, tps: 100, maxconn: 20000
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:10110] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gslink] on [127.0.0.1:10131] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:10120] by link mslink
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:10125] by link ctrllink
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:10170] by link audiolink
+01:54:08 [Debug] Process_Setup(process.cpp:19) Start Init <SessionManager>
+01:54:08 [Debug] Process_Setup(process.cpp:19) End Init <SessionManager>
+01:54:08 [Debug] Process_Setup(process.cpp:20) Start Init <ServerStateInfo>
+01:54:08 [Debug] Process_Setup(process.cpp:20) End Init <ServerStateInfo>
+01:54:08 [Debug] Process_Setup(process.cpp:21) Start Init <CProtocolStat>
+01:54:08 [Debug] Process_Setup(process.cpp:21) End Init <CProtocolStat>
+01:54:08 [Debug] Process_Setup(process.cpp:22) Start Init <CProtocolCoder>
+01:54:08 [Debug] Process_Setup(process.cpp:22) End Init <CProtocolCoder>
+01:54:08 [Debug] Process_Setup(process.cpp:23) Start Init <CGateProfile>
+01:54:08 [Debug] Process_Setup(process.cpp:23) End Init <CGateProfile>
+01:54:08 [Debug] Process_Setup(process.cpp:24) Start Init <CrossProtocolBanMgr>
+01:54:08 [Debug] Process_Setup(process.cpp:24) End Init <CrossProtocolBanMgr>
+01:54:09 [Info] RpcT2N_RegisterGt2Ns::OnReply(rpct2n_registergt2ns.cpp:13) Gate server line [1] register to ns success
+01:54:21 [Info] RpcT2M_RegisterGt2Ms::OnReply(rpct2m_registergt2ms.cpp:13) Gate server line [1] register to ms success
+01:54:28 [Info] GSLink::OnLineConnected(gslink.cpp:157) Game server line [1] connected
+01:54:28 [Info] RpcT2G_RegisterGt2Gs::OnReply(rpct2g_registergt2gs.cpp:12) Gate server line [1] register to gs_1 success
+01:54:36 [Info] SessionManager::OnNewConnection(sessionmanager.cpp:154) a client come from [127.0.0.1] with session => [281481083617281 : 9]
+01:54:36 [Info] RpcC2T_ClientLoginRequest::OnCall(rpcc2t_clientloginrequest.cpp:74) recv login request, account=[test] session=[281481083617281] server[1], send login request to ns
+01:54:36 [Info] RpcT2N_LoginRequestNew::OnReply(rpct2n_loginrequestnew.cpp:61) login result from ns success, account=[test] session=[281481083617281]
+01:54:45 [Debug] CProtocolCoder::Encode(protocolcoder.cpp:50) Compress protocol 19493 [12083 -> 4249] bytes
+01:54:45 [Debug] PtcN2T_NotifyGtSessionLogin::Process(ptcn2t_notifygtsessionlogin.cpp:13) session[281481083617281], login role success
+01:54:46 [Warn] BaseLink::ForwardRpc(baselink.cpp:457) rpc type [17971] from connid [9] can't be processed!
+01:54:50 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [clientlink] ConnID:[9]
+01:54:50 [Info] SessionManager::OnClose(sessionmanager.cpp:413) close session [281481083617281] at state [[login]]
+01:54:50 [Info] SessionManager::OnClose(sessionmanager.cpp:441) put session [281481083617281] to reconnect queue
+01:55:04 [Info] SessionManager::OnNewConnection(sessionmanager.cpp:154) a client come from [127.0.0.1] with session => [281481553379330 : 8]
+01:55:04 [Info] RpcC2T_ClientLoginRequest::OnCall(rpcc2t_clientloginrequest.cpp:74) recv login request, account=[test] session=[281481553379330] server[1], send login request to ns
+01:55:04 [Info] PtcN2T_KickAccount::Process(ptcn2t_kickaccount.cpp:26) Ns kick session [281481083617281], type [relogin]
+01:55:04 [Info] RpcT2N_LoginRequestNew::OnReply(rpct2n_loginrequestnew.cpp:61) login result from ns success, account=[test] session=[281481553379330]
+01:55:16 [Debug] CProtocolCoder::Encode(protocolcoder.cpp:50) Compress protocol 19493 [14118 -> 4868] bytes
+01:55:16 [Debug] PtcN2T_NotifyGtSessionLogin::Process(ptcn2t_notifygtsessionlogin.cpp:13) session[281481553379330], login role success
+01:55:17 [Warn] BaseLink::ForwardRpc(baselink.cpp:457) rpc type [17971] from connid [8] can't be processed!
+01:55:21 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [clientlink] ConnID:[8]
+01:55:21 [Info] SessionManager::OnClose(sessionmanager.cpp:413) close session [281481553379330] at state [[login]]
+01:55:21 [Info] SessionManager::OnClose(sessionmanager.cpp:441) put session [281481553379330] to reconnect queue
+01:55:59 [Info] SessionManager::OnNewConnection(sessionmanager.cpp:154) a client come from [127.0.0.1] with session => [281482476126211 : 7]
+01:55:59 [Info] RpcC2T_ClientLoginRequest::OnCall(rpcc2t_clientloginrequest.cpp:74) recv login request, account=[test] session=[281482476126211] server[1], send login request to ns
+01:56:00 [Info] PtcN2T_KickAccount::Process(ptcn2t_kickaccount.cpp:26) Ns kick session [281481553379330], type [relogin]
+01:56:00 [Info] RpcT2N_LoginRequestNew::OnReply(rpct2n_loginrequestnew.cpp:61) login result from ns success, account=[test] session=[281482476126211]
+01:56:05 [Debug] CProtocolCoder::Encode(protocolcoder.cpp:50) Compress protocol 19493 [14118 -> 4868] bytes
+01:56:05 [Debug] PtcN2T_NotifyGtSessionLogin::Process(ptcn2t_notifygtsessionlogin.cpp:13) session[281482476126211], login role success
+01:56:07 [Warn] BaseLink::ForwardRpc(baselink.cpp:457) rpc type [17971] from connid [7] can't be processed!

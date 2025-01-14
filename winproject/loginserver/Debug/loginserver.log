@@ -1,0 +1,38 @@
+﻿Построение начато 13.01.2025 13:26:09.
+     1>Проект "D:\Git\SoloProjects\DragonNestM\server\winproject\loginserver\loginserver.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\loginserver.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../loginserver/network /I../../loginserver/protocol /I../../loginserver/ /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../thirdparty/mysql/include /I../../thirdparty /I"../../thirdparty/curl-7.40.0/include" /I../../share /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Git\SoloProjects\DragonNestM\server\winproject\loginserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\loginserver\config.cpp ..\..\loginserver\connection\connectionmgr.cpp ..\..\loginserver\gatemgr\LoadGateInfoTask.cpp ..\..\loginserver\gatemgr\UpdateGateInfoTask.cpp ..\..\loginserver\gatemgr\gateinfo.cpp ..\..\loginserver\gatemgr\gatemgr.cpp ..\..\loginserver\gmmgr\gmmgr.cpp ..\..\loginserver\gmmgr\reloadmgr.cpp ..\..\loginserver\iplist\accountbanmgr.cpp ..\..\loginserver\iplist\whitelistmgr.cpp ..\..\loginserver\main.cpp ..\..\loginserver\network\clientlink.cpp ..\..\loginserver\network\controllink.cpp ..\..\loginserver\network\cslink.cpp ..\..\loginserver\network\gmlink.cpp ..\..\loginserver\network\gmtoollink.cpp ..\..\loginserver\network\mslink.cpp ..\..\loginserver\network\worldlink.cpp ..\..\loginserver\notice\platnoticemgr.cpp ..\..\loginserver\process.cpp ..\..\loginserver\profile\loginprofile.cpp ..\..\loginserver\protocol\common\rpcn2i_registerns2login.cpp ..\..\loginserver\protocol\gm\rpcp2i_loginhttpcommand.cpp ..\..\loginserver\protocol\login\ptcn2i_usedlogintokennotify.cpp ..\..\loginserver\protocol\login\rpcc2i_querygateip.cpp ..\..\loginserver\protocol\sendonly.cpp ..\..\loginserver\ptcregister.cpp ..\..\loginserver\serverrole\readrolecontrol.cpp ..\..\loginserver\sql\mysqlmgr.cpp ..\..\loginserver\sql\mysqltest.cpp ..\..\loginserver\verify\DBCheckPasswordTask.cpp ..\..\protocol\pb\project.pb.cc ..\..\share\DBInfo.cpp ..\..\share\HashUtil.cpp ..\..\share\appid.cpp ..\..\share\idip\idiperrdesc.cpp ..\..\share\idip\idiphandler.cpp /bigobj 
+         idiphandler.cpp
+         idiperrdesc.cpp
+         appid.cpp
+         HashUtil.cpp
+         DBInfo.cpp
+         project.pb.cc
+         DBCheckPasswordTask.cpp
+         mysqltest.cpp
+         mysqlmgr.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\sql\mysqlmgr.cpp(244): warning C4018: <: несоответствие типов со знаком и без знака
+         readrolecontrol.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\gatemgr\gatemgr.h(74): warning C4018: <: несоответствие типов со знаком и без знака
+         ptcregister.cpp
+         sendonly.cpp
+         rpcc2i_querygateip.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\gatemgr\gatemgr.h(74): warning C4018: <: несоответствие типов со знаком и без знака
+         ptcn2i_usedlogintokennotify.cpp
+         rpcp2i_loginhttpcommand.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\gatemgr\gatemgr.h(74): warning C4018: <: несоответствие типов со знаком и без знака
+         rpcn2i_registerns2login.cpp
+         loginprofile.cpp
+         process.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\gatemgr\gatemgr.h(74): warning C4018: <: несоответствие типов со знаком и без знака
+         platnoticemgr.cpp
+         worldlink.cpp
+     1>d:\git\soloprojects\dragonnestm\server\loginserver\gatemgr\gatemgr.h(74): warning C4018: <: несоответствие типов со знаком и без знака
+         Создание кода...
+     1>Построение проекта "D:\Git\SoloProjects\DragonNestM\server\winproject\loginserver\loginserver.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:49.64

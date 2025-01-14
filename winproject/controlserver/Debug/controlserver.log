@@ -1,0 +1,199 @@
+﻿Построение начато 12.01.2025 17:45:28.
+     1>Проект "D:\Git\SoloProjects\server\winproject\controlserver\controlserver.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\controlserver.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/tsf4g_lib/include /I../../thirdparty /I../../controlserver /I"../../thirdparty/curl-7.40.0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\controlserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\controlserver\main.cpp /bigobj /Zm200 
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/tsf4g_lib/include /I../../thirdparty /I../../controlserver /I"../../thirdparty/curl-7.40.0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\controlserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\controlserver\account\accountkick.cpp ..\..\controlserver\account\accountsession.cpp ..\..\controlserver\account\accountsessionmgr.cpp ..\..\controlserver\account\logincontrol.cpp ..\..\controlserver\account\whitelistmgr.cpp ..\..\controlserver\config.cpp ..\..\controlserver\network\dblink.cpp ..\..\controlserver\network\gatelink.cpp ..\..\controlserver\network\gmtoollink.cpp ..\..\controlserver\network\gslink.cpp ..\..\controlserver\network\loginlink.cpp ..\..\controlserver\network\mslink.cpp ..\..\controlserver\network\rslink.cpp ..\..\controlserver\process.cpp ..\..\controlserver\profile\ctrlprofiler.cpp ..\..\controlserver\protocol\common\rpcn2i_registerns2login.cpp ..\..\controlserver\protocol\login\ptct2n_logoutntf.cpp ..\..\controlserver\protocol\login\rpct2n_loginrequestnew.cpp ..\..\controlserver\protocol\queuing\ptcc2n_checkqueuingreq.cpp ..\..\controlserver\protocol\role\rpcc2n_createrolenew.cpp ..\..\controlserver\protocol\role\rpcc2n_returntoselectrole.cpp ..\..\controlserver\protocol\role\rpcc2n_selectrolenew.cpp ..\..\controlserver\protocol\role\rpcn2d_createroleondbnew.cpp ..\..\controlserver\protocol\scene\rpcg2n_changesceneverify.cpp ..\..\controlserver\protocol\scene\rpcm2n_createbattlescene.cpp ..\..\controlserver\protocol\scene\rpcn2g_createbattle.cpp ..\..\controlserver\protocol\scene\rpcn2g_enterscene.cpp ..\..\controlserver\protocol\scene\rpcn2g_leavescene.cpp ..\..\controlserver\protocol\sendonly.cpp ..\..\controlserver\ptcregister.cpp ..\..\controlserver\queuing\queuingmgr.cpp ..\..\controlserver\role\role.cpp ..\..\controlserver\role\roleidgenerator.cpp ..\..\controlserver\role\rolemanager.cpp ..\..\controlserver\scene\gsmanager.cpp ..\..\controlserver\scene\scene.cpp ..\..\controlserver\scene\sceneconfig.cpp ..\..\controlserver\scene\scenecreate.cpp ..\..\controlserver\scene\scenemanager.cpp ..\..\controlserver\scene\sceneswitch.cpp ..\..\controlserver\shm\shmmgr.cpp ..\..\share\DBInfo.cpp ..\..\controlserver\protocol\common\rpct2n_registergt2ns.cpp ..\..\controlserver\protocol\common\rpcg2n_registergs2ns.cpp ..\..\controlserver\protocol\login\rpcn2i_loginverify.cpp ..\..\controlserver\protocol\login\rpcn2d_nsreadaccountdata.cpp ..\..\controlserver\protocol\role\rpcn2d_nsreadroledata.cpp ..\..\controlserver\protocol\login\rpcm2n_kickaccountfromms.cpp ..\..\controlserver\protocol\scene\rpcm2n_changescenefromms.cpp ..\..\controlserver\protocol\common\rpcn2r_registerctrl2router.cpp ..\..\controlserver\protocol\role\rpcn2m_checkrolename.cpp ..\..\controlserver\protocol\role\rpcn2m_checkrolebaninfo.cpp ..\..\controlserver\protocol\scene\ptcg2n_scenedestroyedtons.cpp ..\..\controlserver\protocol\common\rpcm2n_nsreload.cpp ..\..\controlserver\protocol\common\ptcr2n_crossgsclosentf.cpp ..\..\share\idip\idiperrdesc.cpp ..\..\share\idip\idiphandler.cpp ..\..\share\profile\profiler.cpp ..\..\share\sharememory\sharememory.cpp ..\..\share\sharememory\shmkey.cpp ..\..\controlserver\protocol\common\ptcc2n_updatestartuptypentf.cpp ..\..\controlserver\protocol\common\ptcm2n_updateregistercount2ns.cpp ..\..\share\table\globalconfig.cpp ..\..\share\util\gametime.cpp ..\..\share\util\gettimeofday.cpp ..\..\share\util\jsonutil.cpp ..\..\share\util\UtilEncode.cpp ..\..\share\util\XCommon.cpp ..\..\controlserver\protocol\common\ptcd2n_reportregistercount.cpp ..\..\controlserver\protocol\common\ptcd2n_mysqlconnectlost.cpp ..\..\controlserver\protocol\common\ptcm2n_notifyrouterinfo2ctrl.cpp ..\..\controlserver\protocol\common\rpcm2n_registerms2ns.cpp ..\..\controlserver\protocol\login\rpcc2n_loginreconnectreq.cpp ..\..\controlserver\protocol\login\rpcn2g_notifyroleloginreconnect2gs.cpp ..\..\controlserver\protocol\common\ptcm2n_m2nversoinnotify.cpp ..\..\share\util\XRandom.cpp ..\..\share\version\version.cpp ..\..\controlserver\protocol\gm\rpcm2n_gmdowhitelist.cpp /bigobj /Zm200 
+         rpcm2n_gmdowhitelist.cpp
+         version.cpp
+         XRandom.cpp
+         ptcm2n_m2nversoinnotify.cpp
+         rpcn2g_notifyroleloginreconnect2gs.cpp
+         rpcc2n_loginreconnectreq.cpp
+         rpcm2n_registerms2ns.cpp
+         ptcm2n_notifyrouterinfo2ctrl.cpp
+         ptcd2n_mysqlconnectlost.cpp
+         ptcd2n_reportregistercount.cpp
+         XCommon.cpp
+         UtilEncode.cpp
+         jsonutil.cpp
+         gettimeofday.cpp
+         gametime.cpp
+         globalconfig.cpp
+     1>d:\git\soloprojects\server\share\table\globalconfig.cpp(1253): warning C4244: =: преобразование "time_t" в "UINT32", возможна потеря данных
+     1>d:\git\soloprojects\server\share\table\globalconfig.cpp(1254): warning C4244: =: преобразование "time_t" в "UINT32", возможна потеря данных
+     1>d:\git\soloprojects\server\share\table\globalconfig.cpp(1256): warning C4244: =: преобразование "time_t" в "UINT32", возможна потеря данных
+     1>d:\git\soloprojects\server\share\table\globalconfig.cpp(1272): warning C4244: =: преобразование "time_t" в "UINT32", возможна потеря данных
+     1>d:\git\soloprojects\server\share\table\globalconfig.cpp(1525): warning C4244: инициализация: преобразование "time_t" в "UINT32", возможна потеря данных
+         ptcm2n_updateregistercount2ns.cpp
+         ptcc2n_updatestartuptypentf.cpp
+         shmkey.cpp
+         sharememory.cpp
+         Создание кода...
+         Компиляция...
+         profiler.cpp
+         idiphandler.cpp
+         idiperrdesc.cpp
+         ptcr2n_crossgsclosentf.cpp
+         rpcm2n_nsreload.cpp
+         ptcg2n_scenedestroyedtons.cpp
+         rpcn2m_checkrolebaninfo.cpp
+         rpcn2m_checkrolename.cpp
+         rpcn2r_registerctrl2router.cpp
+         rpcm2n_changescenefromms.cpp
+         rpcm2n_kickaccountfromms.cpp
+         rpcn2d_nsreadroledata.cpp
+         rpcn2d_nsreadaccountdata.cpp
+         rpcn2i_loginverify.cpp
+         rpcg2n_registergs2ns.cpp
+         rpct2n_registergt2ns.cpp
+         DBInfo.cpp
+         shmmgr.cpp
+         sceneswitch.cpp
+         scenemanager.cpp
+         Создание кода...
+         Компиляция...
+         scenecreate.cpp
+         sceneconfig.cpp
+         scene.cpp
+         gsmanager.cpp
+         rolemanager.cpp
+         roleidgenerator.cpp
+         role.cpp
+         queuingmgr.cpp
+         ptcregister.cpp
+         sendonly.cpp
+         rpcn2g_leavescene.cpp
+         rpcn2g_enterscene.cpp
+         rpcn2g_createbattle.cpp
+         rpcm2n_createbattlescene.cpp
+         rpcg2n_changesceneverify.cpp
+         rpcn2d_createroleondbnew.cpp
+         rpcc2n_selectrolenew.cpp
+     1>d:\git\soloprojects\server\controlserver\protocol\role\rpcc2n_selectrolenew.cpp(36): warning C4018: >: несоответствие типов со знаком и без знака
+         rpcc2n_returntoselectrole.cpp
+         rpcc2n_createrolenew.cpp
+         ptcc2n_checkqueuingreq.cpp
+         Создание кода...
+         Компиляция...
+         rpct2n_loginrequestnew.cpp
+         ptct2n_logoutntf.cpp
+         rpcn2i_registerns2login.cpp
+         ctrlprofiler.cpp
+         process.cpp
+         rslink.cpp
+         mslink.cpp
+         loginlink.cpp
+         gslink.cpp
+         gmtoollink.cpp
+         gatelink.cpp
+         dblink.cpp
+         config.cpp
+         whitelistmgr.cpp
+         logincontrol.cpp
+         accountsessionmgr.cpp
+     1>d:\git\soloprojects\server\controlserver\account\accountsessionmgr.cpp(360): warning C4018: >: несоответствие типов со знаком и без знака
+         accountsession.cpp
+         accountkick.cpp
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/tsf4g_lib/include /I../../thirdparty /I../../controlserver /I"../../thirdparty/curl-7.40.0/include" /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\protocol\pb\enum.pb.cc ..\..\protocol\pb\project.pb.cc /bigobj /Zm200 
+         project.pb.cc
+         enum.pb.cc
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\controlserver.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../lib /LIBPATH:../../thirdparty/mysql/lib/vs10/ /LIBPATH:"../../thirdparty/curl-7.40.0/lib" common.lib ws2_32.lib libprotobuf.lib libiconv.lib zlib.lib mysqlclient.lib mysql.lib iocp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"Debug\controlserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Git\SoloProjects\server\exe\controlserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\controlserver.lib" /MACHINE:X86 Debug\accountkick.obj
+         Debug\accountsession.obj
+         Debug\accountsessionmgr.obj
+         Debug\logincontrol.obj
+         Debug\whitelistmgr.obj
+         Debug\config.obj
+         Debug\main.obj
+         Debug\dblink.obj
+         Debug\gatelink.obj
+         Debug\gmtoollink.obj
+         Debug\gslink.obj
+         Debug\loginlink.obj
+         Debug\mslink.obj
+         Debug\rslink.obj
+         Debug\process.obj
+         Debug\ctrlprofiler.obj
+         Debug\rpcn2i_registerns2login.obj
+         Debug\ptct2n_logoutntf.obj
+         Debug\rpct2n_loginrequestnew.obj
+         Debug\ptcc2n_checkqueuingreq.obj
+         Debug\rpcc2n_createrolenew.obj
+         Debug\rpcc2n_returntoselectrole.obj
+         Debug\rpcc2n_selectrolenew.obj
+         Debug\rpcn2d_createroleondbnew.obj
+         Debug\rpcg2n_changesceneverify.obj
+         Debug\rpcm2n_createbattlescene.obj
+         Debug\rpcn2g_createbattle.obj
+         Debug\rpcn2g_enterscene.obj
+         Debug\rpcn2g_leavescene.obj
+         Debug\sendonly.obj
+         Debug\ptcregister.obj
+         Debug\queuingmgr.obj
+         Debug\role.obj
+         Debug\roleidgenerator.obj
+         Debug\rolemanager.obj
+         Debug\gsmanager.obj
+         Debug\scene.obj
+         Debug\sceneconfig.obj
+         Debug\scenecreate.obj
+         Debug\scenemanager.obj
+         Debug\sceneswitch.obj
+         Debug\shmmgr.obj
+         Debug\enum.pb.obj
+         Debug\project.pb.obj
+         Debug\DBInfo.obj
+         Debug\rpct2n_registergt2ns.obj
+         Debug\rpcg2n_registergs2ns.obj
+         Debug\rpcn2i_loginverify.obj
+         Debug\rpcn2d_nsreadaccountdata.obj
+         Debug\rpcn2d_nsreadroledata.obj
+         Debug\rpcm2n_kickaccountfromms.obj
+         Debug\rpcm2n_changescenefromms.obj
+         Debug\rpcn2r_registerctrl2router.obj
+         Debug\rpcn2m_checkrolename.obj
+         Debug\rpcn2m_checkrolebaninfo.obj
+         Debug\ptcg2n_scenedestroyedtons.obj
+         Debug\rpcm2n_nsreload.obj
+         Debug\ptcr2n_crossgsclosentf.obj
+         Debug\idiperrdesc.obj
+         Debug\idiphandler.obj
+         Debug\profiler.obj
+         Debug\sharememory.obj
+         Debug\shmkey.obj
+         Debug\ptcc2n_updatestartuptypentf.obj
+         Debug\ptcm2n_updateregistercount2ns.obj
+         Debug\globalconfig.obj
+         Debug\gametime.obj
+         Debug\gettimeofday.obj
+         Debug\jsonutil.obj
+         Debug\UtilEncode.obj
+         Debug\XCommon.obj
+         Debug\ptcd2n_reportregistercount.obj
+         Debug\ptcd2n_mysqlconnectlost.obj
+         Debug\ptcm2n_notifyrouterinfo2ctrl.obj
+         Debug\rpcm2n_registerms2ns.obj
+         Debug\rpcc2n_loginreconnectreq.obj
+         Debug\rpcn2g_notifyroleloginreconnect2gs.obj
+         Debug\ptcm2n_m2nversoinnotify.obj
+         Debug\XRandom.obj
+         Debug\version.obj
+         Debug\rpcm2n_gmdowhitelist.obj
+         controlserver.vcxproj -> D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\controlserver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Git\SoloProjects\server\winproject\controlserver\..\..\exe\controlserver.exe.manifest" /manifest Debug\controlserver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\controlserver.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\controlserver.lastbuildstate".
+     1>Построение проекта "D:\Git\SoloProjects\server\winproject\controlserver\controlserver.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:01:46.89

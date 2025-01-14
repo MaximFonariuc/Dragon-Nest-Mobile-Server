@@ -1,0 +1,134 @@
+﻿Построение начато 12.01.2025 17:48:29.
+     1>Проект "D:\Git\SoloProjects\server\winproject\gateserver\gateserver.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\gateserver.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../gateserver/network /I../../gateserver/protocol /I../../gateserver/ /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/kcp /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\gateserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\gateserver\main.cpp /bigobj /Zm200 
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../gateserver/network /I../../gateserver/protocol /I../../gateserver/ /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/kcp /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\gateserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\gateserver\config.cpp ..\..\gateserver\network\audiolink.cpp ..\..\gateserver\network\clientlink.cpp ..\..\gateserver\network\controllink.cpp ..\..\gateserver\network\gslink.cpp ..\..\gateserver\network\mslink.cpp ..\..\gateserver\network\protocolcoder.cpp ..\..\gateserver\network\protocolstat.cpp ..\..\gateserver\network\rslink.cpp ..\..\gateserver\network\serverstateinfo.cpp ..\..\gateserver\process.cpp ..\..\gateserver\profile\gateprofile.cpp ..\..\gateserver\protocolban\crossprotocolbanmgr.cpp ..\..\gateserver\protocol\common\ptcg2t_opengate.cpp ..\..\gateserver\protocol\login\ptcc2t_keepalivepingack.cpp ..\..\gateserver\protocol\login\ptcn2t_kickaccount.cpp ..\..\gateserver\protocol\login\rpcc2t_reconnect.cpp ..\..\gateserver\protocol\login\rpct2n_loginrequestnew.cpp ..\..\gateserver\protocol\sendonly.cpp ..\..\gateserver\ptcregister.cpp ..\..\gateserver\session\sessionmanager.cpp ..\..\gateserver\udpnet\kcppeer.cpp ..\..\gateserver\udpnet\udphandler.cpp ..\..\gateserver\udpnet\udpnetwork.cpp ..\..\gateserver\protocol\login\rpcc2t_clientloginrequest.cpp ..\..\gateserver\protocol\common\rpct2m_registergt2ms.cpp ..\..\gateserver\protocol\common\rpcg2t_registergs2gt.cpp ..\..\gateserver\protocol\common\rpct2g_registergt2gs.cpp ..\..\gateserver\protocol\common\ptcg2t_changegsline.cpp ..\..\gateserver\protocol\chat\ptcm2t_chatforward.cpp ..\..\gateserver\protocol\common\ptcm2t_versionnotify.cpp ..\..\share\profile\profiler.cpp ..\..\share\version\version.cpp ..\..\gateserver\protocol\broadcast\ptcm2t_broadcastm2t.cpp ..\..\gateserver\protocol\login\rpct2g_reconnectgs.cpp ..\..\gateserver\protocol\common\rpct2r_registergt2router.cpp ..\..\gateserver\protocol\common\rpct2n_registergt2ns.cpp ..\..\gateserver\protocol\login\ptcn2t_notifygtsessionlogin.cpp ..\..\gateserver\protocol\broadcast\ptcg2t_broadcastg2t.cpp ..\..\gateserver\protocol\common\ptcm2t_notifyrouterinfo2gate.cpp ..\..\gateserver\protocol\chat\rpcc2t_uploadaudiotogate.cpp ..\..\gateserver\protocol\chat\rpct2a_uploadaudiotoaudio.cpp ..\..\gateserver\protocol\session\ptcn2t_sessionchange2gt.cpp /bigobj /Zm200 
+         ptcn2t_sessionchange2gt.cpp
+         rpct2a_uploadaudiotoaudio.cpp
+         rpcc2t_uploadaudiotogate.cpp
+         ptcm2t_notifyrouterinfo2gate.cpp
+         ptcg2t_broadcastg2t.cpp
+         ptcn2t_notifygtsessionlogin.cpp
+         rpct2n_registergt2ns.cpp
+         rpct2r_registergt2router.cpp
+         rpct2g_reconnectgs.cpp
+         ptcm2t_broadcastm2t.cpp
+         version.cpp
+         profiler.cpp
+         ptcm2t_versionnotify.cpp
+         ptcm2t_chatforward.cpp
+         ptcg2t_changegsline.cpp
+         rpct2g_registergt2gs.cpp
+         rpcg2t_registergs2gt.cpp
+         rpct2m_registergt2ms.cpp
+         rpcc2t_clientloginrequest.cpp
+         udpnetwork.cpp
+         Создание кода...
+         Компиляция...
+         udphandler.cpp
+         kcppeer.cpp
+         sessionmanager.cpp
+         ptcregister.cpp
+         sendonly.cpp
+         rpct2n_loginrequestnew.cpp
+         rpcc2t_reconnect.cpp
+         ptcn2t_kickaccount.cpp
+         ptcc2t_keepalivepingack.cpp
+         ptcg2t_opengate.cpp
+         crossprotocolbanmgr.cpp
+         gateprofile.cpp
+         process.cpp
+         serverstateinfo.cpp
+         rslink.cpp
+         protocolstat.cpp
+         protocolcoder.cpp
+         mslink.cpp
+         gslink.cpp
+         controllink.cpp
+         Создание кода...
+         Компиляция...
+         clientlink.cpp
+         audiolink.cpp
+         config.cpp
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../gateserver/network /I../../gateserver/protocol /I../../gateserver/ /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../thirdparty/kcp /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\protocol\pb\enum.pb.cc ..\..\protocol\pb\project.pb.cc /bigobj /Zm200 
+         project.pb.cc
+         enum.pb.cc
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\gateserver.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../lib common.lib ws2_32.lib libprotobuf.lib libiconv.lib zlib.lib iocp.lib kcp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gateserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Git\SoloProjects\server\exe\gateserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\gateserver.lib" /MACHINE:X86 Debug\config.obj
+         Debug\main.obj
+         Debug\audiolink.obj
+         Debug\clientlink.obj
+         Debug\controllink.obj
+         Debug\gslink.obj
+         Debug\mslink.obj
+         Debug\protocolcoder.obj
+         Debug\protocolstat.obj
+         Debug\rslink.obj
+         Debug\serverstateinfo.obj
+         Debug\process.obj
+         Debug\gateprofile.obj
+         Debug\crossprotocolbanmgr.obj
+         Debug\ptcg2t_opengate.obj
+         Debug\ptcc2t_keepalivepingack.obj
+         Debug\ptcn2t_kickaccount.obj
+         Debug\rpcc2t_reconnect.obj
+         Debug\rpct2n_loginrequestnew.obj
+         Debug\sendonly.obj
+         Debug\ptcregister.obj
+         Debug\sessionmanager.obj
+         Debug\kcppeer.obj
+         Debug\udphandler.obj
+         Debug\udpnetwork.obj
+         Debug\enum.pb.obj
+         Debug\project.pb.obj
+         Debug\rpcc2t_clientloginrequest.obj
+         Debug\rpct2m_registergt2ms.obj
+         Debug\rpcg2t_registergs2gt.obj
+         Debug\rpct2g_registergt2gs.obj
+         Debug\ptcg2t_changegsline.obj
+         Debug\ptcm2t_chatforward.obj
+         Debug\ptcm2t_versionnotify.obj
+         Debug\profiler.obj
+         Debug\version.obj
+         Debug\ptcm2t_broadcastm2t.obj
+         Debug\rpct2g_reconnectgs.obj
+         Debug\rpct2r_registergt2router.obj
+         Debug\rpct2n_registergt2ns.obj
+         Debug\ptcn2t_notifygtsessionlogin.obj
+         Debug\ptcg2t_broadcastg2t.obj
+         Debug\ptcm2t_notifyrouterinfo2gate.obj
+         Debug\rpcc2t_uploadaudiotogate.obj
+         Debug\rpct2a_uploadaudiotoaudio.obj
+         Debug\ptcn2t_sessionchange2gt.obj
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(common.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(once.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpnetwork.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsock.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsockmgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listener.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listenermgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>kcp.lib(ikcp.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+         gateserver.vcxproj -> D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\gateserver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Git\SoloProjects\server\winproject\gateserver\..\..\exe\gateserver.exe.manifest" /manifest Debug\gateserver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\gateserver.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\gateserver.lastbuildstate".
+     1>Построение проекта "D:\Git\SoloProjects\server\winproject\gateserver\gateserver.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:02:45.52

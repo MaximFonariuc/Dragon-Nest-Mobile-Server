@@ -1,0 +1,485 @@
+[20250114-015422 000140](voip\src\voip.cpp:293)(ns_voip::VoipImp::init)] [DEBUG]: 
+git_tag gittag GITTAG GIT_TAG IS release_libapollo_voice_server_api_2.4.0_20160922202603
+[20250114-015422 000140](voip\src\voip.cpp:299)(ns_voip::VoipImp::init)] [DEBUG]: dir_url[2]udp://10.173.129.28:16004
+[20250114-015422 000140](voip\src\voip.cpp:299)(ns_voip::VoipImp::init)] [DEBUG]: dir_url[2]udp://10.239.177.62:16004
+[20250114-015422 000140](voip\src\voip.cpp:317)(ns_voip::VoipImp::init)] [DEBUG]: voip_configuration:
+[20250114-015422 000140](voip\src\voip.cpp:320)(ns_voip::VoipImp::init)] [DEBUG]: config.dir_svr_url_count:2
+[20250114-015422 000140](voip\src\voip.cpp:323)(ns_voip::VoipImp::init)] [DEBUG]: config.dir_svr_url[i]:udp://10.173.129.28:16004
+[20250114-015422 000140](voip\src\voip.cpp:323)(ns_voip::VoipImp::init)] [DEBUG]: config.dir_svr_url[i]:udp://10.239.177.62:16004
+[20250114-015422 000140](voip\src\voip.cpp:325)(ns_voip::VoipImp::init)] [DEBUG]: config.ip_store_capacity:100
+[20250114-015422 000140](voip\src\voip.cpp:326)(ns_voip::VoipImp::init)] [DEBUG]: config.wait_dir_capacity:256
+[20250114-015422 000140](voip\src\voip.cpp:327)(ns_voip::VoipImp::init)] [DEBUG]: config.send_record_capacity:20480
+[20250114-015422 000140](voip\src\voip.cpp:328)(ns_voip::VoipImp::init)] [DEBUG]: config.dir_server_update_time_interval_s:30
+[20250114-015422 000140](voip\src\voip.cpp:329)(ns_voip::VoipImp::init)] [DEBUG]: config.send_record_timeout_ms:7000
+[20250114-015422 000140](voip\src\voip.cpp:330)(ns_voip::VoipImp::init)] [DEBUG]: config.rudp_recv_capacity:102400
+[20250114-015422 000140](voip\src\voip.cpp:331)(ns_voip::VoipImp::init)] [DEBUG]: config.rudp_send_capacity:10240
+[20250114-015422 000140](voip\src\voip.cpp:332)(ns_voip::VoipImp::init)] [DEBUG]: config.business_name:gcloud.long_zhi_gu
+[20250114-015422 000140](voip\src\voip.cpp:333)(ns_voip::VoipImp::init)] [DEBUG]: config.business_key:7b8ede479c395821ce55094651d7605e
+[20250114-015422 000140](voip\src\voip.cpp:334)(ns_voip::VoipImp::init)] [DEBUG]: config.statistic_send_addr:udp://127.0.0.1:31401
+[20250114-015422 000140](common\pp_common\pp_socket.h:152)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_SNDBUF:16000000
+[20250114-015422 000140](common\pp_common\pp_socket.h:158)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_RCVBUF:16000000
+[20250114-015422 000140](voip\src\voip_one_sender.cpp:140)(ns_voip::IPStore::init)] [DEBUG]: DirIP init successfully
+[20250114-015422 000156](common\pp_common\pp_socket.h:152)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_SNDBUF:16000000
+[20250114-015422 000156](common\pp_common\pp_socket.h:158)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_RCVBUF:16000000
+[20250114-015422 000156](common\pp_common\pp_rudp0.h:161)(pp::RUDP0::init)] [DEBUG]: _delete_recv_record_timeout.chat_bound_onlyif_living_time_greater_than=1500
+[20250114-015422 000156](common\pp_common\pp_rudp0.h:162)(pp::RUDP0::init)] [DEBUG]: rudp0_init successfully
+[20250114-015422 000156](voip\src\voip_one_sender.cpp:460)(ns_voip::OneSender::init)] [DEBUG]: ApolloChat init successful
+[20250114-015422 000156](common\pp_common\pp_socket.h:152)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_SNDBUF:16000000
+[20250114-015422 000156](common\pp_common\pp_socket.h:158)(pp::UDPSocket::init)] [DEBUG]: UDPSOCKET_RCVBUF:16000000
+[20250114-015422 000156](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:127.0.0.1 port:31401
+[20250114-015426 000000](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015426 000000](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015426 000000](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015456 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015456 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015456 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015526 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015526 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015526 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015556 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015556 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015556 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015626 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015626 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015626 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015656 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015656 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015656 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015726 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015726 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015726 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015756 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015756 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015756 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015826 000609](voip\src\voip_one_sender.cpp:166)(ns_voip::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015826 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015826 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015509 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015509 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015539 000625](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015539 000625](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015539 000625](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015539 000625](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015539 000625](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015539 000625](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015609 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015609 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015609 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015609 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015609 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015609 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015639 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015639 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015639 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015639 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015639 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015639 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015709 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015709 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015709 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015709 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015709 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015709 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015739 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015739 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015739 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015739 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015739 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015739 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015809 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015809 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015809 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015809 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015809 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015809 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015839 000609](get_authkey\src\ga_one_sender.cpp:166)(ns_ga::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015839 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015839 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004
+[20250114-015839 000609](stt\src\stt_one_sender.cpp:164)(ns_stt::IPStore::send_ip_fresh_req)] [DEBUG]: send_ip_fresh_req_msg_to_dir_server:[stHead]
+    [stBaseHead]
+        [wMagic]: 0
+        [wVersion]: 0
+        [wCommand]: 12609
+        [dwBusinessID]: 0
+        [dwSequence]: 0
+        [dwCallBack]: 0
+        [dwHeadLen]: 0
+        [dwBodyLen]: 0
+        [wAsyncLen]: 0
+        [szAsyncData][0 : -1]:
+        [szBusinessName]: gcloud.long_zhi_gu
+[stBody]
+    [stDirReq]
+        [dwNo_use]: 0
+
+[20250114-015839 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.173.129.28 port:16004
+[20250114-015839 000609](common\pp_common\pp_socket.h:262)(pp::UDPSocket::set_peer_addr)] [DEBUG]: peer_addr_set_to_ip:10.239.177.62 port:16004

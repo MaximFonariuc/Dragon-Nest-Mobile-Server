@@ -1,0 +1,552 @@
+﻿Построение начато 12.01.2025 17:19:01.
+     1>Проект "D:\Git\SoloProjects\server\winproject\dbserver\dbserver.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\dbserver.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../dbserver /I../../dbserver/data /I../../dbserver/network /I../../dbserver/http /I../../dbserver/datasource /I../../thirdparty/mysql/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I"../../thirdparty/curl-7.40.0/include" /I../../thirdparty /I../../share /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\dbserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\vc100.pdb" /Gd /TP /wd4099 /analyze- /errorReport:prompt ..\..\dbserver\main.cpp /bigobj /Zm200 
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../dbserver /I../../dbserver/data /I../../dbserver/network /I../../dbserver/http /I../../dbserver/datasource /I../../thirdparty/mysql/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I"../../thirdparty/curl-7.40.0/include" /I../../thirdparty /I../../share /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\dbserver.pch" /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\vc100.pdb" /Gd /TP /wd4099 /analyze- /errorReport:prompt ..\..\dbserver\config.cpp ..\..\dbserver\db\mysqlmgr.cpp ..\..\dbserver\db\mysqlthread.cpp ..\..\dbserver\db\task\accountdeltask.cpp ..\..\dbserver\db\task\accountreadtask.cpp ..\..\dbserver\db\task\arenastartask.cpp ..\..\dbserver\db\task\auctsaleitemtask.cpp ..\..\dbserver\db\task\aucttraderecord.cpp ..\..\dbserver\db\task\chatdeltask.cpp ..\..\dbserver\db\task\chatwritetask.cpp ..\..\dbserver\db\task\crossrolesummarydelete.cpp ..\..\dbserver\db\task\crossrolesummarytask.cpp ..\..\dbserver\db\task\custombattledeletetask.cpp ..\..\dbserver\db\task\custombattleroletask.cpp ..\..\dbserver\db\task\custombattletask.cpp ..\..\dbserver\db\task\dbgoalawardssave.cpp ..\..\dbserver\db\task\dbgroupchatdelgroup.cpp ..\..\dbserver\db\task\dbgroupchatdelgroupissue.cpp ..\..\dbserver\db\task\dbgroupchatdelrole.cpp ..\..\dbserver\db\task\dbgroupchatdelroleissue.cpp ..\..\dbserver\db\task\dbgroupchatsavegroup.cpp ..\..\dbserver\db\task\dbgroupchatsavegroupissue.cpp ..\..\dbserver\db\task\dbgroupchatsaverole.cpp ..\..\dbserver\db\task\dbgroupchatsaveroleissue.cpp ..\..\dbserver\db\task\delreporttask.cpp ..\..\dbserver\db\task\designationtask.cpp ..\..\dbserver\db\task\dragonguilddeletetask.cpp ..\..\dbserver\db\task\dragonguildinserttask.cpp ..\..\dbserver\db\task\dragonguildupdatetask.cpp ..\..\dbserver\db\task\friendwritetask.cpp ..\..\dbserver\db\task\garden_update_task.cpp ..\..\dbserver\db\task\giftibhisttask.cpp ..\..\dbserver\db\task\globalupdatetask.cpp ..\..\dbserver\db\task\guildaucttask.cpp ..\..\dbserver\db\task\guilddeletetask.cpp ..\..\dbserver\db\task\guildinserttask.cpp ..\..\dbserver\db\task\guildupdatetask.cpp ..\..\dbserver\db\task\garden_info_inserttask.cpp ..\..\dbserver\db\task\leagueteamdeltask.cpp ..\..\dbserver\db\task\leagueteaminserttask.cpp ..\..\dbserver\db\task\leagueteamupdatetask.cpp ..\..\dbserver\db\task\mailoptask.cpp ..\..\dbserver\db\task\marriageoptask.cpp ..\..\dbserver\db\task\mentorshipoptask.cpp ..\..\dbserver\db\task\mobareadtask.cpp ..\..\dbserver\db\task\noticetask.cpp ..\..\dbserver\db\task\onlinewritetask.cpp ..\..\dbserver\db\task\partnerdeltask.cpp ..\..\dbserver\db\task\partnerinserttask.cpp ..\..\dbserver\db\task\partnerreplaceidtask.cpp ..\..\dbserver\db\task\partnerupdatetask.cpp ..\..\dbserver\db\task\payaccessinfotask.cpp ..\..\dbserver\db\task\payibitemtask.cpp ..\..\dbserver\db\task\paylisttask.cpp ..\..\dbserver\db\task\platfriendoptask.cpp ..\..\dbserver\db\task\privatechatlistupdatetask.cpp ..\..\dbserver\db\task\punishtask.cpp ..\..\dbserver\db\task\query_gardenInfo_task.cpp ..\..\dbserver\db\task\ranklistsavetask.cpp ..\..\dbserver\db\task\readaccounttasknew.cpp ..\..\dbserver\db\task\readhiddenrolestask.cpp ..\..\dbserver\db\task\readrolemailtask.cpp ..\..\dbserver\db\task\roleallinforeadtask.cpp ..\..\dbserver\db\task\roledeltask.cpp ..\..\dbserver\db\task\roleinserttask.cpp ..\..\dbserver\db\task\rolereadtask.cpp ..\..\dbserver\db\task\rolesummaryquerytask.cpp ..\..\dbserver\db\task\rolesummarytask.cpp ..\..\dbserver\db\task\roletaskdeletetask.cpp ..\..\dbserver\db\task\roletaskupdatetask.cpp ..\..\dbserver\db\task\rolewritetask.cpp ..\..\dbserver\db\task\savegiftibitem.cpp ..\..\dbserver\db\task\mobasavetask.cpp ..\..\dbserver\db\task\skyteamdeltask.cpp ..\..\dbserver\db\task\skyteaminserttask.cpp ..\..\dbserver\db\task\skyteamupdatetask.cpp ..\..\dbserver\db\task\socialoptask.cpp ..\..\dbserver\db\task\tmplmailinserttask.cpp ..\..\dbserver\db\task\updatereporttask.cpp ..\..\dbserver\debugflag.cpp ..\..\dbserver\network\controllink.cpp ..\..\dbserver\network\gslink.cpp ..\..\dbserver\dbprocess.cpp ..\..\dbserver\network\mslink.cpp ..\..\dbserver\network\rslink.cpp ..\..\dbserver\profile\dbprofiler.cpp ..\..\dbserver\protocol\common\ptcg2d_queryglobalconfig.cpp ..\..\dbserver\protocol\common\ptcg2d_registgameserver.cpp ..\..\dbserver\protocol\common\ptcg2d_updatefield.cpp ..\..\dbserver\protocol\common\ptcn2d_onlinenumntf.cpp ..\..\dbserver\protocol\gm\rpcp2d_gmhttpcommand.cpp ..\..\dbserver\protocol\mail\ptcm2d_addtemplatemail.cpp ..\..\dbserver\protocol\pay\rpcm2d_savegiftibhist.cpp ..\..\dbserver\protocol\role\rpcn2d_createroleondbnew.cpp ..\..\dbserver\protocol\sendonly.cpp ..\..\dbserver\ptcregister.cpp ..\..\dbserver\protocol\reward\ptcg2d_queryreward.cpp ..\..\dbserver\protocol\reward\ptcg2d_removereward.cpp ..\..\dbserver\protocol\reward\ptcg2d_addreward.cpp ..\..\dbserver\protocol\guild\ptcg2d_loadguilddatareq.cpp ..\..\dbserver\protocol\guild\ptcg2d_updateguild.cpp ..\..\dbserver\protocol\common\ptci2d_registloginserver.cpp ..\..\dbserver\protocol\common\ptci2d_changeserverstatentf.cpp ..\..\dbserver\protocol\login\rpcm2d_readaccountdata.cpp ..\..\dbserver\protocol\role\rpcm2d_readroledata.cpp ..\..\dbserver\protocol\role\rpcg2d_saveroledata.cpp ..\..\dbserver\protocol\role\rpcm2d_mssaveroledata.cpp ..\..\share\appid.cpp ..\..\share\profile\profiler.cpp ..\..\share\utildb\roledatafields.cpp ..\..\share\utildb\sqlbuilder.cpp ..\..\share\util\dbutil.cpp ..\..\dbserver\protocol\mail\ptcm2d_mailoperation.cpp ..\..\dbserver\protocol\role\rpcm2d_msgetallrole.cpp ..\..\dbserver\protocol\chat\ptcm2d_mduploadchatntf.cpp ..\..\dbserver\protocol\common\ptcm2d_msupdateglobalconfig.cpp ..\..\dbserver\protocol\friend\ptcm2d_updatefriendondb.cpp ..\..\dbserver\protocol\social\ptcm2d_mssavesocialinfontf.cpp ..\..\dbserver\protocol\ranklist\ptcm2d_saveranklistchangetodb.cpp ..\..\dbserver\protocol\ranklist\ptcm2d_saveranklisttodb.cpp ..\..\dbserver\protocol\role\ptcm2d_saverolesummarydata.cpp ..\..\dbserver\protocol\guild\ptcm2d_saveguilddata.cpp ..\..\dbserver\protocol\chat\ptcm2d_updateprivatelistntf.cpp ..\..\dbserver\protocol\account\ptcm2d_savepunishdata.cpp ..\..\dbserver\protocol\auction\ptcm2d_auctsaleitemdbntf.cpp ..\..\dbserver\protocol\auction\ptcm2d_aucttraderecorddbntf.cpp ..\..\dbserver\protocol\desvent\ptcm2d_updatedesignation.cpp ..\..\dbserver\protocol\common\rpcm2d_dbreload.cpp ..\..\dbserver\protocol\garden\ptcm2d_savegardeninfo.cpp ..\..\dbserver\protocol\role\ptcm2d_delrolentf.cpp ..\..\dbserver\protocol\common\ptcm2d_savepaylist.cpp ..\..\dbserver\protocol\platfriend\ptcm2d_saveplatfriendinfo.cpp ..\..\dbserver\protocol\login\rpcn2d_nsreadaccountdata.cpp ..\..\dbserver\protocol\role\rpcn2d_nsreadroledata.cpp ..\..\dbserver\protocol\auction\ptcm2d_guildauctupdatentf.cpp ..\..\dbserver\protocol\gm\ptcm2d_saveplatnoticeptf.cpp ..\..\dbserver\protocol\common\rpcd2r_registerdb2router.cpp ..\..\dbserver\protocol\db\rpcm2d_updatepartnerdata.cpp ..\..\dbserver\protocol\chat\ptcm2d_mddelchatntf.cpp ..\..\dbserver\protocol\mentorship\ptcm2d_savementorinfontf.cpp ..\..\dbserver\protocol\pay\rpcm2d_savepayaccessdata.cpp ..\..\dbserver\protocol\db\rpcm2d_saveleagueteamdata.cpp ..\..\dbserver\protocol\role\rpcg2d_readhiddenroles.cpp ..\..\dbserver\protocol\role\ptcm2d_deletecrossrolesummary.cpp ..\..\dbserver\protocol\account\ptcn2d_accountlogout.cpp ..\..\dbserver\protocol\common\rpcm2d_mssavedbend.cpp ..\..\dbserver\protocol\common\ptcm2d_notifyrouterinfo2db.cpp ..\..\dbserver\protocol\role\rpcm2d_queryrolesummary.cpp ..\..\dbserver\protocol\garden\rpcm2d_querygardeninfo.cpp ..\..\dbserver\protocol\pay\rpcm2d_savegiftibitem.cpp ..\..\dbserver\protocol\pay\ptcm2d_savepayibitem.cpp ..\..\dbserver\protocol\arenastar\rpcm2d_arenastarroledatasave.cpp ..\..\dbserver\protocol\db\rpcm2d_skyteamdata2db.cpp ..\..\dbserver\protocol\custombattle\ptcm2d_updatecustombattleondb.cpp ..\..\dbserver\protocol\custombattle\ptcm2d_updatecustombattleroleondb.cpp ..\..\dbserver\protocol\db\rpcm2d_updaterolereportdata.cpp ..\..\dbserver\protocol\mobabattle\ptcm2d_savemobarolerecord.cpp ..\..\dbserver\protocol\mobabattle\rpcm2d_querymobarolerecord.cpp ..\..\dbserver\protocol\marriage\ptcm2d_savemarriageinfontf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatsavegroupissuentf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatdelgroupissuentf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatsaveroleissuentf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatdelroleissuentf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatsavegroupntf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatdelgroupntf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatsaverolentf.cpp ..\..\dbserver\protocol\dbgroupchat\ptcm2d_dbgroupchatdelrolentf.cpp ..\..\dbserver\protocol\dragonguild\ptcm2d_updatedragonguilddata.cpp ..\..\dbserver\protocol\dbgoalawards\ptcm2d_dbgoalawardssaventf.cpp ..\..\dbserver\protocol\task\rpcm2d_updateroletaskdata.cpp ..\..\dbserver\protocol\role\rpcm2d_readaccountdatanew.cpp ..\..\dbserver\protocol\mail\rpcm2d_readmailfromdb.cpp /bigobj /Zm200 
+         rpcm2d_readmailfromdb.cpp
+         rpcm2d_readaccountdatanew.cpp
+         rpcm2d_updateroletaskdata.cpp
+         ptcm2d_dbgoalawardssaventf.cpp
+         ptcm2d_updatedragonguilddata.cpp
+         ptcm2d_dbgroupchatdelrolentf.cpp
+         ptcm2d_dbgroupchatsaverolentf.cpp
+         ptcm2d_dbgroupchatdelgroupntf.cpp
+         ptcm2d_dbgroupchatsavegroupntf.cpp
+         ptcm2d_dbgroupchatdelroleissuentf.cpp
+         ptcm2d_dbgroupchatsaveroleissuentf.cpp
+         ptcm2d_dbgroupchatdelgroupissuentf.cpp
+         ptcm2d_dbgroupchatsavegroupissuentf.cpp
+         ptcm2d_savemarriageinfontf.cpp
+         rpcm2d_querymobarolerecord.cpp
+         ptcm2d_savemobarolerecord.cpp
+         rpcm2d_updaterolereportdata.cpp
+         ptcm2d_updatecustombattleroleondb.cpp
+         ptcm2d_updatecustombattleondb.cpp
+         rpcm2d_skyteamdata2db.cpp
+         Создание кода...
+         Компиляция...
+         rpcm2d_arenastarroledatasave.cpp
+         ptcm2d_savepayibitem.cpp
+         rpcm2d_savegiftibitem.cpp
+         rpcm2d_querygardeninfo.cpp
+         rpcm2d_queryrolesummary.cpp
+         ptcm2d_notifyrouterinfo2db.cpp
+         rpcm2d_mssavedbend.cpp
+         ptcn2d_accountlogout.cpp
+         ptcm2d_deletecrossrolesummary.cpp
+         rpcg2d_readhiddenroles.cpp
+         rpcm2d_saveleagueteamdata.cpp
+         rpcm2d_savepayaccessdata.cpp
+         ptcm2d_savementorinfontf.cpp
+         ptcm2d_mddelchatntf.cpp
+         rpcm2d_updatepartnerdata.cpp
+         rpcd2r_registerdb2router.cpp
+         ptcm2d_saveplatnoticeptf.cpp
+         ptcm2d_guildauctupdatentf.cpp
+         rpcn2d_nsreadroledata.cpp
+         rpcn2d_nsreadaccountdata.cpp
+         Создание кода...
+         Компиляция...
+         ptcm2d_saveplatfriendinfo.cpp
+         ptcm2d_savepaylist.cpp
+         ptcm2d_delrolentf.cpp
+         ptcm2d_savegardeninfo.cpp
+         rpcm2d_dbreload.cpp
+         ptcm2d_updatedesignation.cpp
+         ptcm2d_aucttraderecorddbntf.cpp
+         ptcm2d_auctsaleitemdbntf.cpp
+         ptcm2d_savepunishdata.cpp
+         ptcm2d_updateprivatelistntf.cpp
+         ptcm2d_saveguilddata.cpp
+         ptcm2d_saverolesummarydata.cpp
+         ptcm2d_saveranklisttodb.cpp
+         ptcm2d_saveranklistchangetodb.cpp
+         ptcm2d_mssavesocialinfontf.cpp
+         ptcm2d_updatefriendondb.cpp
+         ptcm2d_msupdateglobalconfig.cpp
+         ptcm2d_mduploadchatntf.cpp
+         rpcm2d_msgetallrole.cpp
+         ptcm2d_mailoperation.cpp
+         Создание кода...
+         Компиляция...
+         dbutil.cpp
+         sqlbuilder.cpp
+         roledatafields.cpp
+         profiler.cpp
+         appid.cpp
+         rpcm2d_mssaveroledata.cpp
+         rpcg2d_saveroledata.cpp
+         rpcm2d_readroledata.cpp
+         rpcm2d_readaccountdata.cpp
+         ptci2d_changeserverstatentf.cpp
+         ptci2d_registloginserver.cpp
+         ptcg2d_updateguild.cpp
+         ptcg2d_loadguilddatareq.cpp
+         ptcg2d_addreward.cpp
+         ptcg2d_removereward.cpp
+         ptcg2d_queryreward.cpp
+         ptcregister.cpp
+         sendonly.cpp
+         rpcn2d_createroleondbnew.cpp
+         rpcm2d_savegiftibhist.cpp
+         Создание кода...
+         Компиляция...
+         ptcm2d_addtemplatemail.cpp
+         rpcp2d_gmhttpcommand.cpp
+         ptcn2d_onlinenumntf.cpp
+         ptcg2d_updatefield.cpp
+         ptcg2d_registgameserver.cpp
+         ptcg2d_queryglobalconfig.cpp
+         dbprofiler.cpp
+         rslink.cpp
+         mslink.cpp
+         dbprocess.cpp
+         gslink.cpp
+         controllink.cpp
+         debugflag.cpp
+         updatereporttask.cpp
+         tmplmailinserttask.cpp
+         socialoptask.cpp
+         skyteamupdatetask.cpp
+         skyteaminserttask.cpp
+         skyteamdeltask.cpp
+         mobasavetask.cpp
+         Создание кода...
+         Компиляция...
+         savegiftibitem.cpp
+         rolewritetask.cpp
+         roletaskupdatetask.cpp
+         roletaskdeletetask.cpp
+         rolesummarytask.cpp
+         rolesummaryquerytask.cpp
+         rolereadtask.cpp
+         roleinserttask.cpp
+         roledeltask.cpp
+         roleallinforeadtask.cpp
+         readrolemailtask.cpp
+         readhiddenrolestask.cpp
+         readaccounttasknew.cpp
+         ranklistsavetask.cpp
+         query_gardenInfo_task.cpp
+         punishtask.cpp
+         privatechatlistupdatetask.cpp
+         platfriendoptask.cpp
+         paylisttask.cpp
+         payibitemtask.cpp
+         Создание кода...
+         Компиляция...
+         payaccessinfotask.cpp
+         partnerupdatetask.cpp
+         partnerreplaceidtask.cpp
+         partnerinserttask.cpp
+         partnerdeltask.cpp
+         onlinewritetask.cpp
+         noticetask.cpp
+         mobareadtask.cpp
+         mentorshipoptask.cpp
+         marriageoptask.cpp
+         mailoptask.cpp
+         leagueteamupdatetask.cpp
+         leagueteaminserttask.cpp
+         leagueteamdeltask.cpp
+         garden_info_inserttask.cpp
+         guildupdatetask.cpp
+         guildinserttask.cpp
+         guilddeletetask.cpp
+         guildaucttask.cpp
+         globalupdatetask.cpp
+         Создание кода...
+         Компиляция...
+         giftibhisttask.cpp
+         garden_update_task.cpp
+         friendwritetask.cpp
+         dragonguildupdatetask.cpp
+         dragonguildinserttask.cpp
+         dragonguilddeletetask.cpp
+         designationtask.cpp
+         delreporttask.cpp
+         dbgroupchatsaveroleissue.cpp
+         dbgroupchatsaverole.cpp
+         dbgroupchatsavegroupissue.cpp
+         dbgroupchatsavegroup.cpp
+         dbgroupchatdelroleissue.cpp
+         dbgroupchatdelrole.cpp
+         dbgroupchatdelgroupissue.cpp
+         dbgroupchatdelgroup.cpp
+         dbgoalawardssave.cpp
+         custombattletask.cpp
+         custombattleroletask.cpp
+         custombattledeletetask.cpp
+         Создание кода...
+         Компиляция...
+         crossrolesummarytask.cpp
+         crossrolesummarydelete.cpp
+         chatwritetask.cpp
+         chatdeltask.cpp
+         aucttraderecord.cpp
+         auctsaleitemtask.cpp
+         arenastartask.cpp
+         accountreadtask.cpp
+         accountdeltask.cpp
+         mysqlthread.cpp
+         mysqlmgr.cpp
+         config.cpp
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I../../dbserver /I../../dbserver/data /I../../dbserver/network /I../../dbserver/http /I../../dbserver/datasource /I../../thirdparty/mysql/include /I../../thirdparty/tinyxml2 /I"../../thirdparty/protobuf-2.5.0/include" /I"../../thirdparty/curl-7.40.0/include" /I../../thirdparty /I../../share /ZI /nologo /W3 /WX- /Od /Oy- /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\vc100.pdb" /Gd /TP /wd4099 /analyze- /errorReport:prompt ..\..\protocol\pb\enum.pb.cc ..\..\protocol\pb\project.pb.cc /bigobj /Zm200 
+         project.pb.cc
+         enum.pb.cc
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\dbserver.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../lib /LIBPATH:../../thirdparty/mysql/lib/vs10/ /LIBPATH:"../../thirdparty/curl-7.40.0/lib" zlib.lib libiconv.lib common.lib ws2_32.lib mysqlclient.lib libprotobuf.lib mysql.lib iocp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"Debug\dbserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Git\SoloProjects\server\exe\dbserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\dbserver.lib" /MACHINE:X86 Debug\config.obj
+         Debug\mysqlmgr.obj
+         Debug\mysqlthread.obj
+         Debug\accountdeltask.obj
+         Debug\accountreadtask.obj
+         Debug\arenastartask.obj
+         Debug\auctsaleitemtask.obj
+         Debug\aucttraderecord.obj
+         Debug\chatdeltask.obj
+         Debug\chatwritetask.obj
+         Debug\crossrolesummarydelete.obj
+         Debug\crossrolesummarytask.obj
+         Debug\custombattledeletetask.obj
+         Debug\custombattleroletask.obj
+         Debug\custombattletask.obj
+         Debug\dbgoalawardssave.obj
+         Debug\dbgroupchatdelgroup.obj
+         Debug\dbgroupchatdelgroupissue.obj
+         Debug\dbgroupchatdelrole.obj
+         Debug\dbgroupchatdelroleissue.obj
+         Debug\dbgroupchatsavegroup.obj
+         Debug\dbgroupchatsavegroupissue.obj
+         Debug\dbgroupchatsaverole.obj
+         Debug\dbgroupchatsaveroleissue.obj
+         Debug\delreporttask.obj
+         Debug\designationtask.obj
+         Debug\dragonguilddeletetask.obj
+         Debug\dragonguildinserttask.obj
+         Debug\dragonguildupdatetask.obj
+         Debug\friendwritetask.obj
+         Debug\garden_update_task.obj
+         Debug\giftibhisttask.obj
+         Debug\globalupdatetask.obj
+         Debug\guildaucttask.obj
+         Debug\guilddeletetask.obj
+         Debug\guildinserttask.obj
+         Debug\guildupdatetask.obj
+         Debug\garden_info_inserttask.obj
+         Debug\leagueteamdeltask.obj
+         Debug\leagueteaminserttask.obj
+         Debug\leagueteamupdatetask.obj
+         Debug\mailoptask.obj
+         Debug\marriageoptask.obj
+         Debug\mentorshipoptask.obj
+         Debug\mobareadtask.obj
+         Debug\noticetask.obj
+         Debug\onlinewritetask.obj
+         Debug\partnerdeltask.obj
+         Debug\partnerinserttask.obj
+         Debug\partnerreplaceidtask.obj
+         Debug\partnerupdatetask.obj
+         Debug\payaccessinfotask.obj
+         Debug\payibitemtask.obj
+         Debug\paylisttask.obj
+         Debug\platfriendoptask.obj
+         Debug\privatechatlistupdatetask.obj
+         Debug\punishtask.obj
+         Debug\query_gardenInfo_task.obj
+         Debug\ranklistsavetask.obj
+         Debug\readaccounttasknew.obj
+         Debug\readhiddenrolestask.obj
+         Debug\readrolemailtask.obj
+         Debug\roleallinforeadtask.obj
+         Debug\roledeltask.obj
+         Debug\roleinserttask.obj
+         Debug\rolereadtask.obj
+         Debug\rolesummaryquerytask.obj
+         Debug\rolesummarytask.obj
+         Debug\roletaskdeletetask.obj
+         Debug\roletaskupdatetask.obj
+         Debug\rolewritetask.obj
+         Debug\savegiftibitem.obj
+         Debug\mobasavetask.obj
+         Debug\skyteamdeltask.obj
+         Debug\skyteaminserttask.obj
+         Debug\skyteamupdatetask.obj
+         Debug\socialoptask.obj
+         Debug\tmplmailinserttask.obj
+         Debug\updatereporttask.obj
+         Debug\debugflag.obj
+         Debug\main.obj
+         Debug\controllink.obj
+         Debug\gslink.obj
+         Debug\dbprocess.obj
+         Debug\mslink.obj
+         Debug\rslink.obj
+         Debug\dbprofiler.obj
+         Debug\ptcg2d_queryglobalconfig.obj
+         Debug\ptcg2d_registgameserver.obj
+         Debug\ptcg2d_updatefield.obj
+         Debug\ptcn2d_onlinenumntf.obj
+         Debug\rpcp2d_gmhttpcommand.obj
+         Debug\ptcm2d_addtemplatemail.obj
+         Debug\rpcm2d_savegiftibhist.obj
+         Debug\rpcn2d_createroleondbnew.obj
+         Debug\sendonly.obj
+         Debug\ptcregister.obj
+         Debug\enum.pb.obj
+         Debug\project.pb.obj
+         Debug\ptcg2d_queryreward.obj
+         Debug\ptcg2d_removereward.obj
+         Debug\ptcg2d_addreward.obj
+         Debug\ptcg2d_loadguilddatareq.obj
+         Debug\ptcg2d_updateguild.obj
+         Debug\ptci2d_registloginserver.obj
+         Debug\ptci2d_changeserverstatentf.obj
+         Debug\rpcm2d_readaccountdata.obj
+         Debug\rpcm2d_readroledata.obj
+         Debug\rpcg2d_saveroledata.obj
+         Debug\rpcm2d_mssaveroledata.obj
+         Debug\appid.obj
+         Debug\profiler.obj
+         Debug\roledatafields.obj
+         Debug\sqlbuilder.obj
+         Debug\dbutil.obj
+         Debug\ptcm2d_mailoperation.obj
+         Debug\rpcm2d_msgetallrole.obj
+         Debug\ptcm2d_mduploadchatntf.obj
+         Debug\ptcm2d_msupdateglobalconfig.obj
+         Debug\ptcm2d_updatefriendondb.obj
+         Debug\ptcm2d_mssavesocialinfontf.obj
+         Debug\ptcm2d_saveranklistchangetodb.obj
+         Debug\ptcm2d_saveranklisttodb.obj
+         Debug\ptcm2d_saverolesummarydata.obj
+         Debug\ptcm2d_saveguilddata.obj
+         Debug\ptcm2d_updateprivatelistntf.obj
+         Debug\ptcm2d_savepunishdata.obj
+         Debug\ptcm2d_auctsaleitemdbntf.obj
+         Debug\ptcm2d_aucttraderecorddbntf.obj
+         Debug\ptcm2d_updatedesignation.obj
+         Debug\rpcm2d_dbreload.obj
+         Debug\ptcm2d_savegardeninfo.obj
+         Debug\ptcm2d_delrolentf.obj
+         Debug\ptcm2d_savepaylist.obj
+         Debug\ptcm2d_saveplatfriendinfo.obj
+         Debug\rpcn2d_nsreadaccountdata.obj
+         Debug\rpcn2d_nsreadroledata.obj
+         Debug\ptcm2d_guildauctupdatentf.obj
+         Debug\ptcm2d_saveplatnoticeptf.obj
+         Debug\rpcd2r_registerdb2router.obj
+         Debug\rpcm2d_updatepartnerdata.obj
+         Debug\ptcm2d_mddelchatntf.obj
+         Debug\ptcm2d_savementorinfontf.obj
+         Debug\rpcm2d_savepayaccessdata.obj
+         Debug\rpcm2d_saveleagueteamdata.obj
+         Debug\rpcg2d_readhiddenroles.obj
+         Debug\ptcm2d_deletecrossrolesummary.obj
+         Debug\ptcn2d_accountlogout.obj
+         Debug\rpcm2d_mssavedbend.obj
+         Debug\ptcm2d_notifyrouterinfo2db.obj
+         Debug\rpcm2d_queryrolesummary.obj
+         Debug\rpcm2d_querygardeninfo.obj
+         Debug\rpcm2d_savegiftibitem.obj
+         Debug\ptcm2d_savepayibitem.obj
+         Debug\rpcm2d_arenastarroledatasave.obj
+         Debug\rpcm2d_skyteamdata2db.obj
+         Debug\ptcm2d_updatecustombattleondb.obj
+         Debug\ptcm2d_updatecustombattleroleondb.obj
+         Debug\rpcm2d_updaterolereportdata.obj
+         Debug\ptcm2d_savemobarolerecord.obj
+         Debug\rpcm2d_querymobarolerecord.obj
+         Debug\ptcm2d_savemarriageinfontf.obj
+         Debug\ptcm2d_dbgroupchatsavegroupissuentf.obj
+         Debug\ptcm2d_dbgroupchatdelgroupissuentf.obj
+         Debug\ptcm2d_dbgroupchatsaveroleissuentf.obj
+         Debug\ptcm2d_dbgroupchatdelroleissuentf.obj
+         Debug\ptcm2d_dbgroupchatsavegroupntf.obj
+         Debug\ptcm2d_dbgroupchatdelgroupntf.obj
+         Debug\ptcm2d_dbgroupchatsaverolentf.obj
+         Debug\ptcm2d_dbgroupchatdelrolentf.obj
+         Debug\ptcm2d_updatedragonguilddata.obj
+         Debug\ptcm2d_dbgoalawardssaventf.obj
+         Debug\rpcm2d_updateroletaskdata.obj
+         Debug\rpcm2d_readaccountdatanew.obj
+         Debug\rpcm2d_readmailfromdb.obj /ignore:4099
+     1>mysqlclient.lib(handshake.obj) : warning LNK4099: "auth_win_client.pdb" PDB не найден с "mysqlclient.lib(handshake.obj)" или на "D:\Git\SoloProjects\server\exe\auth_win_client.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(common.obj) : warning LNK4099: "auth_win_client.pdb" PDB не найден с "mysqlclient.lib(common.obj)" или на "D:\Git\SoloProjects\server\exe\auth_win_client.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(log_client.obj) : warning LNK4099: "auth_win_client.pdb" PDB не найден с "mysqlclient.lib(log_client.obj)" или на "D:\Git\SoloProjects\server\exe\auth_win_client.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(handshake_client.obj) : warning LNK4099: "auth_win_client.pdb" PDB не найден с "mysqlclient.lib(handshake_client.obj)" или на "D:\Git\SoloProjects\server\exe\auth_win_client.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(plugin_client.obj) : warning LNK4099: "auth_win_client.pdb" PDB не найден с "mysqlclient.lib(plugin_client.obj)" или на "D:\Git\SoloProjects\server\exe\auth_win_client.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(sha.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(sha.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(rsa.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(rsa.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ripemd.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(ripemd.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(random.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(random.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(misc.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(misc.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(md5.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(md5.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(md4.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(md4.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(md2.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(md2.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(integer.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(integer.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(hash.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(hash.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(file.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(file.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(dsa.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(dsa.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(dh.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(dh.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(des.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(des.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(coding.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(coding.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(asn.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(asn.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(arc4.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(arc4.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(algebra.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(algebra.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(aestables.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(aestables.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(aes.obj) : warning LNK4099: "taocrypt.pdb" PDB не найден с "mysqlclient.lib(aes.obj)" или на "D:\Git\SoloProjects\server\exe\taocrypt.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(get_password.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(get_password.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(yassl_int.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(yassl_int.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(yassl_imp.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(yassl_imp.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(yassl_error.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(yassl_error.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(timer.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(timer.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ssl.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(ssl.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(socket_wrapper.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(socket_wrapper.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(log.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(log.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(lock.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(lock.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(handshake.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(handshake.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(crypto_wrapper.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(crypto_wrapper.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(cert_wrapper.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(cert_wrapper.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(buffer.obj) : warning LNK4099: "yassl.pdb" PDB не найден с "mysqlclient.lib(buffer.obj)" или на "D:\Git\SoloProjects\server\exe\yassl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(zutil.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(zutil.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(uncompr.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(uncompr.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(trees.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(trees.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(inftrees.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(inftrees.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(inflate.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(inflate.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(inffast.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(inffast.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(deflate.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(deflate.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(crc32.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(crc32.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(compress.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(compress.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(adler32.obj) : warning LNK4099: "zlib.pdb" PDB не найден с "mysqlclient.lib(adler32.obj)" или на "D:\Git\SoloProjects\server\exe\zlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_aes_yassl.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(my_aes_yassl.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_rnd.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(my_rnd.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_sha1.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(my_sha1.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_aes.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(my_aes.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_default.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(my_default.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(crypt_genhash_impl.obj) : warning LNK4099: "mysys_ssl.pdb" PDB не найден с "mysqlclient.lib(crypt_genhash_impl.obj)" или на "D:\Git\SoloProjects\server\exe\mysys_ssl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_winthread.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_winthread.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_winfile.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_winfile.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_winerr.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_winerr.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_wincond.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_wincond.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(typelib.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(typelib.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(thr_rwlock.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(thr_rwlock.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_thr_init.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_thr_init.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_symlink.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_symlink.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_static.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_static.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_read.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_read.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_open.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_open.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_once.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_once.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_mess.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_mess.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_malloc.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_malloc.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_lib.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_lib.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_init.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_init.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_getwd.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_getwd.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_fstream.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_fstream.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_fopen.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_fopen.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_error.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_error.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_div.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_div.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_compress.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_compress.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_alloc.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_alloc.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_access.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(my_access.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mulalloc.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mulalloc.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_arr_appstr.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_arr_appstr.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_qsort.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_qsort.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_pack.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_pack.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_loadpath.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_loadpath.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_format.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_format.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_fn_ext.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_fn_ext.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mf_dirname.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(mf_dirname.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(list.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(list.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(hash.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(hash.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(errors.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(errors.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(charset.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(charset.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(charset-def.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(charset-def.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(array.obj) : warning LNK4099: "mysys.pdb" PDB не найден с "mysqlclient.lib(array.obj)" или на "D:\Git\SoloProjects\server\exe\mysys.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(vioshm.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(vioshm.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(viopipe.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(viopipe.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(viosslfactories.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(viosslfactories.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(viossl.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(viossl.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(viosocket.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(viosocket.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(vio.obj) : warning LNK4099: "vio.pdb" PDB не найден с "mysqlclient.lib(vio.obj)" или на "D:\Git\SoloProjects\server\exe\vio.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(xml.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(xml.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(strxnmov.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(strxnmov.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(strxmov.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(strxmov.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_stpnmov.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(my_stpnmov.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_stpmov.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(my_stpmov.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(strmake.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(strmake.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(strend.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(strend.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(strcend.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(strcend.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(str_alloc.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(str_alloc.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(str2int.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(str2int.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_vsnprintf.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(my_vsnprintf.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_strtoll10.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(my_strtoll10.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(longlong2str.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(longlong2str.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(is_prefix.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(is_prefix.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(int2str.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(int2str.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(dtoa.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(dtoa.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-win1250ch.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-win1250ch.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-utf8.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-utf8.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-ujis.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-ujis.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-ucs2.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-ucs2.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-uca.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-uca.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-tis620.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-tis620.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-sjis.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-sjis.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-simple.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-simple.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-mb.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-mb.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-latin1.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-latin1.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-gb18030.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-gb18030.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-gbk.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-gbk.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-gb2312.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-gb2312.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-extra.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-extra.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-eucjpms.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-eucjpms.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-euc_kr.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-euc_kr.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-czech.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-czech.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-cp932.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-cp932.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-bin.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-bin.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(ctype-big5.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(ctype-big5.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(bchange.obj) : warning LNK4099: "strings.pdb" PDB не найден с "mysqlclient.lib(bchange.obj)" или на "D:\Git\SoloProjects\server\exe\strings.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(dbug.obj) : warning LNK4099: "dbug.pdb" PDB не найден с "mysqlclient.lib(dbug.obj)" или на "D:\Git\SoloProjects\server\exe\dbug.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(mysql_trace.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(mysql_trace.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(password.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(password.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(pack.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(pack.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(net_serv.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(net_serv.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(client_authentication.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(client_authentication.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(client_plugin.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(client_plugin.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(my_time.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(my_time.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(client.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(client.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(errmsg.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(errmsg.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysqlclient.lib(libmysql.obj) : warning LNK4099: "clientlib.pdb" PDB не найден с "mysqlclient.lib(libmysql.obj)" или на "D:\Git\SoloProjects\server\exe\clientlib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(common.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(once.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysql.lib(mysqlconn.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>mysql.lib(mysqlrecordset.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpnetwork.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsock.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsockmgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listener.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listenermgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+         dbserver.vcxproj -> D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\dbserver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Git\SoloProjects\server\winproject\dbserver\..\..\exe\dbserver.exe.manifest" /manifest Debug\dbserver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\dbserver.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\dbserver.lastbuildstate".
+     1>Построение проекта "D:\Git\SoloProjects\server\winproject\dbserver\dbserver.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:01:22.49

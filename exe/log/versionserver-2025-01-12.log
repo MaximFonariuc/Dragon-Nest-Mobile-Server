@@ -1,0 +1,103 @@
+18:12:58 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+18:12:58 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+18:12:58 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+18:12:58 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+18:12:58 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+18:12:58 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+18:12:58 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+18:12:58 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+18:12:58 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+18:12:58 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+18:12:58 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+18:12:58 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+19:14:02 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+19:14:02 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+19:14:02 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+19:14:02 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+19:14:02 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+19:14:02 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+19:14:02 [Error] ReconnectManager::InitNetwork(reconnetmgr.cpp:169) Listen by link handler [clientlink] on [0.0.0.0:24001] failed!
+
+19:14:02 [Error] Config::Init(baseconfig.cpp:126) Initialize Network failed!
+
+19:14:02 [Error] Process_Setup(process.cpp:16) Init <VersionConfig> failed!
+19:24:44 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+19:24:44 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+19:24:44 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+19:24:44 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+19:24:44 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+19:24:44 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+19:24:44 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+20:21:43 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+20:21:43 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+20:21:43 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+20:21:43 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+20:21:43 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+20:21:43 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+20:21:43 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+21:06:33 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+21:06:33 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+21:06:33 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+21:06:33 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+21:06:33 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+21:06:33 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+21:06:33 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+21:06:33 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+21:06:33 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+21:06:33 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+21:11:24 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+21:11:24 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+21:11:24 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+21:11:24 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+21:11:24 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+21:11:24 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+21:11:24 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+21:31:54 [Info] CClientLink::OnPassiveConnect(clientlink.cpp:33) a client 9 from 127.0.0.1 is connected
+21:31:54 [Info] CClientLink::OnClose(clientlink.cpp:39) a client 9 is closed
+21:34:01 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+21:34:01 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+21:34:01 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+21:34:01 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+21:34:01 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+21:34:01 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+21:34:01 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+21:34:09 [Info] CClientLink::OnPassiveConnect(clientlink.cpp:33) a client 9 from 127.0.0.1 is connected
+21:34:09 [Info] CClientLink::OnClose(clientlink.cpp:39) a client 9 is closed
+23:24:02 [Info] main(main.cpp:32) [versionserver.exe] is start ....
+23:24:02 [Debug] Process_Setup(process.cpp:16) Start Init <VersionConfig>
+23:24:02 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [version] server id [200]
+23:24:02 [Info] VersionConfig::LoadVersionFile(config.cpp:76) load version file ios:0.1.0, android:0.3.0
+23:24:02 [Info] VersionConfig::LoadClientUpdateControlFile(config.cpp:106) load need udpate file :0
+23:24:02 [Info] VersionConfig::LoadExtendInfoFile(config.cpp:135) load extendinfo file :0
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:24001] success
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:24002] success
+23:24:02 [Debug] Process_Setup(process.cpp:17) Start Init <CReloadMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:17) End Init <CReloadMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:18) Start Init <ConnectionMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:18) End Init <ConnectionMgr>
+23:24:18 [Info] CClientLink::OnPassiveConnect(clientlink.cpp:33) a client 9 from 127.0.0.1 is connected
+23:24:18 [Info] CClientLink::OnClose(clientlink.cpp:39) a client 9 is closed
+23:24:38 [Info] CClientLink::OnPassiveConnect(clientlink.cpp:33) a client 8 from 127.0.0.1 is connected
+23:24:38 [Info] CClientLink::OnClose(clientlink.cpp:39) a client 8 is closed

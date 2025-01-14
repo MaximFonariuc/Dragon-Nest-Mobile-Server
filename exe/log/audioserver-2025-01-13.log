@@ -1,0 +1,1147 @@
+12:34:01 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+12:34:01 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+12:34:01 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+12:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+12:34:01 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+12:34:01 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72A50FD0)
+12:34:01 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72A53E20)
+12:34:02 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+12:34:02 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+12:34:02 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+12:34:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:34:02 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+12:34:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:34:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:34:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:34:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:35:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:36:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:37:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:38:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:39:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:39:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:39:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:39:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:40:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:41:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:42:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:43:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:44:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:44:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:44:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:44:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:45:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:46:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:47:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:48:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:49:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:49:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:49:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:49:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:50:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:51:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:52:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:53:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:54:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:54:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:54:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:54:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:55:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:56:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:57:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:58:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+12:59:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+12:59:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+12:59:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+12:59:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:00:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:01:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:02:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:03:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:04:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:04:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:04:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:04:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:05:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:06:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:07:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:08:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:09:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:09:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:09:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:09:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:10:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:11:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:12:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:13:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:14:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:14:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:14:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:14:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:15:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:16:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:17:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:18:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:19:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:19:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:19:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:19:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:20:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:21:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:22:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:23:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:24:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:24:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:24:02 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:24:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:25:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:39:12 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+13:39:12 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+13:39:12 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+13:39:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+13:39:12 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+13:39:12 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(676B0FD0)
+13:39:12 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(676B3E20)
+13:39:12 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+13:39:12 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+13:39:12 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+13:39:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:39:12 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+13:39:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:40:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:41:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:42:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:43:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:44:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:45:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:46:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:47:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:48:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:49:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:50:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:51:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:52:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:53:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:54:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:55:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:56:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:57:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:58:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+13:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+13:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+13:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+13:59:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:00:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:01:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:02:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:03:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:04:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:05:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:06:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:07:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:08:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:09:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:10:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:11:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:12:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:13:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:14:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:15:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:16:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:17:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:18:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:19:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:20:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:21:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:22:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:23:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:24:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:25:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:26:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:28:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:29:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:30:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:31:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:32:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:33:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:34:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:35:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:36:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:37:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:38:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:39:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:40:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:41:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:42:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:43:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:44:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:45:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:46:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:47:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:48:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:49:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:50:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:51:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:52:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:53:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:54:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:55:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:56:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:57:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:58:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+14:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+14:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+14:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+14:59:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:00:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:01:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:02:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:03:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:04:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:04:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:05:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:06:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:07:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:08:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:09:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:09:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:10:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:11:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:12:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:13:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:14:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:14:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:15:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:16:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:17:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:18:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:19:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:19:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:20:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:21:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:22:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:23:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:24:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:24:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:25:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:26:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:27:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:29:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:29:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:30:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:31:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:32:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:33:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:34:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:34:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:35:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:36:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:37:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:38:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:39:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:39:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:40:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:41:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:42:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:43:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:44:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:44:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:45:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:46:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:47:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:48:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:49:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:49:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:50:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:51:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:52:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:53:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:54:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:54:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:55:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:56:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:57:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:58:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+15:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+15:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+15:59:12 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+15:59:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:00:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:01:54 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+16:01:54 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+16:01:54 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+16:01:55 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+16:01:55 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+16:01:55 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(67A40FD0)
+16:01:55 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(67A43E20)
+16:01:55 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+16:01:55 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+16:01:55 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+16:01:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:01:55 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+16:01:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:01:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:01:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:01:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:02:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:03:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:04:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:05:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:06:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:06:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:06:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:07:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:08:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:09:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:10:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:11:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:11:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:11:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:11:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:12:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:13:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:14:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:15:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:16:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:16:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:16:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:16:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:17:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:18:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:19:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:20:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:21:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:21:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:21:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:21:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:22:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:23:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:24:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:25:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:26:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:26:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:26:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:26:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:27:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:28:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:29:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:30:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:31:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:31:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:31:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:31:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:32:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:33:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:34:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:35:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:36:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:36:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:36:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:36:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:37:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:38:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:39:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:40:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:41:28 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [gatelink] ConnID:[9]
+16:41:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:41:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:41:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:41:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:42:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:43:30 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+16:43:30 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+16:43:30 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+16:43:30 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+16:43:30 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+16:43:30 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(67A40FD0)
+16:43:30 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(67A43E20)
+16:43:30 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+16:43:30 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+16:43:30 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+16:43:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:43:30 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+16:43:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:43:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:43:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:43:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:44:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:45:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:46:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:47:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:48:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:48:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:48:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:48:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:49:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:50:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:51:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:52:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:53:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:53:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:53:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:53:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:54:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:55:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:56:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:57:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:58:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+16:58:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+16:58:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+16:58:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+16:59:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:00:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:01:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:02:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:03:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:03:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:03:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:03:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:04:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:05:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:06:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:07:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:08:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:08:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:08:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:08:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:09:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:10:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:11:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:12:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:13:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:13:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:13:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:14:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:15:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:16:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:17:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:18:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:18:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:18:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:18:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:19:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:20:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:21:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:22:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:23:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:23:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:23:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:23:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:24:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:25:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:26:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:27:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:28:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:28:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:28:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:28:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:29:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:30:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:31:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:32:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:33:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:33:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:33:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:33:30 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:34:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:35:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:45:53 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+17:45:53 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+17:45:53 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+17:45:53 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+17:45:53 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+17:45:53 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+17:45:53 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+17:45:54 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+17:45:54 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+17:45:54 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+17:45:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:45:54 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+17:45:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:45:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:45:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:45:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:46:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:47:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:48:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:49:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:50:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:50:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:50:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:50:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:52:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:53:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:54:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:55:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:55:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:55:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:55:54 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:56:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:57:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:57:49 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+17:57:49 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+17:57:49 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+17:57:49 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+17:57:49 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+17:57:49 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+17:57:49 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+17:57:50 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+17:57:50 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+17:57:50 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+17:57:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:57:50 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+17:57:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:57:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+17:57:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+17:57:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+17:58:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+17:59:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:00:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:01:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:02:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:02:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:02:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:02:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:03:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:04:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:05:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:06:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:07:36 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+18:07:36 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+18:07:36 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+18:07:36 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+18:07:36 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+18:07:36 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+18:07:36 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+18:07:36 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+18:07:36 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+18:07:36 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+18:07:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:07:36 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+18:07:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:07:36 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:07:36 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:07:36 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:08:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:09:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:10:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:13:53 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+18:13:53 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+18:13:53 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+18:13:53 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+18:13:53 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+18:13:53 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72A50FD0)
+18:13:53 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72A53E20)
+18:13:53 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+18:13:53 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+18:13:53 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+18:13:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:13:53 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+18:13:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:13:53 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:13:53 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:13:53 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:14:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:16:21 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+18:16:21 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+18:16:21 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+18:16:21 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+18:16:21 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+18:16:21 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72A50FD0)
+18:16:21 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72A53E20)
+18:16:21 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+18:16:21 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+18:16:21 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+18:16:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:16:21 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+18:16:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:16:21 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:16:21 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:16:21 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:20:06 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+18:20:06 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+18:20:06 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+18:20:06 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+18:20:06 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+18:20:06 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+18:20:06 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+18:20:06 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+18:20:06 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+18:20:06 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+18:20:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:20:06 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+18:20:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:21:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:22:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:23:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:24:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:25:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:26:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:27:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:28:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:29:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:30:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:30:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:30:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:30:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:31:17 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:32:18 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:33:19 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:34:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:35:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:35:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:35:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:35:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:36:22 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:37:23 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:38:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:39:25 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:40:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:40:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:40:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:40:26 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:41:27 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:42:28 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:43:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:44:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:45:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:45:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:45:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:45:31 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:46:32 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:47:33 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:48:34 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:49:35 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:50:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:50:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:50:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:50:36 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:51:37 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:52:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:53:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:54:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:55:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+18:55:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+18:55:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+18:55:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:56:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:57:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:58:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+18:59:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:00:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:00:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:00:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:00:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:01:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:02:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:03:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:04:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:05:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:05:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:05:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:05:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:06:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:07:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:08:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:09:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:10:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:10:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:10:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:10:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:11:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:12:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:13:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:15:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:15:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:15:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:15:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:16:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:17:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:18:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:19:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:20:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:20:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:21:06 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:22:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:23:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:24:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:25:06 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:25:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:26:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:27:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:28:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:32:24 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:32:24 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:32:24 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:32:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:32:24 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:32:24 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:32:24 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:32:24 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:32:24 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:32:24 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:32:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:32:24 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:32:24 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:32:24 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:32:24 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:32:24 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:40:20 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:40:20 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:40:20 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:40:20 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:40:20 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:40:20 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:40:20 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:40:20 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:40:20 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:40:20 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:40:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:40:20 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:40:20 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:40:20 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:40:20 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:40:20 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:41:21 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:42:15 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:42:15 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:42:15 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:42:15 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:42:15 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:42:15 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:42:15 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:42:15 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:42:15 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:42:15 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:42:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:42:15 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:42:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:42:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:42:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:42:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:43:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:46:49 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:46:49 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:46:49 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:46:49 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:46:49 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:46:49 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:46:49 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:46:49 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:46:49 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:46:49 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:46:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:46:49 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:46:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:46:49 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:46:49 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:46:49 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:47:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:49:04 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:49:04 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:49:04 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:49:04 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:49:04 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:49:04 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:49:04 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:49:04 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:49:04 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:49:04 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:49:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:49:04 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:49:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:49:04 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:49:04 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:49:04 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:50:56 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:50:56 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:50:56 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:50:56 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:50:56 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:50:56 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72A50FD0)
+19:50:56 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72A53E20)
+19:50:56 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:50:56 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:50:56 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:50:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:50:56 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:50:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:50:56 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:50:56 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:50:56 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:51:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:52:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:53:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:55:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:55:48 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:55:48 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:55:48 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:55:48 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:55:48 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:55:48 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:55:48 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:55:48 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:55:48 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:55:48 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:55:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:55:48 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:55:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:55:48 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:55:48 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:55:48 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:56:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:57:40 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:57:40 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:57:40 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:57:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:57:40 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:57:40 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:57:40 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:57:40 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:57:40 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:57:40 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:57:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:57:40 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:57:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:57:40 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:57:40 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:57:40 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+19:59:58 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+19:59:58 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+19:59:58 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+19:59:58 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+19:59:58 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+19:59:58 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(71BD0FD0)
+19:59:58 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(71BD3E20)
+19:59:58 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+19:59:58 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+19:59:58 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+19:59:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:59:58 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+19:59:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+19:59:58 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+19:59:58 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+19:59:58 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:00:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:02:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:03:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:04:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:04:54 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:04:54 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:04:54 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:04:55 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:04:55 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:04:55 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72A50FD0)
+20:04:55 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72A53E20)
+20:04:55 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:04:55 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:04:55 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:04:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:04:55 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:04:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:04:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:04:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:04:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:05:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:06:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:07:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:08:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:09:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:09:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:09:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:10:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:11:01 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:12:02 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:13:03 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:14:04 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:14:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:14:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:14:55 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:15:05 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:22:52 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:22:52 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:22:52 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:22:52 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:22:52 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:22:52 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:22:52 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:22:52 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:22:52 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:22:52 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:22:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:22:52 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:22:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:22:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:22:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:22:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:23:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:24:54 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:25:55 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:26:56 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:27:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:27:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:27:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:27:57 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:28:58 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:29:59 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:31:00 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:32:29 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:32:29 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:32:29 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:32:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:32:29 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:32:29 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:32:29 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:32:29 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:32:29 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:32:29 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:32:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:32:29 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:32:29 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:32:29 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:32:29 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:32:29 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:33:30 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:33:50 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:33:50 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:33:50 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:33:50 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:33:50 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:33:50 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:33:50 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:33:50 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:33:50 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:33:50 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:33:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:33:50 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:33:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:33:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:33:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:33:50 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:34:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:35:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:36:52 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:36:52 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:36:52 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:36:52 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:36:52 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:36:52 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:36:52 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:36:52 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:36:52 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:36:52 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:36:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:36:52 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:36:52 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:36:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:36:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:36:52 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:37:53 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:38:15 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:38:15 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:38:15 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:38:15 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:38:15 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:38:15 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:38:15 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:38:15 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:38:15 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:38:15 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:38:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:38:15 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:38:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:38:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:38:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:38:15 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:40:43 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:40:43 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:40:43 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:40:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:40:43 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:40:43 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:40:43 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:40:43 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:40:43 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:40:43 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:40:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:40:43 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:40:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:40:43 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:40:43 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:40:43 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:41:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:42:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:43:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:45:07 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+20:45:07 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+20:45:07 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+20:45:07 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+20:45:07 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+20:45:07 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(72EF0FD0)
+20:45:07 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(72EF3E20)
+20:45:07 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+20:45:07 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+20:45:07 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+20:45:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:45:07 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+20:45:07 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:45:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:45:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:45:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:46:08 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:47:09 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:48:10 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:49:11 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:50:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+20:50:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+20:50:07 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+20:50:12 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:51:13 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:52:14 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:53:15 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+20:54:16 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:20:38 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+22:20:38 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+22:20:38 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+22:20:38 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+22:20:38 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+22:20:38 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(73790FD0)
+22:20:38 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(73793E20)
+22:20:38 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+22:20:38 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+22:20:38 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+22:20:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:20:38 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+22:20:38 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:20:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+22:20:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+22:20:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+22:21:39 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:22:40 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:23:41 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:24:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:25:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+22:25:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+22:25:38 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+22:25:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:26:09 [Info] AudioMgr::SendAuthKey(audiomgr.cpp:397) IP127.0.0.1 open_id63662733 nRpcID1
+22:26:14 [Warn] CRpc::OnTimer(crpc.cpp:206) Delay Rpc delayID [1] type [19391] is time out!
+
+22:26:16 [Warn] CRpc::ReplyDelayRpc(crpc.cpp:154) delay rpc delayid [1] not found!
+22:26:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:27:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:28:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+22:29:23 [Info] AudioMgr::SendAuthKey(audiomgr.cpp:397) IP127.0.0.1 open_id63662733 nRpcID2
+23:01:41 [Info] main(main.cpp:31) [audioserver.exe] is start ....
+23:01:41 [Debug] Process_Setup(process.cpp:12) Start Init <AudioConfig>
+23:01:41 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [audio] server id [1]
+23:01:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10170] success
+23:01:41 [Debug] Process_Setup(process.cpp:13) Start Init <AudioMgr>
+23:01:41 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_get_authkey_instance]=(66740FD0)
+23:01:41 [Debug] AudioMgr::LoadVoiceLibrary(audiomgr.cpp:195) LoadLibrary[voip.dll=>create_stt_instance]=(66743E20)
+23:01:42 [Warn] AudioMgr::Init(audiomgr.cpp:306) Load XML Success, OneAudioSize:200000, MaxAudioCount:50000
+23:01:42 [Warn] AudioMgr::ReadAudioIndexFile(audiomgr.cpp:687) Read Audio Index File Success, Audio Count: 0
+23:01:42 [Warn] AudioMgr::Init(audiomgr.cpp:311) Init Audio Success
+23:01:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:01:42 [Debug] Process_Setup(process.cpp:13) End Init <AudioMgr>
+23:01:42 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:01:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+23:01:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+23:01:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+23:02:14 [Info] AudioMgr::SendAuthKey(audiomgr.cpp:397) IP127.0.0.1 open_id63662733 nRpcID1
+23:02:19 [Warn] CRpc::OnTimer(crpc.cpp:206) Delay Rpc delayID [1] type [19391] is time out!
+
+23:02:21 [Warn] CRpc::ReplyDelayRpc(crpc.cpp:154) delay rpc delayid [1] not found!
+23:02:43 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:03:44 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:04:35 [Info] AudioMgr::SendAuthKey(audiomgr.cpp:397) IP127.0.0.1 open_id63662733 nRpcID2
+23:04:40 [Warn] CRpc::OnTimer(crpc.cpp:206) Delay Rpc delayID [2] type [19391] is time out!
+
+23:04:42 [Warn] CRpc::ReplyDelayRpc(crpc.cpp:154) delay rpc delayid [2] not found!
+23:04:45 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:05:46 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:06:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:631) Write Audio Index File, Audio Count:0
+23:06:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:638) Write Audio Index File, Audio Count:0, FileSize:0
+23:06:42 [Info] AudioMgr::WriteAudioIndexFile(audiomgr.cpp:658) Finish Write Audio Index File, Audio Count:0, FileSize:0
+23:06:47 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:07:48 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:08:49 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:09:50 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1
+23:10:51 [Info] AudioMgr::ReadGrayConfig(audiomgr.cpp:335) ReadGrayConfig=1

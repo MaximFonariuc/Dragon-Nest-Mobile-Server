@@ -1,0 +1,1673 @@
+01:54:08 [Info] main(main.cpp:31) [masterserver.exe] is start ....
+01:54:08 [Debug] Process_Setup(process.cpp:212) Start Init <MSConfig>
+01:54:08 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [master] server id [1]
+01:54:08 [Debug] MSConfig::ReadSettings(config.cpp:183) pay link=http://msdktest.qq.com
+01:54:08 [Debug] MSConfig::ReadSettings(config.cpp:190) pay slavelink=
+01:54:08 [Debug] MSConfig::ReadSettings(config.cpp:213) midas paydebug=1
+01:54:08 [Debug] MSConfig::ReadSettings(config.cpp:233) msdk link=http://127.0.0.1
+01:54:08 [Info] MSConfig::ReadSettings(config.cpp:244) xinge url: http://127.0.0.1
+01:54:08 [Info] MSConfig::LoadVersionFile(config.cpp:340) load version file gsconf/serveronly/Version.txt success, ios:0.1.0, android:1.16.14
+01:54:08 [Info] MSConfig::LoadShmKeyOffset(config.cpp:466) shmkey nsscene, offset 0
+01:54:08 [Info] MSConfig::LoadShmKeyOffset(config.cpp:466) shmkey nsrole, offset 0
+01:54:08 [Info] MSConfig::LoadShmKeyOffset(config.cpp:466) shmkey nsaccount, offset 0
+01:54:08 [Info] MSConfig::LoadShmKeyOffset(config.cpp:466) shmkey msfm, offset 0
+01:54:08 [Info] MSConfig::InitFromDB(config.cpp:478) Connect to 127.0.0.1:3306:world1 succ.
+01:54:08 [Info] MSConfig::LoadServerIds(config.cpp:536) serverIds: 1
+01:54:08 [Info] MSConfig::LoadBackFlow(config.cpp:572) BackFlowLevel: 0
+01:54:08 [Info] MSConfig::LoadDataClear(config.cpp:608) type:rolesummary isopen:1
+01:54:08 [Info] MSConfig::LoadDataClear(config.cpp:608) type:friend isopen:1
+01:54:08 [Info] MSConfig::LoadDataClear(config.cpp:608) type:garden isopen:0
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gatelink] on [127.0.0.1:10120] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gslink] on [127.0.0.1:10130] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:10160] by link dblink
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:10180] by link ctrllink
+01:54:09 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:28000] by link loginlink
+01:54:09 [Debug] Process_Setup(process.cpp:213) Start Init <CAppConfig>
+01:54:09 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+01:54:09 [Debug] Process_Setup(process.cpp:213) End Init <CAppConfig>
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeReadyScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeFightScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeRestTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeFightTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeGroupOne]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeBigGroup]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeUseGroup]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeMaxGames]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeSvrGroup]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeAnimTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeReviveTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeReqRankTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeSyncTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleePickUpItemPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeJoinTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeResetPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeKilerLvPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeJoinAward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeDestoryDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeSysSwitch]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeNeedPlayLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleePreHourNoticeList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeCutScenes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BigMeleeMSCutSceneRoles]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamMatchDelay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamFastMatchConfirmT]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamFastMatchBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamVoteTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteConfirmTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInvUnfConfirmTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TUnfRefuseForNowT]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteHistoryCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TInvRefuseTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TInvIgnoreTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamKickLeaderNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamGuildBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteFriendCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteGuildCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteRecCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamInviteHistoryTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamCostMailLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamDiamondCostLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamDiamondRevenue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuyNestCountCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuyAbyssCountCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamDiamondCostCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamUseTicketCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamKingBackRewardCountLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamKingBackRewards]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamGrayServer]
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1473)  team gray open = 1
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 3007
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1007
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1011
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 4024
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1016
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 4049
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1041
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 3025
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1025
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 1028
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 3014
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 3037
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 2011
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 2020
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 2033
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 2048
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 4020
+01:54:09 [Info] GlobalConfig::InitTeam(globalconfig.cpp:1476)  team gray server = 4037
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NestDropItemsOnUseTicket]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkDayReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkSceneId]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkPrepareTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkUpdateTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkMatchDelay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkAddRobot]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkMatchToWorldTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkWeekResetNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkBasePoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkResetPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkLoadWaitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkTwoMatchToWorldTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkRoleMatchPairDayLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkRoleMatchPairWeekLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkWeekResetBaseTime]
+01:54:09 [Info] GlobalConfig::InitPk(globalconfig.cpp:1605)  PkWeekResetBaseTime Config = 2017/8/6 20:00
+01:54:09 [Info] GlobalConfig::InitPk(globalconfig.cpp:1616)  PkWeekResetBaseTime sec = 1502024400
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PkMatchPointRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingGiveCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingGiveLeftAddLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingSeal2Level]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingTopCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingExchangePro]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingExchangeCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingReturnPro]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingReturnCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingReturnDelay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingAddExtraExpRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingAddExtraExpWeight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingBackFlowWeight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingSmallBackFlowWeight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingBuyCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingBuyCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingTriggerFavorCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NpcFeelingTriggerFavorPro]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveFightRoleCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveFightMapID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveReadyTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveAddPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveRewardTopRank]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveRewardTopCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SurviveRewardItems]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPDayRewards]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPWeekRewards]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPWinRewards]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPMatchScore]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPLeaderBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPQuitFailQuitCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPMatchWaitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PvpMatchWorldTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPGameCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPTimeDown]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPGameTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPWeekReqCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPDayReqCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPDieReviveTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPLeaderKillCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPLoadWaitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaLimitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GMFBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GMFKickCoolDown]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GMFReadyTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GMFInspireCoolDown]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GPROneFightTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GPRFightAfterTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GPRReviveTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaInspireCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleReadyTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleFightTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleBattleRoleMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleAddPointInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleAddPointCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleEndPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleJvDianOccupyTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryUpPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryMidPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryBtmPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TerritoryBattleUpRadius]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TerritoryBattleMidRadius]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TerritoryBattleBtmRadius]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleScenes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleMulPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCastleFeatsRules]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InvFightTimeOver]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InvFightFromCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InvFightFightTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InvFightRoleLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InvFightMapID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldMaxPlayer]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldMatchTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldReadyScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldCreateScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldFightScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldCutScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldFightTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldAnimTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldPreNoticeList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldReviveTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldKillerLvPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleFieldSyncTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DERankRewardTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DEGroupRoleCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DETongGuanReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BossRushRefreshCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendSystemSendGiftMinDegree]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendSystemSendGifMaxTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendSystemAcceptGifMaxTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendSystemMaxFriendlyEvaluation]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendMaxCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ApplyMaxCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BlackMaxCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FriendSystemRefreshAddListCD]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaNpcCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaRankBegin]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaScale]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaFighters]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendGoldMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendGoldMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendDiamondMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendDiamondMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendFlowerMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendFlowerMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerWeekRankMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerWeekRankMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerValentinesDayRank_MailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerValentinesDayRank_MailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Flower520DayRank_MailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Flower520DayRank_MailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerActivityDayRank_MailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerActivityDayRank_MailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorTask_RewardMasterTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorTask_RewardMasterContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorTask_RewardStudentTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorTask_RewardStudentContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_CompleteRewardTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_CompleteRewardContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorBreakTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorBreakContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DesignationFlowerMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DesignationSendFlowerMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaPointRaceWinTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaPointRaceWinContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaPointRaceLoseTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaPointRaceLoseContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampRankMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampRankMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctOnSaleDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctSaleDelayMin]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctCartItemAllCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctCartItemTreasurePercent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctWeekTradeLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctTradeRecordDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctAVGPricePreHigh]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctAVGPricePreLow]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctFreeRefreshCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctAutoRefreshTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctFreeRefreshTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctRevenueRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctRefreshPay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctNormalItemCoolDownDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctTreasureItemCoolDownDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctSupplementTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctSupplementFrequency]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctRefreshTimeSegment]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctItemCoolDownDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AuctItemSpecialPush]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AverageConsume7Day]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLeaDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActDelMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActDailyTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActDailyCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActWeekTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActWeekCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActDelTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActDelCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLeaDownTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLeaDownCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLeaUpTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLeaUpCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActLvl]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctGuildSaleTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctWorldSaleTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctUpRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctGuildDue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctWorldDue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctGuildItemPublicityTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctItemDelayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctProfitMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildAuctGuildItemExRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildActRank]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantSpriteMaxTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantSpriteCD]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GardenLogMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantSpriteCheckTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantSpriteAppearTimeSection]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RefreshGardenTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GardenBanquetGuests]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GardeLandDefault]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GardenBanquetAwardTimesTSWK]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantGrowDroughtBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantGrowPestBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantGrowSluggish]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantGrowNormalBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantGrowMatureBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FishingCameraDesdir]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastDes1]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastDes2]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastDes3]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastDes4]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastEndDes1]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastEndDes2]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastEndDes3]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HomeFeastEndDes4]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BreakNewFarmlandCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BreakFarmlandLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantSeedPosition]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildPlantSeedPosition]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GardenStealCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BreakFarmlandLevel_Guild]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PlantReturn]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentSignUpCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentPlayNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentSignUpNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentWaiting]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentRoundWaiting]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentRounding]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentRound]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentChange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PokerTournamentChangeAdd]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RoleDeclarationLenMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PersonalCareerPVP]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CareerLevelFilter]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TrophySceneList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaStarSaveDBLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaStarRankLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaStarReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MilitaryRank]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TopRankMilitaryExploit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MilitaryRankShowRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MilitarySameOpponentRound]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyTeamRoleNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyTeamNameLenMin]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyTeamNameLenMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyTeamInitPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCraftSceneId]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCraftRecordNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyNPC]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RandomItemDistance]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartySpriteTimeStap]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyBonus]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampRandomEnemyFrequency]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyNPCDropID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyContinuedTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyPreNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartySpriteExistTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyCountDownNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampPartyContinuedTime2]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCollecLotteryWaitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampSummonSpiritCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingFlowerCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingFireworksCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingFlowerReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingFireworksReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingPatrolAITree]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingPatrolPath]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingVowsHusBandPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingVowsWifePos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingCarHusBandPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingCarWifePos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NormalWeddingNpcIDs]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LuxuryWeddingNpcIDs]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingCutscenePath]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingCarCutScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingWife]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeddingHusband]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeeklyTaskRefreshCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeeklyTaskRefreshProb]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuyRefreshCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FirstPassShareSceneList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FirstPassShareReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeekShareNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WeekShareReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerActivityAwardList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossScenePlayer]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossJoinMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossJoinMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossFinishMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossFinishMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossFirstkillMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossFirstkillMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossPresidentMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossPresidentMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossOfficialMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossOfficialMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleWinTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleWinContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleLoseTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleLoseContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleChampionTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleChampionContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleSecondTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleSecondContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleChampionLeaderTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleChampionLeaderContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleSecondLeaderTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBattleSecondLeaderContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaBeforeWar]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaSelectedTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildArenaDelayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Original]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Signup_Level]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Signup_Time]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Single]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Double]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Final]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Final_Lamp]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Final_Notice]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Signup_Notice]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Single_Notice]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Guild_Arena_Double_Notice]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityFirstHalfTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityHalfTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCitySpaceTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCitySecondHalfTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityGames]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityFloor]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityWaitingRoomTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityChangeSceneTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityEnterLv]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityRestPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityFightSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityLastResultDelay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCityLookupId]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyCity2FloorGroup]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkyArenaStartAnimTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarWaitingTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarPVPSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarPVESceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarExploreTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarOpenGroupWeek]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarPVPTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarDNEID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarFightRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarMatchTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarGuildLv]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarPVEMineSize]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarDestoryTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarLevelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarEnemyAttack]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarSwitch]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ResWarPullGroup]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MaxGetGuildCheckInBonusNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBonusAskTimeSpan]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBonusNoticeGetAllTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBonusOnLineNumAddPercent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCheckInBonusTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildApplyMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeaveGuildCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeaveGuildCD]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderRewardTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderRoleTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderRoleCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildLadderWinNotice]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildRankRewardTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildRankRewardKeepTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DelGuildExp]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DelGuildPre]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchWaiting]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchRoundWaiting]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchRounding]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchRound]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchChange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CardMatchChangeAdd]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StunTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TurnSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DashSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WalkSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RunSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AutoTurnSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AttackSpeed]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillCD]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ElemDefLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ElemAtkLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GeneralCombatParam]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CritDamageBase]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FinalDamageLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StunResistLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StunLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ParaResistLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ParalyzeLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CritResistLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CriticalLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MagicAvoidenceLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PhycialAvoidenceLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AttrChangeDamageLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CDChangeLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AttackSpeedLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuffChangeCastDamageLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuffChangeReceivedDamageLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MpCostChangeLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CritDamageLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DamageRandomRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PresentStraight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HardStraight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Offset]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Height]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InitEnmityValue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ReviveBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ComboBuff]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ComboInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EntitySummonGroupLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PowPointAdjust]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PowPointBaseValue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PowPointMaxPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuffMinAuraInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuffMinRegenerateInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InitialReturnSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MaxFatigue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MaxRecoverFatigue]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FatigueRegeneration]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RoleSaveInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RoleSummarySaveInterval]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MpRecovery]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InitialSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MailMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArenaSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillPointPPTWeight]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DailyFlowerCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ProfessionChangeUseItem]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ProfessionChangeShop]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LevelChangeShop]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DinnerTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SupperTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DinnerReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SupperReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LoginReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LoginRewardOpenLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RoleNameLenMin]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RoleNameLenMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillSlotUnlockLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LevelSealExpRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossGuildConsume]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossGuildAddAttr]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossAddAttr]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossKillReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossAddAttr]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildBossPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossSceneLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldBossGameEndCountDown]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AttributeEmblemSlotLevelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillEmblemSlotLevelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ExtraSkillEmblemSlotLevelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ExtraSkillEmblemSlotDragonCoin]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [JadeMosaicLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [JadeLevelUpCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DecomposeRandom]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EnhanceTransRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SmeltCorlorRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ForgeSmeltTransRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EquipAttackSmeltExchanged]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EquipDefenseSmeltExchanged]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EmblemSmeltExchanged]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ChatItemCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EnhanceNotice1]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EnhanceNotice2]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EnhanceNotice3]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ExchangeRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HungryExpPercent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PetSeatBuy]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PetExpTransferCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TShowFreeVoteNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TShowVoteCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TShowFirstVoteReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Flower2Charm]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GetFlowerTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GetFlowerNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BuyFlowerCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridLen]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridFriendDegree]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridSec]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridCanBeSee]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGridScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVPOne]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CanEnterScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonSceneCanReviveCD]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonSceneReviveExcept]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ViewGroupScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQVipHintDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQVipGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQSVipGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQVipSignIn]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQSVipSignIn]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQGameCenterSingnIn]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WXGameCenterSingnIn]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQVipLevelReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQSVipLevelReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QQGameCenterLevelReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WXGameCenterLevelReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EGameHintDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [XinYueHintDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OpenCgiUrl]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OpenCGIChest]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OpenWebChatChest]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IsPayFirstDouble]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PayReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoldClickFreeLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoldClickFreeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoldClickBaseCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoldClickConsume]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoldClickCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattleOpenDate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattlePointRaceWeekDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattleCrossPointRaceWeekDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattlePointRaceTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattleEliminationTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueBattleRaceReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueApplyNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueApplyEndNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueRaceNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LeagueEliNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleLootRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleReviveTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleOverTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleSecond2OnePoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleTimeLimitIfNoOccupant]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleChooseHeroTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleSpecialTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleSpecialNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleSpecialReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleFreeHeroCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleBigReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleBigRewardRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleMatchWorldTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleELOK]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleOriginELOPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleELOTeam]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleCanChooseSame]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ReportHeroBattleInvalidKda]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ReportHeroBattleInvalidKda]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaBattleChooseHeroTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaDeadExpRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaExpPer3Seconds]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaBattleReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaUpgradeAttack]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaUpgradeDefense]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaSignaTimelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MobaGameRecordMaxNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EscapeTimeRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [EscapeMinTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseWaitSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseLevelLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseWaitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseGroupCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseStartAnimTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseFinalWall]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseCollisionWallTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseTimeRefresh]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseLaps]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorsePlayerNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HorseWholeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryOpenWeek]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryRoleLvl]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryGuildLvl]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryReadyTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryOpenTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryDecTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildTerritoryAucTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritRoleLvlLow]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritRoleLvlHig]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritExp]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritTimes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritTeaLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritStuLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritCon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritFirend]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritCDTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildRecruitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [InheritPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeacherInheritPos]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeacherInheritTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildInheritRoleLvlGap]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WatchCommendTimeSpan]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WatchCommendTotalCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Spectate_PVP_show_baseline]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteEvolutionMinLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteAwakeMinLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteAwakeItemID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteAwakeConsume]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpritePositionLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteFoodExp]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteExpRatio]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteTrainCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteTrainNoToChooseMaxNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteDrawGoodRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteGoldDrawGoodRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteMaxNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteMinGuaranteeCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteZero]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteDrawCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteGoldDrawCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldOneCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldTenCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopOneCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopTenCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldOneGain]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldOneGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldTenGain]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopGoldTenGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopOneGain]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopOneGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopTenGain]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SpriteShopTenGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskOpenAddDiceNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskRecoverDiceMaxNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskDiceMaxNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskRecoverDiceNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskReBattle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskBoxTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RiskBoxAccelerate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ManualRollTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HardDragonDropDiamondBox]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonResetWeekDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HardDragonResetWeekDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SmallDragonResetWeekDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TeamTowerSceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SweepTowerCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SweepTowerTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RefreshSweepCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RefreshSweepRand]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GoddessTrialRewards]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StopMark]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ExpFindBackNeedLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ExpFindBackParam]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ItemFindBackNeedLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BattleAssistLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LevelSealFragmentID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OpenIBShopRedPointLv]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WorldLevelCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GragonCoinExchangeGold]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StageCatchUpExpMinLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ActivityChestExp]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ActivityChestExpWeekly]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RefreshIBShopTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBShopGiftTextLen]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBShopHistMaxSize]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBShopLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBShopDegree]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBHistPay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBDayMaxBuyCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBEveryTimeMaxBuy]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [IBOverMaxUnRecv]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [StopMark]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AudioMsgMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildPrestigeDle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildWageKeepDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildCampDayID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SendPlatFriendGift]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GivePlatFriendGiftMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GivePlatFriendGiftMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PandoraPushDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QuestionnaireLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [QuestionnaireVersion]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DrawGoodRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FlowerRainTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorOpenSealLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_NormalComplete]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_PerfectComplete]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorPunishTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorPeriodTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MentorBreakConfirmTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_NormalCompleteDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [Mentor_ForceCompleteDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ShareGiftProb]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ShareGiftCountDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowNoLoginDayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowActivityDayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowStartAgainMinDayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowTreasure]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowPayAlieenCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowShopGoodCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowShopFreshCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowShopDuration]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowJudgeDayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowJudgeMaxDayTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowActivitySceneID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BackFlowNestFinishCountLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [WxGuildCampTask]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GuildSignWeekCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [FindBackTicketExchangeDragon]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RenameItemCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ReGuildNameItemCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ReDragonGuildNameItemCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArgentaLastTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArgentaWithinDays]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArgentaActivityPoint]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArgentaNestCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArgentaEndToStartLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PveGeraldGiftOpen]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PveGeraldGiftAssistRequire]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PveGeraldGiftAssistRewardOpen]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PveGeraldGiftReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TarjaItem]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TarjaTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TarjaUseItem]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TarjaSwitch]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LoginActivityOpenDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LoginActivityLevel]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GrowthFundBuyDays]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GrowthFundExpireMailDays]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GrowthFundExpireNoticeDays]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [GrowthFundExpireNoticeTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArtifactLevels]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [RecastAttrRate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MultiKillTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillEmblemChangeProfMailTitle]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillEmblemChangeProfMailContent]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [SkillEmblemDisableSceneTypes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ArtifactDisableSceneTypes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HeroBattleBanTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PVEMorphLevelSealType]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ChannelMaskDays]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CanLevelTransSkill]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DuckTickets]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ThemeActivityScene]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DayDuckTickets]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BioHellRankId]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [BioHellSceneStage]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageSplendidCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageFriendDegree]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageDivorceCost]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageFreeDivorceDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ApplyMarriageDistance]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageRing]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [MarriageSplendidRing]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PartnerSkill]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PartnerSkill2]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TransSceneType]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [CombineServerReward]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TransformBuffsChangeOutlook]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PvpProfessionBiasSceneTypes]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildTaskCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildReceiveCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildCreateVipReq]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildApplyMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildApplyMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildApplyMax]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildEnterLimit]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildShopID]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildShopRecordNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildRecruitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildDesignation]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildActLeaDay]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildRefreshTaskStartDate]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildRefreshTaskCycleTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildTaskNeedPartnerCount]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildLivenessRecordNum]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DragonGuildSyncDataMaxSize]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TransSceneType]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LotteryDrawItems]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LotteryDrawConsume]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [PeerBox]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ChildOnceGameRestTimeList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ChildOnceGameForceExitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ChildOnceGameForceRestTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AdultOnceGameRestTimeList]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AdultOnceGameForceExitTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [AdultOnceGameForceRestTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OnceGameRemindMsg]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [OnceGameForceExitMsg]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TotalGameRemindMsg]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [TotalGameForceExitMsg]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [LoginRemindMsg]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [ForceExitSceneType]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [HgIsOpen]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NewZoneChargeBackTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NewZoneChargeBackRewardEndTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NewZoneChargeBackRange]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [NewZoneOpenTime]
+01:54:09 [Info] GlobalKeyValue::operator [](globalconfig.cpp:18) Load GlobalConfig, key [DonateItemQualityContribute]
+01:54:09 [Debug] Process_Setup(process.cpp:217) Start Init <CScriptMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:218) Start Init <CMysqlMgr>
+01:54:09 [Info] CMysqlMgr::Init(mysqlmgr.cpp:37) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Debug] Process_Setup(process.cpp:218) End Init <CMysqlMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:219) Start Init <CActiveRoleRecord>
+01:54:09 [Debug] Process_Setup(process.cpp:219) End Init <CActiveRoleRecord>
+01:54:09 [Debug] Process_Setup(process.cpp:220) Start Init <BackFlowTableMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:220) End Init <BackFlowTableMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:221) Start Init <COpenServerDateMgr>
+01:54:09 [Info] COpenServerDateMgr::ReadDataFromDB(openserverdatemgr.cpp:62) open server date=2025-01-12
+01:54:09 [Info] COpenServerDateMgr::ReadDataFromDB(openserverdatemgr.cpp:73) Read openserverdate data from db use time: 0 ms
+01:54:09 [Debug] Process_Setup(process.cpp:221) End Init <COpenServerDateMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:222) Start Init <ShmMsMgr>
+01:54:09 [Debug] ShareMemoryMap<struct CShmFMRole>::Init(shmmap.h:41) chunkNum: 20000, chunkSize: 24, totalMem: 480000
+01:54:09 [Warn] ShareMemory::Init(sharememory.cpp:32) Create new share memory: 1400, size: 480000
+01:54:09 [Debug] Process_Setup(process.cpp:222) End Init <ShmMsMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:223) Start Init <TLogMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:223) End Init <TLogMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:224) Start Init <TLogWriter>
+01:54:09 [Debug] Process_Setup(process.cpp:224) End Init <TLogWriter>
+01:54:09 [Debug] Process_Setup(process.cpp:225) Start Init <CGlobalConfigDBBuild>
+01:54:09 [Info] CGlobalConfigDBBuild::ReadDataFromDB(globalconfigdbbuild.cpp:140) Read all globalConfig data from db use time: 1 ms
+01:54:09 [Info] CGlobalConfigDBBuild::Init(globalconfigdbbuild.cpp:72) loginactivity worldlevel 0
+01:54:09 [Debug] Process_Setup(process.cpp:225) End Init <CGlobalConfigDBBuild>
+01:54:09 [Debug] Process_Setup(process.cpp:226) Start Init <CTimeSpecificMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:226) End Init <CTimeSpecificMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:227) Start Init <CRoleManager>
+01:54:09 [Debug] Process_Setup(process.cpp:227) End Init <CRoleManager>
+01:54:09 [Debug] Process_Setup(process.cpp:228) Start Init <CFirstPassConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:228) End Init <CFirstPassConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:229) Start Init <PushMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:229) End Init <PushMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:230) Start Init <CRoleSummaryMgr>
+01:54:09 [Info] CRoleSummaryMgr::InsertRoleSummary(rolesummarymgr.cpp:400) MaxLevel[1]
+01:54:09 [Info] CRoleSummaryMgr::InsertRoleSummary(rolesummarymgr.cpp:400) MaxLevel[2]
+01:54:09 [Info] CRoleSummaryMgr::Init(rolesummarymgr.cpp:254) Read all role summary data from db use time: 1 ms, brief count:0, all count:2
+01:54:09 [Debug] Process_Setup(process.cpp:230) End Init <CRoleSummaryMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:231) Start Init <MailConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:231) End Init <MailConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:232) Start Init <CMailMgr>
+01:54:09 [Info] CMailMgr::_ReadAllRoleMailFromDB(mailmgr.cpp:298) Read all role mail data from db use time: 0 ms
+01:54:09 [Info] CMailMgr::_ReadAllRoleMailFromDB(mailmgr.cpp:308) Init role mail cache, initial count [0], max count [50000]
+01:54:09 [Info] CMailMgr::_ReadAllGlobalMailFromDB(mailmgr.cpp:384) Read all mail template data from db use time: 0 ms
+01:54:09 [Info] CMailMgr::_ReadAllRoleRecordFromDB(mailmgr.cpp:434) Read all role mail record from db use time: 0 ms
+01:54:09 [Debug] Process_Setup(process.cpp:232) End Init <CMailMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:233) Start Init <CPunishMgr>
+01:54:09 [Info] CPunishMgr::ReadAllPunishListFromDB(punishmgr.cpp:275) delete expired punish info from db
+01:54:09 [Info] CPunishMgr::ReadAllPunishListFromDB(punishmgr.cpp:279) Read all punish data from db use time: 0 ms
+01:54:09 [Debug] Process_Setup(process.cpp:233) End Init <CPunishMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:234) Start Init <ArenaMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:234) End Init <ArenaMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:235) Start Init <CGuildConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:235) End Init <CGuildConfig>
+01:54:09 [Debug] Process_Setup(process.cpp:236) Start Init <GuildCardMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:236) End Init <GuildCardMgr>
+01:54:09 [Debug] Process_Setup(process.cpp:237) Start Init <CGuildMgr>
+01:54:09 [Info] CGuildMgr::Init(guildmgr.cpp:187) Read all guild data from db use time: 0 ms
+01:54:11 [Debug] Process_Setup(process.cpp:237) End Init <CGuildMgr>
+01:54:11 [Debug] Process_Setup(process.cpp:238) Start Init <CRankListMgr>
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 7, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 9, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 13, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 17, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 18, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 19, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 24, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 25, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 26, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 27, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 28, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 29, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 30, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 31, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 34, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 35, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 37, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16001, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16002, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16003, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16004, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16005, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16006, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16007, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16008, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16009, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16010, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16011, serverid = 1 is empty
+01:54:11 [Info] CRankListMgr::_QueryDBToRankList(ranklistmgr.cpp:340) ranklist _id = 16012, serverid = 1 is empty
+01:54:11 [Debug] Process_Setup(process.cpp:238) End Init <CRankListMgr>
+01:54:11 [Debug] Process_Setup(process.cpp:239) Start Init <CIdipProcess>
+01:54:11 [Debug] Process_Setup(process.cpp:239) End Init <CIdipProcess>
+01:54:11 [Debug] Process_Setup(process.cpp:240) Start Init <CGsManager>
+01:54:11 [Debug] Process_Setup(process.cpp:240) End Init <CGsManager>
+01:54:11 [Debug] Process_Setup(process.cpp:241) Start Init <CSceneConfig>
+01:54:11 [Debug] Process_Setup(process.cpp:241) End Init <CSceneConfig>
+01:54:11 [Debug] Process_Setup(process.cpp:242) Start Init <CSceneManager>
+01:54:11 [Debug] Process_Setup(process.cpp:242) End Init <CSceneManager>
+01:54:11 [Debug] Process_Setup(process.cpp:243) Start Init <XEntityInfoLibrary>
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3200
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3202
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3204
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3205
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3206
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:3207
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:35014
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:110602
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:110603
+01:54:12 [Error] XEntityInfoLibrary::CheckFile(xentityinfolibrary.cpp:71) hit config is empty, enemy id:110604
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_attack_A1 -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_attack_A2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_attack_A3 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_attack_A4 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_Victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_warrior_attack_huibi -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_warrior_attack_zhonggouquan -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_warrior_attack_shenglongzhan -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_warrior_attack_qishenzhan -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_mid -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_final -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_stand -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_stand_mid_new -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_stand_final_new -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_huibizhan -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_luoxuanti_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_archer_attack_baolieti_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_archer_attack_qiangxuanfengtui -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_archer_attack_erlianshe -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_archer_attack_qishenti -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_mid -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_final -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_stand -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_stand_mid -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_stand_final -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_huoqiu_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_junengjiguang_ex_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_huoqiu_ex_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_sorceress_attack_manchangrongjiang_ex_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_sorceress_attack_bingjianzhu -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_sorceress_attack_huoyanchong -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_sorceress_attack_fanji -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_A1 -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_A2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_A3 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_A4 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_A5 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_Victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_cleric_attack_zidonggedang -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_cleric_attack_luolei -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_cleric_attack_shenshengzhichui -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_cleric_attack_qishenti -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A1 -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A3 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A1_run -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A2_run -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_A3_run -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_dash_duqijuneng -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_chaodazhongbangzhadan_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_chaodazhongbangzhadan_ex_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_penshe_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_academic_attack_penshe_ex_end2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_academic_attack_sanlianshe -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_academic_attack_hongji -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_academic_attack_xuanzhuanbaoli -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_A1 -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_A2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_A3 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_A4 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_dashback -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_heianxiantiao_loop -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_heianxiantiao_ex_loop -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_heianxiantiao_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_baonu_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_chakelaqiangji -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_chakelahuanying_dash -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_baonu_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_baonu_ex_dash -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_chakelazhiyushu_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_huanxianggongji_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_attack_chakelazhiyushu_jump -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_zhicanchengfazhe_attack -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_assassin_zhicanchengfazhe_jishan -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_assassin_attack_xunbuzhan -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_assassin_attack_beibishouduan -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_assassin_attack_yanwu -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_A1 -> 0]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_A2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_A3 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_dash -> 1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_summon -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_Victory -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_kuangbaozhizhua_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_kutongzhiling_ex_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_jiutianzhiwu2 -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:121) Set skill [Player_kali_attack_baofengxuezhizaoji_end -> -1]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_kali_attack_linghunzhifeng -> 2]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_kali_attack_wanmeixuanzhuan -> 3]
+01:54:15 [Info] XEntityInfoLibrary::LoadFile(xentityinfolibrary.cpp:133) Set skill [Player_kali_attack_nulizhishou -> -1]
+01:54:17 [Debug] Process_Setup(process.cpp:243) End Init <XEntityInfoLibrary>
+01:54:17 [Debug] Process_Setup(process.cpp:244) Start Init <PlayerLevelManager>
+01:54:17 [Debug] Process_Setup(process.cpp:244) End Init <PlayerLevelManager>
+01:54:17 [Debug] Process_Setup(process.cpp:245) Start Init <CItemConfig>
+01:54:19 [Debug] Process_Setup(process.cpp:245) End Init <CItemConfig>
+01:54:19 [Debug] Process_Setup(process.cpp:246) Start Init <ItemDropConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:246) End Init <ItemDropConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:247) Start Init <RobotSummaryMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:247) End Init <RobotSummaryMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:248) Start Init <TeamMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:248) End Init <TeamMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:249) Start Init <NoticeMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:249) End Init <NoticeMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:250) Start Init <FriendConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:250) End Init <FriendConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:251) Start Init <FriendMgr>
+01:54:20 [Info] FriendMgr::Init(friendmgr.cpp:119) friend delete count:0
+01:54:20 [Info] FriendMgr::Init(friendmgr.cpp:149) Read all friend data from db use time: 0 ms
+01:54:20 [Debug] Process_Setup(process.cpp:251) End Init <FriendMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:252) Start Init <CChatMgr>
+01:54:20 [Info] CChatMgr::Init(chatmgr.cpp:67) Read all chat data(chatrecord and privatechatlist) from db use time: 0 ms
+01:54:20 [Debug] Process_Setup(process.cpp:252) End Init <CChatMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:253) Start Init <LiveManager>
+01:54:20 [Debug] Process_Setup(process.cpp:253) End Init <LiveManager>
+01:54:20 [Debug] Process_Setup(process.cpp:254) Start Init <LiveConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:254) End Init <LiveConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:255) Start Init <CSceneCreator>
+01:54:20 [Debug] Process_Setup(process.cpp:255) End Init <CSceneCreator>
+01:54:20 [Debug] Process_Setup(process.cpp:256) Start Init <CLevelSealMgr>
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=1,level=32,time=168
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=2,level=40,time=336
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=3,level=50,time=744
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=4,level=60,time=888
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=5,level=70,time=1248
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=6,level=80,time=1152
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=7,level=90,time=1440
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=8,level=100,time=1440
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=9,level=110,time=1440
+01:54:20 [Info] CLevelSealMgr::LoadFile(levelsealmgr.cpp:113) config type=10,level=120,time=1440
+01:54:20 [Warn] CLevelSealMgr::InitTypeInfoFromCfg(levelsealmgr.cpp:155) Can't find LevelSealType config for type 0
+01:54:20 [Info] CLevelSealMgr::GetSealInfoByOpenTime(levelsealmgr.cpp:321) ||type=1,starttime=1736632800,level=32
+01:54:20 [Debug] Process_Setup(process.cpp:256) End Init <CLevelSealMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:257) Start Init <CGuildBossMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:257) End Init <CGuildBossMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:258) Start Init <CProfessionMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:258) End Init <CProfessionMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:259) Start Init <CGuildBossListener>
+01:54:20 [Debug] Process_Setup(process.cpp:259) End Init <CGuildBossListener>
+01:54:20 [Debug] Process_Setup(process.cpp:260) Start Init <CTssHandler>
+01:54:20 [Debug] Process_Setup(process.cpp:260) End Init <CTssHandler>
+01:54:20 [Debug] Process_Setup(process.cpp:261) Start Init <MultActivityMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:261) End Init <MultActivityMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:262) Start Init <WorldBossMgr>
+01:54:20 [Info] WorldBossMgr::InitBoss(worldbossmgr.cpp:498) bossid:2
+01:54:20 [Debug] Process_Setup(process.cpp:262) End Init <WorldBossMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:263) Start Init <ExpeditionConfigMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:263) End Init <ExpeditionConfigMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:264) Start Init <TeamInviteMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:264) End Init <TeamInviteMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:265) Start Init <TeamMatchMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:265) End Init <TeamMatchMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:266) Start Init <PvpMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:266) End Init <PvpMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:267) Start Init <SocialMgr>
+01:54:20 [Info] SocialMgr::QueryDb(socialmgr.cpp:166) Read all social data from db use time: 0 ms
+01:54:20 [Debug] Process_Setup(process.cpp:267) End Init <SocialMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:268) Start Init <FlowerConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:268) End Init <FlowerConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:269) Start Init <CReloadMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:269) End Init <CReloadMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:270) Start Init <CFirstPassMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:270) End Init <CFirstPassMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:271) Start Init <PkMgr>
+01:54:20 [Info] PkMgr::ReadData(pkmgr.cpp:677)  read lastup = 1736684057
+01:54:20 [Debug] Process_Setup(process.cpp:271) End Init <PkMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:272) Start Init <PkOpenMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:272) End Init <PkOpenMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:273) Start Init <StringTableMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:273) End Init <StringTableMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:274) Start Init <WorldBossLineMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:274) End Init <WorldBossLineMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:275) Start Init <DragonExpRankMgr>
+01:54:20 [Info] DragonExpRankMgr::ReadDBData(dragonexprankmgr.cpp:460) 1736746462 1736746462
+01:54:20 [Debug] Process_Setup(process.cpp:275) End Init <DragonExpRankMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:276) Start Init <AuctionMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:276) End Init <AuctionMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:277) Start Init <CGuildSkillConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:277) End Init <CGuildSkillConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:278) Start Init <AuctionConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:278) End Init <AuctionConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:279) Start Init <GuildCheckinMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:279) End Init <GuildCheckinMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:280) Start Init <GuildMatchFightMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:280) End Init <GuildMatchFightMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:281) Start Init <CGuildWarMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:281) End Init <CGuildWarMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:282) Start Init <EventMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:282) End Init <EventMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:283) Start Init <CGuildLadder>
+01:54:20 [Debug] Process_Setup(process.cpp:283) End Init <CGuildLadder>
+01:54:20 [Debug] Process_Setup(process.cpp:284) Start Init <SkyCityConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:284) End Init <SkyCityConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:285) Start Init <SkyCityMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:285) End Init <SkyCityMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:286) Start Init <GardenManager>
+01:54:20 [Debug] Process_Setup(process.cpp:286) End Init <GardenManager>
+01:54:20 [Debug] Process_Setup(process.cpp:287) Start Init <GardenConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:287) End Init <GardenConfig>
+01:54:20 [Debug] Process_Setup(process.cpp:288) Start Init <QAMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:288) End Init <QAMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:289) Start Init <CTestMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:289) End Init <CTestMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:290) Start Init <HttpTaskMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:290) End Init <HttpTaskMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:291) Start Init <OpenSystemMgr>
+01:54:20 [Debug] OpenSystemMgr::LoadIdipOpSystem(opensystemmgr.cpp:100) load idip close system:0
+01:54:20 [Debug] OpenSystemMgr::LoadIdipOpSystem(opensystemmgr.cpp:104) load idip close system success
+01:54:20 [Debug] Process_Setup(process.cpp:291) End Init <OpenSystemMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:292) Start Init <CAccountKicker>
+01:54:20 [Debug] Process_Setup(process.cpp:292) End Init <CAccountKicker>
+01:54:20 [Debug] Process_Setup(process.cpp:293) Start Init <ResWarAwardMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:293) End Init <ResWarAwardMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:294) Start Init <ResWarMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:294) End Init <ResWarMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:295) Start Init <GuildBuffMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:295) End Init <GuildBuffMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:296) Start Init <CPlatformFriendMgr>
+01:54:20 [Info] CPlatformFriendMgr::LoadFromDB(platformfriendmgr.cpp:122) Read all platformfriendinfo data,size 1 from db use time: 1 ms
+01:54:20 [Debug] Process_Setup(process.cpp:296) End Init <CPlatformFriendMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:297) Start Init <CGuildArenaIntegralMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:297) End Init <CGuildArenaIntegralMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:298) Start Init <GuildAuctMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:298) End Init <GuildAuctMgr>
+01:54:20 [Debug] Process_Setup(process.cpp:299) Start Init <GuildAuctConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:299) End Init <GuildAuctConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:300) Start Init <CGuildInherit>
+01:54:21 [Debug] Process_Setup(process.cpp:300) End Init <CGuildInherit>
+01:54:21 [Debug] Process_Setup(process.cpp:301) Start Init <CrossZoneStatus>
+01:54:21 [Debug] Process_Setup(process.cpp:301) End Init <CrossZoneStatus>
+01:54:21 [Debug] Process_Setup(process.cpp:302) Start Init <CPlatNoticeMgr>
+01:54:21 [Info] CPlatNoticeMgr::ReadAllNoticeFromDB(platnotice.cpp:183) Read all notice data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:302) End Init <CPlatNoticeMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:303) Start Init <ForbidWordMgr>
+01:54:21 [Error] CVSReader::Parse(cvsreader.cpp:126) string [ ] contains invalid character(' '|'\r'|'\n'|'\t') at the beginning
+01:54:21 [Error] CVSReader::Parse(cvsreader.cpp:131) string [ ] contains invalid character(' '|'\r'|'\n'|'\t') at the end
+01:54:21 [Debug] Process_Setup(process.cpp:303) End Init <ForbidWordMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:304) Start Init <FMMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:304) End Init <FMMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:305) Start Init <NestWeekMgr>
+01:54:21 [Info] NestWeekMgr::ReadDbData(nestweekmgr.cpp:155)  1736746461 0 1
+01:54:21 [Debug] Process_Setup(process.cpp:305) End Init <NestWeekMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:306) Start Init <PartnerTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:306) End Init <PartnerTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:307) Start Init <MarriageTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:307) End Init <MarriageTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:308) Start Init <PartnerMgr>
+01:54:21 [Info] PartnerMgr::LoadFromDB(partnermgr.cpp:202) Load partner num: 0
+01:54:21 [Info] PartnerMgr::LoadFromDB(partnermgr.cpp:206) Read all partner data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:308) End Init <PartnerMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:309) Start Init <MentorMgr>
+01:54:21 [Info] MentorMgr::LoadFromDb(mentormgr.cpp:144) Read all mentor data, size:0 from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:309) End Init <MentorMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:310) Start Init <MentorRelationMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:310) End Init <MentorRelationMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:311) Start Init <MentorConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:311) End Init <MentorConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:312) Start Init <InvFightMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:312) End Init <InvFightMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:313) Start Init <InvFightCrossMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:313) End Init <InvFightCrossMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:314) Start Init <CGuildTerritoryBattle>
+01:54:21 [Debug] Process_Setup(process.cpp:314) End Init <CGuildTerritoryBattle>
+01:54:21 [Debug] Process_Setup(process.cpp:315) Start Init <CardMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:315) End Init <CardMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:316) Start Init <HeroBattleMgr>
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:1, MatchTemplate size:1
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:2, MatchTemplate size:2
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:3, MatchTemplate size:3
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:4, MatchTemplate size:5
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:5, MatchTemplate size:7
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:6, MatchTemplate size:11
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:7, MatchTemplate size:15
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:8, MatchTemplate size:22
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:9, MatchTemplate size:30
+01:54:21 [Info] MatchMachine::_BuildMatchTemplate(matchmachine.cpp:212) num:10, MatchTemplate size:42
+01:54:21 [Debug] Process_Setup(process.cpp:316) End Init <HeroBattleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:317) Start Init <GuildCastleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:317) End Init <GuildCastleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:318) Start Init <CSnsSigCheck>
+01:54:21 [Debug] Process_Setup(process.cpp:318) End Init <CSnsSigCheck>
+01:54:21 [Debug] Process_Setup(process.cpp:319) Start Init <CPayMgr>
+01:54:21 [Info] CPayMgr::ReadAllPayFromDB(paymgr.cpp:446) Read all punish data from db use time: 1 ms
+01:54:21 [Debug] Process_Setup(process.cpp:319) End Init <CPayMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:320) Start Init <LeagueTeamMgr>
+01:54:21 [Info] LeagueTeamMgr::LoadFromDB(leagueteammgr.cpp:147) Load leagueteam num: 0
+01:54:21 [Info] LeagueTeamMgr::LoadFromDB(leagueteammgr.cpp:151) Read all leagueteam data from db use time: 1 ms
+01:54:21 [Debug] Process_Setup(process.cpp:320) End Init <LeagueTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:321) Start Init <LeagueSeasonMgr>
+01:54:21 [Info] LeagueSeasonMgr::LoadSeasonInfoFromDB(leagueseasonmgr.cpp:164) load season info, updatetime[1736784697], is_open[0]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:127) Clear Self Time[1727283600]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-10 05:00:00 : state[1]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-15 00:00:00 : state[2]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-16 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-17 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-18 00:00:00 : state[3]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-19 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-20 00:00:00 : state[3]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-21 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-22 00:00:00 : state[3]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-23 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-24 00:00:00 : state[4]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-25 00:00:00 : state[3]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-26 00:00:00 : state[5]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-27 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-28 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-29 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-09-30 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-01 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-02 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-03 00:00:00 : state[7]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-04 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-05 00:00:00 : state[7]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-06 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-07 00:00:00 : state[7]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-08 00:00:00 : state[7]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-09 00:00:00 : state[6]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-10 00:00:00 : state[7]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-11 00:00:00 : state[8]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-12 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-13 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-14 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-15 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-16 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-17 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2024-10-18 00:00:00 : state[9]
+01:54:21 [Info] LeagueSeasonBase::BuildTimeState(leagueseasonbase.cpp:195) 2025-03-28 05:00:00 : state[1]
+01:54:21 [Info] LeagueNoticeHelper::ClearTimers(leagueutil.cpp:26) ClearTimer[0]
+01:54:21 [Info] LeagueNoticeHelper::SetTimers(leagueutil.cpp:418) RegisterTimer[0]
+01:54:21 [Debug] Process_Setup(process.cpp:321) End Init <LeagueSeasonMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:322) Start Init <LeagueEliminationMgr>
+01:54:21 [Info] LeagueEleMgrBase::LoadFromKKSG(leagueelemgrbase.cpp:29) load lb elimination data, curround[0] updatetime[1736684066]
+01:54:21 [Debug] Process_Setup(process.cpp:322) End Init <LeagueEliminationMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:323) Start Init <CReportDataMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:323) End Init <CReportDataMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:324) Start Init <LeagueBattleMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:324) End Init <LeagueBattleMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:325) Start Init <LeagueMatchTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:325) End Init <LeagueMatchTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:326) Start Init <CPushSubscribeMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:326) End Init <CPushSubscribeMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:327) Start Init <ZServerInfoMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:327) End Init <ZServerInfoMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:328) Start Init <CrossLeagueTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:328) End Init <CrossLeagueTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:329) Start Init <CrossRoleSummaryMgr>
+01:54:21 [Info] CrossRoleSummaryMgr::LoadFromDB(crossrolesummarymgr.cpp:145) load cross role summary size: 0
+01:54:21 [Info] CrossRoleSummaryMgr::LoadFromDB(crossrolesummarymgr.cpp:149) Read all cross role summary data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:329) End Init <CrossRoleSummaryMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:330) Start Init <LeagueCrossEliMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:330) End Init <LeagueCrossEliMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:331) Start Init <AccountBanMsMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:331) End Init <AccountBanMsMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:332) Start Init <CSpriteConfigMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:332) End Init <CSpriteConfigMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:333) Start Init <CPetConfigMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:333) End Init <CPetConfigMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:335) Start Init <MilitaryManager>
+01:54:21 [Warn] CGlobalConfigDBBuild::UpdateToDb(globalconfigdbbuild.cpp:149) update global value failed, eConfig:30
+01:54:21 [Debug] Process_Setup(process.cpp:335) End Init <MilitaryManager>
+01:54:21 [Debug] Process_Setup(process.cpp:336) Start Init <IBGiftMgr>
+01:54:21 [Info] IBGiftMgr::ReadAllGiftFromDB(ibgiftmgr.cpp:305) Read all punish data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:336) End Init <IBGiftMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:337) Start Init <ArenaStarMgr>
+01:54:21 [Info] ArenaStarMgr::ReadSeasonGlobalData(arenastarmgr.cpp:455)  first time 
+01:54:21 [Debug] Process_Setup(process.cpp:337) End Init <ArenaStarMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:339) Start Init <CMsProfiler>
+01:54:21 [Debug] Process_Setup(process.cpp:339) End Init <CMsProfiler>
+01:54:21 [Debug] Process_Setup(process.cpp:340) Start Init <CPushConfigMgr>
+01:54:21 [Info] CPushConfigMgr::ReadDataFromDB(pushconfig.cpp:63) Read wxpush data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:340) End Init <CPushConfigMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:341) Start Init <SkyCraftTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:341) End Init <SkyCraftTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:342) Start Init <SkyTeamMgr>
+01:54:21 [Info] SkyTeamMgr::LoadFromDB(skyteammgr.cpp:155) Load skyteam num: 0
+01:54:21 [Info] SkyTeamMgr::LoadFromDB(skyteammgr.cpp:159) Read all skyteam data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:342) End Init <SkyTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:343) Start Init <SkyCraftMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:343) End Init <SkyCraftMatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:344) Start Init <SkyCraftEliMgr>
+01:54:21 [Info] SkyCraftEliMgr::LoadFromDB(skycraftelimgr.cpp:53) load skycraft elimination data, curround[0] updatetime[0]
+01:54:21 [Debug] Process_Setup(process.cpp:344) End Init <SkyCraftEliMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:346) Start Init <CCustomBattleConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:346) End Init <CCustomBattleConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:347) Start Init <CustomBattleMgr>
+01:54:21 [Info] CustomBattleMgr::Init(custombattlemgr.cpp:115) Read all custombattle data from db use time: 0 ms
+01:54:21 [Info] CustomBattleMgr::LoadGM(custombattlemgr.cpp:629) custombattle gmcreate:oiz-ewXX60jErD5P-Hwvm9qvQia4
+01:54:21 [Info] CustomBattleMgr::LoadGM(custombattlemgr.cpp:629) custombattle gmcreate:oiz-ewTJjuZ3wmv_d9LkLYMcxwgU
+01:54:21 [Info] CustomBattleMgr::LoadGM(custombattlemgr.cpp:629) custombattle gmcreate:oiz-ewUvIkpp38KUYE01f6UV2Bv4
+01:54:21 [Info] CustomBattleMgr::LoadGM(custombattlemgr.cpp:629) custombattle gmcreate:oiz-ewSfmF8BHx8hVpzxC_GuRrD0
+01:54:21 [Info] CustomBattleMgr::LoadGM(custombattlemgr.cpp:640) custombattle gmjoin:995
+01:54:21 [Debug] Process_Setup(process.cpp:347) End Init <CustomBattleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:348) Start Init <CustomBattleMsMatcher>
+01:54:21 [Debug] Process_Setup(process.cpp:348) End Init <CustomBattleMsMatcher>
+01:54:21 [Debug] Process_Setup(process.cpp:349) Start Init <CustomBattleRoleMgr>
+01:54:21 [Info] CustomBattleRoleMgr::Init(custombattlerolemgr.cpp:101) Read all custombattlerole data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:349) End Init <CustomBattleRoleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:351) Start Init <MatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:351) End Init <MatchMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:352) Start Init <ReportMgr>
+01:54:21 [Info] ReportMgr::LoadFromDB(reportmgr.cpp:105) Load rolereport num: 0
+01:54:21 [Info] ReportMgr::LoadFromDB(reportmgr.cpp:109) Read all rolereport data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:352) End Init <ReportMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:353) Start Init <TarjaTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:353) End Init <TarjaTeamMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:354) Start Init <ActivityMailMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:354) End Init <ActivityMailMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:355) Start Init <MobaBattleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:355) End Init <MobaBattleMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:356) Start Init <SpActivityMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:356) End Init <SpActivityMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:357) Start Init <MobaRecordMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:357) End Init <MobaRecordMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:358) Start Init <MayhemMsMgr>
+01:54:21 [Info] MayhemMsMgr::LoadFile(mayhemmgr.cpp:97) ReadConfig=1000
+01:54:21 [Debug] Process_Setup(process.cpp:358) End Init <MayhemMsMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:359) Start Init <WeddingMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:359) End Init <WeddingMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:361) Start Init <GroupChatMgr>
+01:54:21 [Debug] GroupChatMgr::Init(groupchatmgr.cpp:71) GroupChat MaxMemberCountInGroup=15, MaxGroupCountForRole=8, MaxZMGroupIssue=5, MaxZMRoleIssue=5
+
+01:54:21 [Debug] Process_Setup(process.cpp:361) End Init <GroupChatMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:362) Start Init <GoalAwardsMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:362) End Init <GoalAwardsMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:363) Start Init <MarriageMgr>
+01:54:21 [Info] MarriageMgr::LoadFromDb(marriagemgr.cpp:194) Read all marriage data, size:0 from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:363) End Init <MarriageMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:364) Start Init <MarriageRelationMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:364) End Init <MarriageRelationMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:365) Start Init <BattleFieldMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:365) End Init <BattleFieldMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:366) Start Init <CNpcFeelingMgr>
+01:54:21 [Debug] CNpcFeelingMgr::AmendData(npcfeelingmgr.cpp:304)  no amend data 
+01:54:21 [Debug] Process_Setup(process.cpp:366) End Init <CNpcFeelingMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:367) Start Init <CSurviveMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:367) End Init <CSurviveMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:368) Start Init <CPreprogativeConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:368) End Init <CPreprogativeConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:369) Start Init <RoleTaskMgr>
+01:54:21 [Info] RoleTaskMgr::LoadFromDB(roletaskmgr.cpp:129) Load roletask num: 2
+01:54:21 [Info] RoleTaskMgr::LoadFromDB(roletaskmgr.cpp:133) Read all roletask data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:369) End Init <RoleTaskMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:370) Start Init <CompeteDragonConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:370) End Init <CompeteDragonConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:372) Start Init <DragonGuildTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:372) End Init <DragonGuildTableMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:373) Start Init <DragonGuildMgr>
+01:54:21 [Info] DragonGuildMgr::Init(dragonguildmgr.cpp:154) Load partner num: 0
+01:54:21 [Info] DragonGuildMgr::Init(dragonguildmgr.cpp:159) Read all dragonguild data from db use time: 0 ms
+01:54:21 [Debug] Process_Setup(process.cpp:373) End Init <DragonGuildMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:374) Start Init <CConsumeRebateConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:374) End Init <CConsumeRebateConfig>
+01:54:21 [Debug] Process_Setup(process.cpp:375) Start Init <CPayConsumeMgr>
+01:54:21 [Info] CPayConsumeMgr::LoadFromDB(payconsumemgr.cpp:75) rebate from db start=2025-01-12 05:00:00,end=2025-01-19 05:00:00,datetype=1,rate=20
+01:54:21 [Debug] Process_Setup(process.cpp:375) End Init <CPayConsumeMgr>
+01:54:21 [Debug] Process_Setup(process.cpp:380) Destory Class <CActiveRoleRecord>
+01:54:21 [Info] GateLink::OnLineConnected(gatelink.cpp:36) Gate server line [1] connected
+01:54:21 [Info] DBLink::OnConnectSucceed(dblink.cpp:41) connect to db success
+01:54:21 [Warn] CGlobalConfigDBBuild::UpdateToDb(globalconfigdbbuild.cpp:149) update global value failed, eConfig:6
+01:54:21 [Info] ControlLink::OnConnectSucceed(controllink.cpp:31) connect to ns success
+01:54:21 [Info] LoginLink::OnConnectSucceed(loginlink.cpp:23) connect to login server ok!
+01:54:21 [Info] ZServerInfoMgr::Print(serverinfomgr.cpp:82)  serverid = 1 servername = Test1
+01:54:21 [Info] RpcM2I_RegisterMs2Login::OnReply(rpcm2i_registerms2login.cpp:15) Register to login server [100] success
+01:54:24 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794464], open[0]
+01:54:26 [Info] GSLink::OnLineConnected(gslink.cpp:35) Game server line [1] connected
+01:54:26 [Info] TeamMgr::OnGsRegister(teammgr.cpp:361) TeamMgr::OnGsRegister line = 1
+01:54:26 [Info] TeamMgr::OnMsCrashRecover(teammgr.cpp:389) TeamMgr::OnMsCrashRecover gsline = 1 session size = 0
+01:54:26 [Info] MatchMgr::OnMsCrashRecover(matchmgr.cpp:294) MatchMgr::OnMsCrashRecover gsline = 1 session size = 0
+01:54:27 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794467], open[0]
+01:54:30 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794470], open[0]
+01:54:33 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794473], open[0]
+01:54:36 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794476], open[0]
+01:54:39 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794479], open[0]
+01:54:42 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794482], open[0]
+01:54:45 [Info] CSceneManager::CreateScene(scenemanager.cpp:57) CreateScene sceneMap's size is 1, templateID:100, SceneID:2147483650
+01:54:45 [Debug] CRoleManager::AddRole(rolemanager.cpp:55) Add role, id [281481008472401], session [281481083617281]
+01:54:45 [Info] CRoleManager::LoginRole(rolemanager.cpp:118) Role {account=test, roleid=281481008472401, name=璐易丝玛姬} Login
+01:54:45 [Debug] HMatchHandler::OnChangeScene(matchhandler.cpp:364) HMatchHandler::OnChangeScene role = test
+01:54:45 [Debug] PtcG2M_RoleChangeSceneNtf::Process(ptcg2m_rolechangescenentf.cpp:61) role: 281481008472401, changle line: 1, cross: 0
+01:54:45 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794485], open[0]
+01:54:45 [Debug] CPayMgr::BuildCookie(paymgr.cpp:503) org_loc=%2F%6D%70%61%79%2F%67%65%74%5F%62%61%6C%61%6E%63%65%5F%6D; session_id=; session_type=
+01:54:45 [Debug] PayNotifyTask::SetParamData(paynotify.cpp:178) cookie
+01:54:46 [Warn] CGuildMgr::DoRoleLogin(guildmgr.cpp:765)  CGuildMgr::DoRoleLogin pGuild is NULL and roleid : 281481008472401
+01:54:46 [Info] FMMgr::OnLogin(fmmgr.cpp:162) --------SendAudioType------2-roleid=281481008472401 accname=test
+01:54:46 [Info] ArenaStarMgr::AddNewData(arenastarmgr.cpp:178)  roleID = 281481008472401
+01:54:46 [Info] ArenaStarMgr::AddChangeRole(arenastarmgr.cpp:410)  add change role = 281481008472401
+01:54:46 [Info] ArenaStarMgr::AddChangeRole(arenastarmgr.cpp:410)  add change role = 281481008472401
+01:54:46 [Info] ArenaStarMgr::AddChangeRole(arenastarmgr.cpp:410)  add change role = 281481008472401
+01:54:46 [Info] ArenaStarMgr::AddChangeRole(arenastarmgr.cpp:410)  add change role = 281481008472401
+01:54:46 [Info] ArenaStarMgr::AddChangeRole(arenastarmgr.cpp:410)  add change role = 281481008472401
+01:54:46 [Warn] DragonGuildMgr::DoRoleLogin(dragonguildmgr.cpp:294) pDGuild is NULL and roleId: 281481008472401
+01:54:46 [Info] CMailDataAddFunctor::operator ()(mailfunctor.cpp:45) Put role [281481008472401] 's mail data to cache, mail count [0]
+01:54:47 [Warn] PayNotifyTask::OnResult(paynotify.cpp:64) return failed,roleid=281481008472401,res={"ret":1001,"err_code":"1001-1001-0","msg":"请求参数错误(session_id)"}
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=appid  value=1450007239
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=format  value=json
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openid  value=test
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openkey  value=
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pf  value=
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pfkey  value=
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=sig  value=899b1cbc249657ff93bfe6ad66a8d6d2
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=ts  value=1736794485
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=userip  value=127.0.0.1
+01:54:47 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=zoneid  value=1_281481008472401
+01:54:47 [Info] ArenaStarDbH::Update(arenastardb.cpp:95)  send count = 1
+01:54:48 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794488], open[0]
+01:54:51 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794491], open[0]
+01:54:51 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:1,and queue_changes_ size is 0
+01:54:51 [Info] CRoleSummaryMgr::OnTimer(rolesummarymgr.cpp:600) send ptc:1827 count:1 left count:0
+01:54:54 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794494], open[0]
+01:54:57 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794497], open[0]
+01:55:00 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794500], open[0]
+01:55:03 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794503], open[0]
+01:55:04 [Info] PtcG2M_SceneEmptyNotify::Process(ptcg2m_sceneemptynotify.cpp:15) mapid:100 sceneid:2147483650
+01:55:04 [Info] CRoleManager::LogoutRole(rolemanager.cpp:140) Role {account=test, roleid=281481008472401, name=璐易丝玛姬} Logout
+01:55:04 [Debug] HMatchHandler::OnLogout(matchhandler.cpp:391) HMatchHandler::OnLogout role = test
+01:55:04 [Info] LogHelper::Send(loghelper.cpp:58) TFmFlow|TPID0001MS67856188SQ0001|1|2025-01-14 01:55:04|wxfdab5af74990787a|1|1|281481008472401|test|1|
+01:55:04 [Error] PlatFriendList::OnLogout(platformfriendmgr.cpp:1047) user:test, 281481008472401,has no selfino
+01:55:04 [Info] LogHelper::Send(loghelper.cpp:58) TMsLogoutFlow|TPID0001MS67856188SQ0002|1|2025-01-14 01:55:04|wxfdab5af74990787a|1|1|281481008472401|test|0||0|0|0|0|0|0|0|0|0|0|0|
+01:55:04 [Info] CSceneManager::DestroyScene(scenemanager.cpp:70) DestroyScene sceneMap's size is 0, sceneID:2147483650
+01:55:06 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794506], open[0]
+01:55:09 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794509], open[0]
+01:55:12 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794512], open[0]
+01:55:15 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794515], open[0]
+01:55:16 [Info] CSceneManager::CreateScene(scenemanager.cpp:57) CreateScene sceneMap's size is 1, templateID:100, SceneID:2147483651
+01:55:16 [Debug] CRoleManager::AddRole(rolemanager.cpp:55) Add role, id [281481008453596], session [281481553379330]
+01:55:16 [Info] CRoleManager::LoginRole(rolemanager.cpp:118) Role {account=test, roleid=281481008453596, name=博格斯多拉} Login
+01:55:16 [Debug] HMatchHandler::OnChangeScene(matchhandler.cpp:364) HMatchHandler::OnChangeScene role = test
+01:55:16 [Debug] PtcG2M_RoleChangeSceneNtf::Process(ptcg2m_rolechangescenentf.cpp:61) role: 281481008453596, changle line: 1, cross: 0
+01:55:16 [Debug] CPayMgr::BuildCookie(paymgr.cpp:503) org_loc=%2F%6D%70%61%79%2F%67%65%74%5F%62%61%6C%61%6E%63%65%5F%6D; session_id=; session_type=
+01:55:16 [Debug] PayNotifyTask::SetParamData(paynotify.cpp:178) cookie
+01:55:17 [Warn] PayNotifyTask::OnResult(paynotify.cpp:64) return failed,roleid=281481008453596,res={"ret":1001,"err_code":"1001-1001-0","msg":"请求参数错误(session_id)"}
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=appid  value=1450007239
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=format  value=json
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openid  value=test
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openkey  value=
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pf  value=
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pfkey  value=
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=sig  value=0ee2dc289db99260d294d8bf70eff7b2
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=ts  value=1736794516
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=userip  value=127.0.0.1
+01:55:17 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=zoneid  value=1_281481008453596
+01:55:18 [Warn] CGuildMgr::DoRoleLogin(guildmgr.cpp:765)  CGuildMgr::DoRoleLogin pGuild is NULL and roleid : 281481008453596
+01:55:18 [Info] FMMgr::OnLogin(fmmgr.cpp:162) --------SendAudioType------2-roleid=281481008453596 accname=test
+01:55:18 [Warn] DragonGuildMgr::DoRoleLogin(dragonguildmgr.cpp:294) pDGuild is NULL and roleId: 281481008453596
+01:55:18 [Info] CMailDataAddFunctor::operator ()(mailfunctor.cpp:45) Put role [281481008453596] 's mail data to cache, mail count [0]
+01:55:18 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794518], open[0]
+01:55:21 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794521], open[0]
+01:55:21 [Info] CRoleSummaryMgr::OnTimer(rolesummarymgr.cpp:600) send ptc:3795 count:2 left count:0
+01:55:21 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:0,and queue_changes_ size is 0
+01:55:24 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794524], open[0]
+01:55:27 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794527], open[0]
+01:55:30 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794530], open[0]
+01:55:31 [Info] CPlatformFriendMgr::Save2DB(platformfriendmgr.cpp:155) save platfriendinfo to db, count:0
+01:55:32 [Info] MentorMgr::Save2Db(mentormgr.cpp:164) save mentor size:0
+01:55:33 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794533], open[0]
+01:55:33 [Info] MarriageMgr::Save2Db(marriagemgr.cpp:214) save marriage size:0
+01:55:36 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794536], open[0]
+01:55:39 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794539], open[0]
+01:55:42 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794542], open[0]
+01:55:45 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794545], open[0]
+01:55:48 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794548], open[0]
+01:55:51 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794551], open[0]
+01:55:51 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:1,and queue_changes_ size is 0
+01:55:54 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794554], open[0]
+01:55:57 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794557], open[0]
+01:56:00 [Info] PtcG2M_SceneEmptyNotify::Process(ptcg2m_sceneemptynotify.cpp:15) mapid:100 sceneid:2147483651
+01:56:00 [Info] CRoleManager::LogoutRole(rolemanager.cpp:140) Role {account=test, roleid=281481008453596, name=博格斯多拉} Logout
+01:56:00 [Debug] HMatchHandler::OnLogout(matchhandler.cpp:391) HMatchHandler::OnLogout role = test
+01:56:00 [Info] LogHelper::Send(loghelper.cpp:58) TFmFlow|TPID0001MS678561C0SQ0003|1|2025-01-14 01:56:00|wxfdab5af74990787a|1|1|281481008453596|test|1|
+01:56:00 [Error] PlatFriendList::OnLogout(platformfriendmgr.cpp:1047) user:test, 281481008453596,has no selfino
+01:56:00 [Info] LogHelper::Send(loghelper.cpp:58) TMsLogoutFlow|TPID0001MS678561C0SQ0004|1|2025-01-14 01:56:00|wxfdab5af74990787a|1|1|281481008453596|test|0||0|0|0|0|0|0|0|0|0|0|0|
+01:56:00 [Info] CSceneManager::DestroyScene(scenemanager.cpp:70) DestroyScene sceneMap's size is 0, sceneID:2147483651
+01:56:00 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794560], open[0]
+01:56:03 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794563], open[0]
+01:56:05 [Info] CSceneManager::CreateScene(scenemanager.cpp:57) CreateScene sceneMap's size is 1, templateID:100, SceneID:2147483652
+01:56:05 [Debug] CRoleManager::AddRole(rolemanager.cpp:55) Add role, id [281481008453596], session [281482476126211]
+01:56:05 [Info] CRoleManager::LoginRole(rolemanager.cpp:118) Role {account=test, roleid=281481008453596, name=博格斯多拉} Login
+01:56:05 [Debug] HMatchHandler::OnChangeScene(matchhandler.cpp:364) HMatchHandler::OnChangeScene role = test
+01:56:05 [Debug] PtcG2M_RoleChangeSceneNtf::Process(ptcg2m_rolechangescenentf.cpp:61) role: 281481008453596, changle line: 1, cross: 0
+01:56:05 [Debug] CPayMgr::BuildCookie(paymgr.cpp:503) org_loc=%2F%6D%70%61%79%2F%67%65%74%5F%62%61%6C%61%6E%63%65%5F%6D; session_id=; session_type=
+01:56:05 [Debug] PayNotifyTask::SetParamData(paynotify.cpp:178) cookie
+01:56:06 [Warn] PayNotifyTask::OnResult(paynotify.cpp:64) return failed,roleid=281481008453596,res={"ret":1001,"err_code":"1001-1001-0","msg":"请求参数错误(session_id)"}
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=appid  value=1450007239
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=format  value=json
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openid  value=test
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=openkey  value=
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pf  value=
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=pfkey  value=
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=sig  value=394086d33c080012a4f4de5d6e222b27
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=ts  value=1736794565
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=userip  value=127.0.0.1
+01:56:06 [Warn] CPayMgr::PrintLog(paymgr.cpp:841) key=zoneid  value=1_281481008453596
+01:56:06 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794566], open[0]
+01:56:07 [Warn] CGuildMgr::DoRoleLogin(guildmgr.cpp:765)  CGuildMgr::DoRoleLogin pGuild is NULL and roleid : 281481008453596
+01:56:07 [Info] FMMgr::OnLogin(fmmgr.cpp:162) --------SendAudioType------2-roleid=281481008453596 accname=test
+01:56:07 [Warn] DragonGuildMgr::DoRoleLogin(dragonguildmgr.cpp:294) pDGuild is NULL and roleId: 281481008453596
+01:56:09 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794569], open[0]
+01:56:12 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794572], open[0]
+01:56:15 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794575], open[0]
+01:56:18 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794578], open[0]
+01:56:21 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794581], open[0]
+01:56:21 [Info] CRoleSummaryMgr::OnTimer(rolesummarymgr.cpp:600) send ptc:1970 count:1 left count:0
+01:56:21 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:0,and queue_changes_ size is 0
+01:56:24 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794584], open[0]
+01:56:27 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794587], open[0]
+01:56:30 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794590], open[0]
+01:56:33 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794593], open[0]
+01:56:36 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794596], open[0]
+01:56:39 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794599], open[0]
+01:56:41 [Info] CPlatformFriendMgr::Save2DB(platformfriendmgr.cpp:155) save platfriendinfo to db, count:0
+01:56:42 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794602], open[0]
+01:56:43 [Info] MentorMgr::Save2Db(mentormgr.cpp:164) save mentor size:0
+01:56:45 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794605], open[0]
+01:56:45 [Info] MarriageMgr::Save2Db(marriagemgr.cpp:214) save marriage size:0
+01:56:48 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794608], open[0]
+01:56:51 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794611], open[0]
+01:56:51 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:1,and queue_changes_ size is 0
+01:56:54 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794614], open[0]
+01:56:57 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794617], open[0]
+01:57:00 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794620], open[0]
+01:57:03 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794623], open[0]
+01:57:06 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794626], open[0]
+01:57:09 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794629], open[0]
+01:57:12 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794632], open[0]
+01:57:15 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794635], open[0]
+01:57:18 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794638], open[0]
+01:57:21 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794641], open[0]
+01:57:21 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:0,and queue_changes_ size is 0
+01:57:24 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794644], open[0]
+01:57:27 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794647], open[0]
+01:57:30 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794650], open[0]
+01:57:33 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794653], open[0]
+01:57:36 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794656], open[0]
+01:57:39 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794659], open[0]
+01:57:42 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794662], open[0]
+01:57:45 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794665], open[0]
+01:57:48 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794668], open[0]
+01:57:51 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794671], open[0]
+01:57:51 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:1,and queue_changes_ size is 0
+01:57:51 [Info] CPlatformFriendMgr::Save2DB(platformfriendmgr.cpp:155) save platfriendinfo to db, count:0
+01:57:54 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794674], open[0]
+01:57:54 [Info] MentorMgr::Save2Db(mentormgr.cpp:164) save mentor size:0
+01:57:57 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794677], open[0]
+01:57:57 [Info] MarriageMgr::Save2Db(marriagemgr.cpp:214) save marriage size:0
+01:58:00 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794680], open[0]
+01:58:03 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794683], open[0]
+01:58:06 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794686], open[0]
+01:58:09 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794689], open[0]
+01:58:12 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794692], open[0]
+01:58:15 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794695], open[0]
+01:58:18 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794698], open[0]
+01:58:21 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794701], open[0]
+01:58:21 [Info] GardenManager::OnTimer(garden_manager.cpp:225) garden_dbfreshtime_:0,and queue_changes_ size is 0
+01:58:24 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794704], open[0]
+01:58:27 [Info] LeagueSeasonMgr::SaveSeasonInfoToDB(leagueseasonmgr.cpp:169) SaveSeasonInfoToDB, time[1736794707], open[0]

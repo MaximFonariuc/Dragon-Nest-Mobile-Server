@@ -1,0 +1,428 @@
+﻿Построение начато 12.01.2025 17:58:27.
+     1>Проект "D:\Git\SoloProjects\server\winproject\versionserver\versionserver.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\versionserver.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../protocol /I../../common/include /I"../../thirdparty/protobuf-2.5.0/include" /I../../share /I../../versionserver/ /I../../versionserver/network/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Git\SoloProjects\server\winproject\versionserver\..\..\exe\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\protocol\pb\enum.pb.cc ..\..\protocol\pb\project.pb.cc ..\..\share\version\version.cpp ..\..\versionserver\config.cpp ..\..\versionserver\connection\connectionmgr.cpp ..\..\versionserver\main.cpp ..\..\versionserver\network\clientlink.cpp ..\..\versionserver\network\gmtoollink.cpp ..\..\versionserver\process.cpp ..\..\versionserver\protocol\sendonly.cpp ..\..\versionserver\ptcregister.cpp ..\..\versionserver\reload\reloadmgr.cpp ..\..\versionserver\protocol\common\rpco2v_gmtoolcommand2version.cpp /bigobj 
+         rpco2v_gmtoolcommand2version.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7796): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7800): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         reloadmgr.cpp
+     1>d:\git\soloprojects\server\common\include\util.h(46): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(54): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(62): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(70): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(78): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(86): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+         ptcregister.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7796): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7800): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         sendonly.cpp
+         process.cpp
+         gmtoollink.cpp
+         clientlink.cpp
+     1>d:\git\soloprojects\server\versionserver\network\clientlink.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371): см. объявление "sprintf"
+         main.cpp
+         connectionmgr.cpp
+         config.cpp
+     1>d:\git\soloprojects\server\common\include\util.h(46): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(54): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(62): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(70): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(78): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+     1>d:\git\soloprojects\server\common\include\util.h(86): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325): см. объявление "sscanf"
+         version.cpp
+         project.pb.cc
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(552): при компиляции функции-члена "google::protobuf::RepeatedField<Element>::RepeatedField(void)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7796): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(552): при компиляции функции-члена "google::protobuf::RepeatedField<Element>::RepeatedField(void)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\protocol\pb\project.pb.h(7800): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         enum.pb.cc
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\wire_format_lite_inl.h(250): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\wire_format_lite_inl.h(303): см. ссылку на создание экземпляров функции шаблон при компиляции "bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)"
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212): см. объявление "std::_Copy_impl"
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(785): см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)"
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(784): при компиляции функции-члена "void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(777): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::internal::ElementCopier<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(776): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(770): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(749): при компиляции функции-члена "void google::protobuf::RepeatedField<Element>::Reserve(int)" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\repeated_field.h(590): при компиляции функции-члена "int google::protobuf::RepeatedField<Element>::size(void) const" класса шаблон
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\wire_format_lite_inl.h(250): см. ссылку на создание экземпляров класса шаблон при компиляции "google::protobuf::RepeatedField<Element>"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+                 d:\git\soloprojects\server\thirdparty\protobuf-2.5.0\include\google\protobuf\wire_format_lite_inl.h(305): см. ссылку на создание экземпляров функции шаблон при компиляции "bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)"
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\SoloProjects\server\winproject\versionserver\..\..\exe\versionserver.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../lib /LIBPATH:"../../thirdparty/curl-7.40.0/lib" libcurl.lib common.lib ws2_32.lib libprotobuf.lib libiconv.lib zlib.lib iocp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\versionserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Git\SoloProjects\server\exe\versionserver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\SoloProjects\server\winproject\versionserver\..\..\exe\versionserver.lib" /MACHINE:X86 Debug\enum.pb.obj
+         Debug\project.pb.obj
+         Debug\version.obj
+         Debug\config.obj
+         Debug\connectionmgr.obj
+         Debug\main.obj
+         Debug\clientlink.obj
+         Debug\gmtoollink.obj
+         Debug\process.obj
+         Debug\sendonly.obj
+         Debug\ptcregister.obj
+         Debug\reloadmgr.obj
+         Debug\rpco2v_gmtoolcommand2version.obj
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(common.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(once.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpnetwork.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsock.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(iocpsockmgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listener.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>iocp.lib(listenermgr.obj) : warning LNK4204: в "D:\Git\SoloProjects\server\exe\vc100.pdb" отсутствуют отладочные данные для ссылок на модуль; компоновка объекта выполняется как при отсутствии отладочных данных
+         versionserver.vcxproj -> D:\Git\SoloProjects\server\winproject\versionserver\..\..\exe\versionserver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Git\SoloProjects\server\winproject\versionserver\..\..\exe\versionserver.exe.manifest" /manifest Debug\versionserver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\versionserver.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\versionserver.lastbuildstate".
+     1>Построение проекта "D:\Git\SoloProjects\server\winproject\versionserver\versionserver.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:52.19

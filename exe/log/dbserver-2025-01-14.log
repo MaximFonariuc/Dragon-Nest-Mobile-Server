@@ -1,0 +1,238 @@
+01:54:08 [Info] main(main.cpp:49) [dbserver.exe] is start ....
+01:54:08 [Debug] Process_Setup(dbprocess.cpp:48) Start Init <DBConfig>
+01:54:08 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [db] server id [1]
+01:54:08 [Info] DBConfig::ReadSettings(config.cpp:132) MaxRegisterNum [50000], LoginEnabled [1]
+01:54:08 [Info] DBConfig::ReadSettings(config.cpp:135) Reconnect Interval [3], MaxTryTimes [200]
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gslink] on [127.0.0.1:10150] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [127.0.0.1:10160] success
+01:54:08 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [127.0.0.1:10165] success
+01:54:08 [Debug] Process_Setup(dbprocess.cpp:49) Start Init <CAppConfig>
+01:54:08 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+01:54:08 [Debug] Process_Setup(dbprocess.cpp:49) End Init <CAppConfig>
+01:54:08 [Debug] Process_Setup(dbprocess.cpp:50) Start Init <CMysqlMgr>
+01:54:08 [Warn] RunSqlScript(dbutil.cpp:29) run sql [Ôªø#CREATE DATABASE IF NOT EXISTS world1 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci] failed!
+01:54:09 [Warn] RunSqlScript(dbutil.cpp:29) run sql [INSERT INTO openserverdate(`_id`, `date`) VALUES(1,DATE_FORMAT(NOW(),'%Y-%m-%d'))] failed!
+01:54:09 [Warn] RunSqlScript(dbutil.cpp:29) run sql [CREATE TABLE IF NOT EXISTS custombattlerole(
+	_id bigint NOT NULL,
+	system blob DEFAULT NULL,
+	custom blob DEFAULT NULL,
+	ctime timestamp,
+	mtime timestamp,
+	PRIMARY KEY (_id)
+) ROW_FORMAT=DYNAMIC] failed!
+01:54:09 [Info] CMysqlMgr::Init(mysqlmgr.cpp:73) Run script dbinit.sql succ
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlMgr::DeleteEmptyAccount(mysqlmgr.cpp:298) Delete all empty account from db use time: 0 ms
+01:54:09 [Info] CMysqlMgr::ReadCurrentRegisterNum(mysqlmgr.cpp:208) Current register number: 1
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:world1 succ.
+01:54:09 [Info] CMysqlThread::Init(mysqlthread.cpp:41) Connect to 127.0.0.1:3306:db_Dragon_Nest_online succ.
+01:54:09 [Debug] Process_Setup(dbprocess.cpp:50) End Init <CMysqlMgr>
+01:54:09 [Debug] Process_Setup(dbprocess.cpp:51) Start Init <CDbProfiler>
+01:54:09 [Debug] Process_Setup(dbprocess.cpp:51) End Init <CDbProfiler>
+01:54:09 [Info] GSLink::OnPassiveConnect(gslink.cpp:20) a gameserver is connected to db!
+01:54:09 [Info] MSLink::OnPassiveConnect(mslink.cpp:26) ms link connected
+01:54:09 [Info] ControlLink::OnPassiveConnect(controllink.cpp:25) ns link connected
+01:54:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:4 value:1
+01:54:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:5 value:1736632800
+01:54:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:8 value:0
+01:54:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 0(ms), total use 17(ms)
+01:54:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 1(ms), total use 16(ms)
+01:54:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 0(ms), total use 16(ms)
+01:54:24 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:‡¬ïº
+01:54:24 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:54:26 [Info] GSLink::AddServerInfo(gslink.cpp:89) add gameserver [1:game]
+01:54:27 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:„¬ïº
+01:54:27 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:54:30 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ê¬ïº
+01:54:30 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:54:33 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:È¬ïº
+01:54:33 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:54:36 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task AccountReadTask finished, sql use 0(ms), total use 16(ms)
+01:54:36 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ï¬ïº
+01:54:36 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:54:39 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ô¬ïº
+01:54:39 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:54:42 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ú¬ïº
+01:54:42 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleInsertTask finished, sql use 8(ms), total use 30(ms)
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleReadTask finished, sql use 4(ms), total use 32(ms)
+01:54:45 [Debug] CRoleWriteTask::OnReply(rolewritetask.cpp:114) Role 281481008472401 update data, totalSize 12005, fieldNum 59, details: RoleBrief=93 RewardRecord=0 RoleMiscData=95 Attribute=1132 SkillRecord=396 PkRecord=141 BuyGoldFatInfo=14 ActivityRecord=28 StageInfo=73 BagContent=408 RoleLotteryInfo=39 RoleSystem=1411 CheckinRecord=0 NpcFeelingRecord=6 RoleExtraInfo=20 CampRoleRecord=0 ArenaRecord=0 ShopRecord=6208 FlowerRecord=0 RiskInfo2DB=0 FirstPassRecord=0 GuildRecord=0 RoleConfig=72 LiveRecord=0 TowerRecord2DB=0 TShowVoteRecord=0 SBuffRecord=0 RoleFindBackRecord=0 WeekEnd4v4Data=7 HeroBattleRecord=52 LoginRecord=10 PvpData=0 TajieHelp2DB=0 SQARecord=10 DragonRecord2DB=18 FashionRecord=39 PayV2Record=97 PetSysData=17 IBShopAllRecord=0 RolePartnerData=20 SpriteRecord=0 SAtlasRecord=0 RoleTask=48 IdipData=18 MilitaryRecord=14 SpActivity=357 TeamRecord=0 Designation2DB=0 LevelSealRecord=0 RolePushInfo=0 QQVipInfo=0 DragonGroupDB=0 AchieveDbInfo=0 SChatRecord=8 ReportDataRecord=0 PlatformShareResult=34 BattleFieldData=168 CompeteDragonInfo2DB=10 DragonGuildRecordData=942 
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleWriteTask finished, sql use 7(ms), total use 30(ms)
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task MobaReadTask finished, sql use 1(ms), total use 30(ms)
+01:54:45 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ı¬ïº
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:54:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleTaskUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:54:46 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task ReadRoleMailTask finished, sql use 0(ms), total use 32(ms)
+01:54:47 [Info] RpcM2D_ArenaStarRoleDataSave::OnCall(rpcm2d_arenastarroledatasave.cpp:12)  save arenastarroledata size = 1
+01:54:47 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task arenastarroledata finished, sql use 2(ms), total use 31(ms)
+01:54:47 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleTaskUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:54:48 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¯¬ïº
+01:54:48 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:54:51 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:˚¬ïº
+01:54:51 [Info] PtcM2D_SaveRoleSummaryData::Process(ptcm2d_saverolesummarydata.cpp:20) update rolesummary info, roleid:281481008472401
+01:54:51 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:54:51 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RolesummaryTask finished, sql use 2(ms), total use 31(ms)
+01:54:54 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:˛¬ïº
+01:54:54 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:54:57 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Å√ïº
+01:54:57 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:55:00 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ñ√ïº
+01:55:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:03 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:á√ïº
+01:55:03 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:55:04 [Debug] CRoleWriteTask::OnReply(rolewritetask.cpp:114) Role 281481008472401 update data, totalSize 13620, fieldNum 59, details: RoleBrief=95 RewardRecord=300 RoleMiscData=99 Attribute=1132 SkillRecord=396 PkRecord=153 BuyGoldFatInfo=18 ActivityRecord=28 StageInfo=75 BagContent=408 RoleLotteryInfo=41 RoleSystem=1411 CheckinRecord=8 NpcFeelingRecord=6 RoleExtraInfo=26 CampRoleRecord=0 ArenaRecord=0 ShopRecord=6210 FlowerRecord=8 RiskInfo2DB=0 FirstPassRecord=0 GuildRecord=0 RoleConfig=215 LiveRecord=0 TowerRecord2DB=8 TShowVoteRecord=4 SBuffRecord=0 RoleFindBackRecord=182 WeekEnd4v4Data=7 HeroBattleRecord=52 LoginRecord=10 PvpData=0 TajieHelp2DB=0 SQARecord=10 DragonRecord2DB=18 FashionRecord=39 PayV2Record=103 PetSysData=17 IBShopAllRecord=734 RolePartnerData=20 SpriteRecord=128 SAtlasRecord=0 RoleTask=52 IdipData=18 MilitaryRecord=14 SpActivity=357 TeamRecord=0 Designation2DB=0 LevelSealRecord=19 RolePushInfo=0 QQVipInfo=0 DragonGroupDB=0 AchieveDbInfo=0 SChatRecord=8 ReportDataRecord=37 PlatformShareResult=34 BattleFieldData=168 CompeteDragonInfo2DB=10 DragonGuildRecordData=942 
+01:55:04 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleWriteTask finished, sql use 5(ms), total use 30(ms)
+01:55:04 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task AccountReadTask finished, sql use 1(ms), total use 30(ms)
+01:55:06 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ä√ïº
+01:55:06 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:55:09 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ç√ïº
+01:55:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task OnlineWriteTask finished, sql use 2(ms), total use 31(ms)
+01:55:12 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ê√ïº
+01:55:12 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:55:15 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ì√ïº
+01:55:15 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:55:16 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleReadTask finished, sql use 4(ms), total use 31(ms)
+01:55:16 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task MobaReadTask finished, sql use 1(ms), total use 31(ms)
+01:55:18 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task ReadRoleMailTask finished, sql use 0(ms), total use 16(ms)
+01:55:18 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ñ√ïº
+01:55:18 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:18 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleTaskUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:55:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ô√ïº
+01:55:21 [Info] PtcM2D_SaveRoleSummaryData::Process(ptcm2d_saverolesummarydata.cpp:20) update rolesummary info, roleid:281481008472401
+01:55:21 [Info] PtcM2D_SaveRoleSummaryData::Process(ptcm2d_saverolesummarydata.cpp:20) update rolesummary info, roleid:281481008453596
+01:55:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:55:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RolesummaryTask finished, sql use 2(ms), total use 31(ms)
+01:55:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RolesummaryTask finished, sql use 2(ms), total use 31(ms)
+01:55:24 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ú√ïº
+01:55:24 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:55:27 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ü√ïº
+01:55:27 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 17(ms)
+01:55:30 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¢√ïº
+01:55:30 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:55:33 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:•√ïº
+01:55:33 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:36 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:®√ïº
+01:55:36 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:55:39 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:´√ïº
+01:55:39 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:55:42 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Æ√ïº
+01:55:42 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:45 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:±√ïº
+01:55:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:48 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¥√ïº
+01:55:48 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:55:51 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:∑√ïº
+01:55:51 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:55:54 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:∫√ïº
+01:55:54 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:55:57 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ω√ïº
+01:55:57 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:00 [Debug] CRoleWriteTask::OnReply(rolewritetask.cpp:114) Role 281481008453596 update data, totalSize 13981, fieldNum 59, details: RoleBrief=96 RewardRecord=300 RoleMiscData=99 Attribute=1132 SkillRecord=730 PkRecord=153 BuyGoldFatInfo=18 ActivityRecord=28 StageInfo=75 BagContent=408 RoleLotteryInfo=41 RoleSystem=1411 CheckinRecord=8 NpcFeelingRecord=6 RoleExtraInfo=26 CampRoleRecord=0 ArenaRecord=0 ShopRecord=6217 FlowerRecord=10 RiskInfo2DB=0 FirstPassRecord=0 GuildRecord=0 RoleConfig=227 LiveRecord=0 TowerRecord2DB=8 TShowVoteRecord=6 SBuffRecord=0 RoleFindBackRecord=182 WeekEnd4v4Data=7 HeroBattleRecord=52 LoginRecord=10 PvpData=0 TajieHelp2DB=0 SQARecord=10 DragonRecord2DB=18 FashionRecord=41 PayV2Record=103 PetSysData=17 IBShopAllRecord=734 RolePartnerData=20 SpriteRecord=128 SAtlasRecord=0 RoleTask=52 IdipData=18 MilitaryRecord=14 SpActivity=357 TeamRecord=0 Designation2DB=0 LevelSealRecord=19 RolePushInfo=0 QQVipInfo=0 DragonGroupDB=0 AchieveDbInfo=0 SChatRecord=8 ReportDataRecord=38 PlatformShareResult=34 BattleFieldData=168 CompeteDragonInfo2DB=10 DragonGuildRecordData=942 
+01:56:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleWriteTask finished, sql use 3(ms), total use 29(ms)
+01:56:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task AccountReadTask finished, sql use 0(ms), total use 31(ms)
+01:56:00 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¿√ïº
+01:56:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:03 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:√√ïº
+01:56:03 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:56:05 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleReadTask finished, sql use 2(ms), total use 31(ms)
+01:56:06 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:∆√ïº
+01:56:06 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:56:07 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleTaskUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:56:09 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:…√ïº
+01:56:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:56:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task OnlineWriteTask finished, sql use 3(ms), total use 31(ms)
+01:56:12 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ã√ïº
+01:56:12 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 30(ms)
+01:56:15 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:œ√ïº
+01:56:15 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:56:18 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:“√ïº
+01:56:18 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 4(ms), total use 32(ms)
+01:56:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:’√ïº
+01:56:21 [Info] PtcM2D_SaveRoleSummaryData::Process(ptcm2d_saverolesummarydata.cpp:20) update rolesummary info, roleid:281481008453596
+01:56:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RolesummaryTask finished, sql use 3(ms), total use 30(ms)
+01:56:24 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ÿ√ïº
+01:56:24 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:56:27 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:€√ïº
+01:56:27 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:30 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ﬁ√ïº
+01:56:30 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:56:33 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:·√ïº
+01:56:33 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:56:36 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:‰√ïº
+01:56:36 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 8(ms), total use 31(ms)
+01:56:39 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Á√ïº
+01:56:39 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:42 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Í√ïº
+01:56:42 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 4(ms), total use 32(ms)
+01:56:45 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Ì√ïº
+01:56:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:48 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:√ïº
+01:56:48 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:51 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Û√ïº
+01:56:51 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:124) task GlobalUpdateTask finished, sql use 3(ms), total use 16(ms)
+01:56:54 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ˆ√ïº
+01:56:54 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:56:57 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:˘√ïº
+01:56:57 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:57:00 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¸√ïº
+01:57:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:57:03 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ˇ√ïº
+01:57:03 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:57:06 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Çƒïº
+01:57:06 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:57:09 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Öƒïº
+01:57:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:57:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task OnlineWriteTask finished, sql use 3(ms), total use 30(ms)
+01:57:12 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:àƒïº
+01:57:12 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 4(ms), total use 30(ms)
+01:57:15 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ãƒïº
+01:57:15 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:57:18 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:éƒïº
+01:57:18 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:57:21 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ëƒïº
+01:57:21 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:57:24 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:îƒïº
+01:57:24 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:57:27 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:óƒïº
+01:57:27 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 4(ms), total use 31(ms)
+01:57:30 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:öƒïº
+01:57:30 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:57:33 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ùƒïº
+01:57:33 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 4(ms), total use 31(ms)
+01:57:36 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:†ƒïº
+01:57:36 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:57:39 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:£ƒïº
+01:57:39 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 30(ms)
+01:57:42 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¶ƒïº
+01:57:42 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 8(ms), total use 31(ms)
+01:57:45 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:©ƒïº
+01:57:45 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:57:48 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¨ƒïº
+01:57:48 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:57:51 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:Øƒïº
+01:57:51 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:57:54 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:≤ƒïº
+01:57:54 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:57:57 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:µƒïº
+01:57:57 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:58:00 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:∏ƒïº
+01:58:00 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 32(ms)
+01:58:03 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ªƒïº
+01:58:03 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:58:06 [Debug] CRoleWriteTask::OnReply(rolewritetask.cpp:114) Role 281481008453596 update data, totalSize 4527, fieldNum 19, details: RoleLotteryInfo=41 LoginRecord=10 HeroBattleRecord=52 ReportDataRecord=38 PlatformShareResult=34 RoleBrief=96 RewardRecord=300 Attribute=1132 BagContent=408 BuyGoldFatInfo=18 PkRecord=153 RoleTask=52 PayV2Record=103 RoleExtraInfo=26 MilitaryRecord=14 SpActivity=357 PetSysData=17 IBShopAllRecord=734 DragonGuildRecordData=942 
+01:58:06 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task RoleWriteTask finished, sql use 4(ms), total use 31(ms)
+01:58:06 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:æƒïº
+01:58:06 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 3(ms), total use 31(ms)
+01:58:09 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:¡ƒïº
+01:58:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 32(ms)
+01:58:09 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task OnlineWriteTask finished, sql use 3(ms), total use 30(ms)
+01:58:12 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:ƒƒïº
+01:58:12 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)
+01:58:15 [Info] PtcM2D_MsUpdateGlobalConfig::Process(ptcm2d_msupdateglobalconfig.cpp:14) run update globalconfig task, id:20 value:«ƒïº
+01:58:15 [Warn] CMysqlThread::ProcessReply(mysqlthread.cpp:120) task GlobalUpdateTask finished, sql use 2(ms), total use 31(ms)

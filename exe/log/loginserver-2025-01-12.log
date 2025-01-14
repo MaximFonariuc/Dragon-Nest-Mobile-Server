@@ -1,0 +1,1294 @@
+18:06:40 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+18:06:40 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+18:06:40 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+18:06:40 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+18:06:40 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+18:06:40 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+18:06:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+18:06:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+18:06:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+18:06:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+18:06:40 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+18:06:40 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+18:06:40 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+18:06:40 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+18:06:40 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+18:06:40 [Error] MysqlMgr::Init(mysqlmgr.cpp:41) SQL failed: errno=1049 : Unknown database 'login'
+
+18:06:40 [Warn] MysqlMgr::Init(mysqlmgr.cpp:45) connect to database 127.0.0.1:3306:login failed
+18:06:40 [Error] Process_Setup(process.cpp:28) Init <MysqlMgr> failed!
+18:10:29 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+18:10:29 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+18:10:29 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+18:10:29 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+18:10:29 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+18:10:29 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+18:10:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+18:10:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+18:10:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+18:10:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+18:10:29 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+18:10:29 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+18:10:29 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+18:10:29 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+18:10:29 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+18:10:29 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+18:10:29 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+18:10:29 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+18:10:29 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+18:10:29 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+18:10:29 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+18:10:29 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+18:10:29 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+18:10:29 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+18:10:29 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+18:10:29 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+18:10:29 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+18:10:29 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+18:10:29 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+18:10:29 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+18:10:29 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+18:10:29 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+18:10:29 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+18:10:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:11:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:12:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:13:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:14:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:15:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:16:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:17:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:18:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:19:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:20:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:21:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:22:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:23:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:24:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:25:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:26:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:27:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:28:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:29:58 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [mslink] ConnID:[49]
+18:29:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:30:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:31:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:32:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:33:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:34:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:35:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:36:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:37:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:38:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:39:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:40:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:41:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:42:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:43:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:44:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:45:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:46:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:47:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:48:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:49:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:50:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:51:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:52:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:53:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:54:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:55:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:56:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:57:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:58:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+18:59:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:00:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:01:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:02:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:03:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:04:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:05:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:06:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:07:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:08:25 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [mslink] ConnID:[48]
+19:08:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:09:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:10:27 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+19:10:27 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 47
+19:10:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:11:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:12:59 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:14:02 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+19:14:02 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+19:14:02 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+19:14:02 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+19:14:02 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+19:14:02 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+19:14:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+19:14:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+19:14:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+19:14:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+19:14:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+19:14:02 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+19:14:02 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+19:14:02 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+19:14:02 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+19:14:02 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+19:14:02 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+19:14:02 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+19:14:02 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+19:14:02 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+19:14:02 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+19:14:02 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+19:14:02 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+19:14:02 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+19:14:02 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+19:14:02 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+19:14:02 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+19:14:02 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+19:14:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:14:02 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+19:14:02 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+19:14:02 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+19:14:03 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+19:14:16 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+19:14:16 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+19:15:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:16:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:17:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:18:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:19:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:20:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:21:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:22:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:23:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:24:44 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+19:24:44 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+19:24:44 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+19:24:44 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+19:24:44 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+19:24:44 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+19:24:44 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+19:24:44 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+19:24:44 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+19:24:44 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+19:24:44 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+19:24:44 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+19:24:44 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+19:24:44 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+19:24:44 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+19:24:44 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+19:24:44 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+19:24:44 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+19:24:44 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+19:24:44 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+19:24:44 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+19:24:44 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+19:24:44 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+19:24:44 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+19:24:44 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+19:24:44 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+19:24:44 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+19:24:44 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+19:24:44 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+19:24:56 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+19:24:56 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+19:25:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:26:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:27:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:28:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:29:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:30:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:31:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:32:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:33:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:34:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:35:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:36:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:37:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:38:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:39:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:40:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:41:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:42:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:43:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:44:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:45:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:46:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:47:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:48:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:49:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:50:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:51:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:52:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+19:53:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:00:48 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:00:48 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:00:48 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:00:48 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:00:48 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:00:48 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:00:48 [Error] ReconnectManager::InitNetwork(reconnetmgr.cpp:169) Listen by link handler [ctrllink] on [10.0.128.229:25000] failed!
+
+20:00:48 [Error] Config::Init(baseconfig.cpp:126) Initialize Network failed!
+
+20:00:48 [Error] Process_Setup(process.cpp:26) Init <LoginConfig> failed!
+20:01:17 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:01:17 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:01:17 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:01:17 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:01:17 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:01:17 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:01:17 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+20:01:17 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+20:01:17 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+20:01:17 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+20:01:17 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+20:01:17 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+20:01:17 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+20:01:17 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+20:01:17 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+20:01:17 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+20:01:17 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+20:01:17 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+20:01:17 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+20:01:17 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+20:01:17 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+20:01:17 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+20:01:17 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+20:01:17 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+20:01:17 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+20:01:17 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+20:01:17 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+20:01:17 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+20:01:17 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:01:17 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+20:01:17 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+20:01:17 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+20:06:54 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:06:54 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:06:54 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:06:54 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:06:54 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:06:54 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:06:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+20:06:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+20:06:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+20:06:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+20:06:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+20:06:54 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+20:06:54 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+20:06:54 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+20:06:54 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+20:06:54 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+20:06:54 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+20:06:54 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+20:06:54 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+20:06:54 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+20:06:54 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+20:06:54 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+20:06:54 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+20:06:54 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+20:06:54 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+20:06:54 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+20:06:54 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+20:06:54 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+20:06:54 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:06:54 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+20:06:54 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+20:06:54 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+20:06:54 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+20:07:01 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+20:07:01 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+20:07:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:08:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:09:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:10:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:11:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:12:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:13:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:14:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:15:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:16:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:17:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:18:42 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:18:42 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:18:42 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:18:42 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:18:42 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:18:42 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:18:42 [Error] ReconnectManager::InitNetwork(reconnetmgr.cpp:169) Listen by link handler [ctrllink] on [10.0.128.229:25000] failed!
+
+20:18:42 [Error] Config::Init(baseconfig.cpp:126) Initialize Network failed!
+
+20:18:42 [Error] Process_Setup(process.cpp:26) Init <LoginConfig> failed!
+20:19:05 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:19:05 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:19:05 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:19:05 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:19:05 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:19:05 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:19:05 [Error] ReconnectManager::InitNetwork(reconnetmgr.cpp:169) Listen by link handler [ctrllink] on [10.0.128.229:25000] failed!
+
+20:19:05 [Error] Config::Init(baseconfig.cpp:126) Initialize Network failed!
+
+20:19:05 [Error] Process_Setup(process.cpp:26) Init <LoginConfig> failed!
+20:20:12 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:20:12 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:20:12 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:20:12 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:20:12 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:20:12 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:20:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+20:20:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+20:20:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+20:20:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+20:20:12 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+20:20:12 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+20:20:12 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+20:20:12 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+20:20:12 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+20:20:12 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+20:20:12 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+20:20:12 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+20:20:12 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+20:20:12 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+20:20:12 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+20:20:12 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+20:20:12 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+20:20:12 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+20:20:12 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+20:20:12 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+20:20:12 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+20:20:12 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+20:20:12 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:20:12 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+20:20:12 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+20:20:12 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+20:20:13 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+20:20:13 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+20:20:13 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+20:20:46 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:21:43 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+20:21:43 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+20:21:43 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+20:21:43 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+20:21:43 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+20:21:43 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+20:21:43 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+20:21:43 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+20:21:43 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+20:21:43 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+20:21:43 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+20:21:43 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+20:21:43 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+20:21:43 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+20:21:43 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+20:21:43 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+20:21:43 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+20:21:43 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+20:21:43 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+20:21:43 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+20:21:43 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+20:21:43 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+20:21:43 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+20:21:43 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+20:21:43 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+20:21:43 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+20:21:43 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+20:21:43 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+20:21:44 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+20:22:00 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+20:22:00 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+20:22:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:23:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:24:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:25:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:26:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:27:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:28:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:29:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:30:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:31:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:32:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:33:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:34:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:35:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:36:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:37:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:38:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:39:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:40:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:41:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:42:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:43:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:44:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:45:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:46:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:47:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:48:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:49:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:50:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:51:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:52:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:53:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:54:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:55:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:56:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:57:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:58:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+20:59:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:00:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:01:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:02:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:03:54 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:03:54 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:03:54 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:03:54 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:03:54 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:03:54 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:03:54 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:29001] by link idiplink
+21:03:54 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:03:54 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:03:54 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:03:54 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:03:54 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:54 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:03:54 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:03:54 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:03:54 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:03:54 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:03:54 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:03:54 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:03:54 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:03:54 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:03:55 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:03:55 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:03:55 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:03:55 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:03:55 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:03:55 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:55 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:55 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:55 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:55 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:03:55 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:03:55 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:03:55 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:03:55 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:03:55 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:03:55 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+21:03:55 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+21:03:55 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+21:03:56 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:03:59 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:03 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:07 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:11 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:15 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:19 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:23 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:27 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:31 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:35 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:39 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:43 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:44 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:04:47 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:51 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:55 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:04:59 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:03 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:07 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:11 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:15 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:19 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:23 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:05:27 [Info] GMLink::OnConnectFailed(gmlink.cpp:34) connect to idip server failed!
+21:06:33 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:06:33 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:06:33 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:06:33 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:06:33 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:06:33 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [worldlink] on [0.0.0.0:28001] success
+21:06:33 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:29001] by link idiplink
+21:06:33 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:06:33 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:06:33 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:06:33 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:06:54 [Error] MysqlMgr::Init(mysqlmgr.cpp:41) SQL failed: errno=2003 : Can't connect to MySQL server on '10.0.128.229' (0)
+
+21:06:54 [Warn] MysqlMgr::Init(mysqlmgr.cpp:45) connect to database 10.0.128.229:3306: failed
+21:06:54 [Error] Process_Setup(process.cpp:28) Init <MysqlMgr> failed!
+21:07:28 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:07:28 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:07:28 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:07:28 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:07:28 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:07:28 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [worldlink] on [0.0.0.0:28001] success
+21:07:28 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:29001] by link idiplink
+21:07:28 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:07:28 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:07:28 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:07:28 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:07:49 [Error] MysqlMgr::Init(mysqlmgr.cpp:41) SQL failed: errno=2003 : Can't connect to MySQL server on '10.0.128.229' (0)
+
+21:07:49 [Warn] MysqlMgr::Init(mysqlmgr.cpp:45) connect to database 10.0.128.229:3306: failed
+21:07:49 [Error] Process_Setup(process.cpp:28) Init <MysqlMgr> failed!
+21:08:27 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:08:27 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:08:27 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:08:27 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:08:27 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:08:27 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [worldlink] on [0.0.0.0:28001] success
+21:08:27 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:29001] by link idiplink
+21:08:27 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:08:27 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:08:27 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:08:27 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:08:27 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306: success
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS users (
+	userid varchar(64) NOT NULL, 
+	password varchar(128),
+	PRIMARY KEY (userid)) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS lastlogin (
+	userid varchar(64) NOT NULL,
+	serverid int NOT NULL, 
+	time timestamp,
+	PRIMARY KEY (userid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS selfserver (
+	userid varchar(64) NOT NULL,
+	serverid int NOT NULL, 
+	level int NOT NULL, 
+	time timestamp,
+	KEY (userid, serverid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS gmaccount(
+	_id int NOT NULL AUTO_INCREMENT,
+	account varchar(64) NOT NULL,
+	PRIMARY KEY (_id)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS iplist(
+	_id int NOT NULL AUTO_INCREMENT,
+	platform varchar(64) NOT NULL,
+	ipbegin varchar(64) NOT NULL,
+	ipend varchar(64) NOT NULL,
+	PRIMARY KEY (_id),
+	KEY (platform, ipbegin, ipend)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS notice(
+	`type` int NOT NULL,
+	`id` int NOT NULL,
+	`isopen` int NOT NULL,
+	`areaid` int NOT NULL,
+	`platid` int NOT NULL,
+	`content` blob NOT NULL,
+	`updatetime` int NOT NULL,
+	PRIMARY KEY (`type`, `areaid`, `platid`)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS gateinfo(
+	`server_id` int NOT NULL PRIMARY KEY comment '服务器ID',
+	`channel` varchar(64) NOT NULL comment '渠道',
+	`state`	int NOT NULL DEFAULT 1 comment '设置状态',
+	`is_open` int NOT NULL DEFAULT 0 comment '是否开启',
+	`server_name` varchar(255) NOT NULL comment '服务器名称',
+	`zone_name` varchar(255) NOT NULL comment '区名称',
+	`ipaddr` varchar(255) NOT NULL comment 'ip端口地址',
+	`free_ipaddr` varchar(255) NOT NULL DEFAULT '',
+	`register_account` int UNSIGNED NOT NULL DEFAULT 0 comment '总注册帐号数',
+	`online_role` int UNSIGNED NOT NULL DEFAULT 0 comment '当前在线角色数',
+	`open_time` timestamp NOT NULL DEFAULT 0 comment '开服时间',
+	`full_register_time` timestamp NOT NULL DEFAULT 0 comment '首次注册突破上限时间',
+	`combine_serverid` int unsigned NOT NULL,
+	`backflow_level` int UNSIGNED NOT NULL DEFAULT 0
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS banaccount (
+	openid varchar(64) NOT NULL, 
+	endtime int NOT NULL,
+	reason blob NOT NULL, 
+	PRIMARY KEY (openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS bespeak(
+	openid varchar(64) NOT NULL,
+	serverid int unsigned NOT NULL,
+	PRIMARY KEY(openid, serverid),
+	KEY(openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS account_backflow(
+	openid varchar(64) NOT NULL,
+	expiretime timestamp,
+	PRIMARY KEY(openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS 	charge_back(
+	openid varchar(64) NOT NULL primary key,
+	serverid int unsigned,
+	roleid bigint unsigned NOT NULL,
+	total_pay int unsigned NOT NULL
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:27 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:08:27 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:08:27 [Warn] SQLStmt<0,13>::SetQuery(sqlstmt.h:51) No database selected
+21:08:27 [Warn] SQLStmt<0,13>::ReportError(sqlstmt.h:237) mysql_stmt_execute error: 1046:No database selected
+21:08:27 [Warn] LoadGateInfoTask::FinishTask(loadgateinfotask.cpp:91) load server failed, 3435973836
+21:08:27 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:08:27 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:08:27 [Warn] GMMgr::Load(gmmgr.cpp:71) load gmaccount failed
+21:08:27 [Error] Process_Setup(process.cpp:30) Init <GMMgr> failed!
+21:08:34 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:08:34 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:08:34 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:08:34 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:08:34 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:08:34 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [worldlink] on [0.0.0.0:28001] success
+21:08:34 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:185) Begin connect to [127.0.0.1:29001] by link idiplink
+21:08:34 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:08:34 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:08:34 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:08:34 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:08:34 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306: success
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS users (
+	userid varchar(64) NOT NULL, 
+	password varchar(128),
+	PRIMARY KEY (userid)) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS lastlogin (
+	userid varchar(64) NOT NULL,
+	serverid int NOT NULL, 
+	time timestamp,
+	PRIMARY KEY (userid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS selfserver (
+	userid varchar(64) NOT NULL,
+	serverid int NOT NULL, 
+	level int NOT NULL, 
+	time timestamp,
+	KEY (userid, serverid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS gmaccount(
+	_id int NOT NULL AUTO_INCREMENT,
+	account varchar(64) NOT NULL,
+	PRIMARY KEY (_id)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS iplist(
+	_id int NOT NULL AUTO_INCREMENT,
+	platform varchar(64) NOT NULL,
+	ipbegin varchar(64) NOT NULL,
+	ipend varchar(64) NOT NULL,
+	PRIMARY KEY (_id),
+	KEY (platform, ipbegin, ipend)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS notice(
+	`type` int NOT NULL,
+	`id` int NOT NULL,
+	`isopen` int NOT NULL,
+	`areaid` int NOT NULL,
+	`platid` int NOT NULL,
+	`content` blob NOT NULL,
+	`updatetime` int NOT NULL,
+	PRIMARY KEY (`type`, `areaid`, `platid`)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS gateinfo(
+	`server_id` int NOT NULL PRIMARY KEY comment '服务器ID',
+	`channel` varchar(64) NOT NULL comment '渠道',
+	`state`	int NOT NULL DEFAULT 1 comment '设置状态',
+	`is_open` int NOT NULL DEFAULT 0 comment '是否开启',
+	`server_name` varchar(255) NOT NULL comment '服务器名称',
+	`zone_name` varchar(255) NOT NULL comment '区名称',
+	`ipaddr` varchar(255) NOT NULL comment 'ip端口地址',
+	`free_ipaddr` varchar(255) NOT NULL DEFAULT '',
+	`register_account` int UNSIGNED NOT NULL DEFAULT 0 comment '总注册帐号数',
+	`online_role` int UNSIGNED NOT NULL DEFAULT 0 comment '当前在线角色数',
+	`open_time` timestamp NOT NULL DEFAULT 0 comment '开服时间',
+	`full_register_time` timestamp NOT NULL DEFAULT 0 comment '首次注册突破上限时间',
+	`combine_serverid` int unsigned NOT NULL,
+	`backflow_level` int UNSIGNED NOT NULL DEFAULT 0
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS banaccount (
+	openid varchar(64) NOT NULL, 
+	endtime int NOT NULL,
+	reason blob NOT NULL, 
+	PRIMARY KEY (openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS bespeak(
+	openid varchar(64) NOT NULL,
+	serverid int unsigned NOT NULL,
+	PRIMARY KEY(openid, serverid),
+	KEY(openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS account_backflow(
+	openid varchar(64) NOT NULL,
+	expiretime timestamp,
+	PRIMARY KEY(openid)
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Warn] MysqlMgr::RunInitScript(mysqlmgr.cpp:403) run sql [CREATE TABLE IF NOT EXISTS 	charge_back(
+	openid varchar(64) NOT NULL primary key,
+	serverid int unsigned,
+	roleid bigint unsigned NOT NULL,
+	total_pay int unsigned NOT NULL
+) ROW_FORMAT=DYNAMIC] failed!
+21:08:34 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:08:34 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:08:34 [Warn] SQLStmt<0,13>::SetQuery(sqlstmt.h:51) No database selected
+21:08:34 [Warn] SQLStmt<0,13>::ReportError(sqlstmt.h:237) mysql_stmt_execute error: 1046:No database selected
+21:08:34 [Warn] LoadGateInfoTask::FinishTask(loadgateinfotask.cpp:91) load server failed, 3435973836
+21:08:34 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:08:34 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:08:34 [Warn] GMMgr::Load(gmmgr.cpp:71) load gmaccount failed
+21:08:34 [Error] Process_Setup(process.cpp:30) Init <GMMgr> failed!
+21:10:10 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:10:10 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:10:10 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:10:10 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:10:10 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:10:10 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:10:10 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:10:10 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:10:10 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:10:10 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:10:10 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:10:10 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:10:10 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:10:10 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:10:10 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:10:10 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:10:10 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:10:10 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:10:10 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:10:10 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:10:10 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:10:10 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:10:10 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:10:10 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:10:10 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:10:10 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:10:10 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:10:10 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:10:10 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:10:10 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:10:10 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:10:10 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:11:24 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:11:24 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:11:24 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:11:24 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:11:24 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:11:24 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:11:24 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:11:24 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:11:24 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:11:24 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:11:24 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:11:24 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:11:24 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:11:24 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:11:24 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:11:24 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:11:24 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:11:24 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:11:24 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:11:24 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:11:24 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:11:24 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:11:24 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:11:24 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:11:24 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:11:24 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:11:24 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:11:24 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:11:24 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+21:11:40 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+21:11:40 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+21:12:24 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:13:24 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:14:24 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:15:24 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:34:01 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:34:01 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:34:01 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:34:01 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:34:01 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:34:01 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:34:01 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:34:01 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:34:01 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:34:01 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:34:01 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:34:01 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:34:01 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:34:01 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:34:01 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:34:01 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:34:01 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:34:01 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:34:01 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:34:01 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:34:01 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:34:01 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:34:01 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:34:01 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:34:01 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:34:01 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:34:01 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:34:01 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:34:02 [Info] CNetProcessor::OnClose(netproc.cpp:87) socket closed reason [NET_NO_ERROR] errno=[64] for link [mslink] ConnID:[49]
+21:34:02 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+21:35:02 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:36:02 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:37:02 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:38:02 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:38:41 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:38:41 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:38:41 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:38:41 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:38:41 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:38:41 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:38:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:38:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:38:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:38:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:38:41 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:38:41 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:38:41 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:38:41 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:38:41 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:38:41 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:38:41 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:38:41 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:38:41 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:38:41 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:38:41 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:38:41 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:38:41 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:38:41 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:38:41 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:38:41 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:38:41 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:38:41 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:38:41 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:38:41 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:38:41 [Debug] Process_Setup(process.cpp:40) Start Ini21:41:18 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:41:18 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:41:18 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:41:18 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:41:18 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:41:18 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:41:18 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:41:18 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:41:18 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:41:18 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:41:18 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:41:18 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:41:18 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:41:18 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:41:18 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:41:18 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:41:18 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:41:18 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:41:18 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:41:18 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:41:18 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:41:18 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:41:18 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:41:18 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:41:18 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:41:18 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:41:18 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:41:18 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:41:18 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:41:18 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:41:18 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:41:18 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:41:18 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+21:41:20 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+21:41:20 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+21:42:00 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:45:14 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+21:45:14 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+21:45:14 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+21:45:14 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+21:45:14 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+21:45:14 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+21:45:14 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+21:45:14 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+21:45:14 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+21:45:14 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+21:45:14 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+21:45:14 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+21:45:14 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+21:45:14 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+21:45:14 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+21:45:14 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+21:45:14 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+21:45:14 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+21:45:14 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+21:45:14 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+21:45:14 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+21:45:14 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+21:45:14 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+21:45:14 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+21:45:14 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+21:45:14 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+21:45:14 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+21:45:14 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+21:45:14 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+21:45:14 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+21:45:14 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+21:45:14 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+21:45:14 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+21:45:19 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+21:45:19 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+21:46:04 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:47:04 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:48:04 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+21:49:04 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:24:02 [Info] main(main.cpp:33) [loginserver.exe] is start ....
+23:24:02 [Debug] Process_Setup(process.cpp:26) Start Init <LoginConfig>
+23:24:02 [Debug] Config::LoadServerNode(baseconfig.cpp:150) Read server name [login] server id [100]
+23:24:02 [Debug] LoginConfig::ReadSettings(config.cpp:110) max login num[500] concurent
+23:24:02 [Info] LoginConfig::LoadUseFreeFlow(config.cpp:172) Use FreeFlow: 1
+23:24:02 [Info] LoginConfig::LoadBackFlow(config.cpp:197) LoadBackFlow, use backflowserver check 1, account backflow time: 604800, account backflow expire time: 172800
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [ctrllink] on [0.0.0.0:25000] success
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [clientlink] on [0.0.0.0:25001] success
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [gmtoollink] on [0.0.0.0:25002] success
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [cslink] on [0.0.0.0:25003] success
+23:24:02 [Info] ReconnectManager::InitNetwork(reconnetmgr.cpp:172) Listen by link handler [mslink] on [0.0.0.0:28000] success
+23:24:02 [Debug] Process_Setup(process.cpp:27) Start Init <CAppConfig>
+23:24:02 [Info] CAppConfig::Init(appid.cpp:20) Read AppTag: AppTag_Normal
+23:24:02 [Debug] Process_Setup(process.cpp:27) End Init <CAppConfig>
+23:24:02 [Debug] Process_Setup(process.cpp:28) Start Init <MysqlMgr>
+23:24:02 [Info] MysqlMgr::Init(mysqlmgr.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Debug] Process_Setup(process.cpp:28) End Init <MysqlMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:29) Start Init <GateMgr>
+23:24:02 [Warn] GateMgr::ParseFrom(gatemgr.cpp:55) no gate info
+23:24:02 [Debug] Process_Setup(process.cpp:29) End Init <GateMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:30) Start Init <GMMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:30) End Init <GMMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:31) Start Init <WhiteListMgr>
+23:24:02 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 221
+23:24:02 [Info] WhiteListMgr::LoadWhiteList(whitelistmgr.cpp:72) Load openid: 222
+23:24:02 [Debug] Process_Setup(process.cpp:31) End Init <WhiteListMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:32) Start Init <CReloadMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:32) End Init <CReloadMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:33) Start Init <CLoginControl>
+23:24:02 [Debug] Process_Setup(process.cpp:33) End Init <CLoginControl>
+23:24:02 [Debug] Process_Setup(process.cpp:34) Start Init <ConnectionMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:34) End Init <ConnectionMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:35) Start Init <CPlatNoticeMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:35) End Init <CPlatNoticeMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:36) Start Init <CMysqlTest>
+23:24:02 [Debug] CMysqlTest::Init(mysqltest.cpp:56) Init from table selfserver, count 0
+23:24:02 [Debug] Process_Setup(process.cpp:36) End Init <CMysqlTest>
+23:24:02 [Debug] Process_Setup(process.cpp:37) Start Init <CLoginProfiler>
+23:24:02 [Debug] Process_Setup(process.cpp:37) End Init <CLoginProfiler>
+23:24:02 [Debug] Process_Setup(process.cpp:38) Start Init <TokenVerifyMgr>
+23:24:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Info] SQLThread::Init(sqlthread.cpp:56) connect to database 127.0.0.1:3306:login success
+23:24:02 [Debug] Process_Setup(process.cpp:38) End Init <TokenVerifyMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:39) Start Init <AccountBanMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:39) End Init <AccountBanMgr>
+23:24:02 [Debug] Process_Setup(process.cpp:40) Start Init <ReadRoleControl>
+23:24:02 [Debug] Process_Setup(process.cpp:40) End Init <ReadRoleControl>
+23:24:03 [Info] ControlLink::RegisterNs(controllink.cpp:57) Ns server=[1] registered success
+23:24:19 [Info] MsLink::RegisterMs(mslink.cpp:53) Ms server=[1] registered success
+23:24:19 [Info] GateMgr::ServerInfoNotifyToMs(gatemgr.cpp:351)  dwconnid = 49
+23:25:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:26:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:27:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:28:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:29:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:30:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:31:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:32:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:33:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
+23:34:03 [Info] UpdateServerState(ptcn2i_updateserverstate2login.cpp:13) server[1] register [0] online role [0]
