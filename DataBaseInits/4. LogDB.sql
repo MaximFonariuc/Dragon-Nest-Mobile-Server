@@ -1,7 +1,5 @@
-
 CREATE DATABASE IF NOT EXISTS gamelog DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;
 CREATE DATABASE IF NOT EXISTS tlog DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;
-
 
 USE gamelog;
 
@@ -37,17 +35,18 @@ CREATE TABLE IF NOT EXISTS rolestate (
 	PRIMARY KEY (roleid)) ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS battle (
-	battleid bigint,
-	roleid bigint, 
-	rolename char(64),
-	rolelevel smallint, 
-	profession smallint, 
-	sceneid int, 
-	entertime timestamp, 
-	leavetime timestamp, 
-	winorloss char(8), 
-	rank smallint, 
-	reward varchar(1024)) ROW_FORMAT=DYNAMIC;
+    battleid BIGINT,
+    roleid BIGINT, 
+    rolename CHAR(64),
+    rolelevel SMALLINT, 
+    profession SMALLINT, 
+    sceneid INT, 
+    entertime TIMESTAMP, 
+    leavetime TIMESTAMP, 
+    winorloss CHAR(8), 
+    `rank` SMALLINT,
+    reward VARCHAR(1024)
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS operaterecord (
   account varchar(64),
@@ -78,7 +77,7 @@ CREATE TABLE IF NOT EXISTS auction_log(
 ) ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS `ccu_log` (
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iCCU` int(11) NOT NULL DEFAULT '0' COMMENT '同时在线人数',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vPlatform` varchar(32) NOT NULL COMMENT '用户平台',
@@ -87,7 +86,6 @@ CREATE TABLE IF NOT EXISTS `ccu_log` (
   KEY `platform` (`vPlatform`) USING BTREE
 ) ENGINE=InnoDB COMMENT='CCU日志' ROW_FORMAT=DYNAMIC;
 
-
 CREATE TABLE IF NOT EXISTS `user_login_log` (
   `vAccountName` varchar(16) NOT NULL COMMENT '玩家的帐户名',
   `iRoleID` int(11) NOT NULL COMMENT '玩家角色ID',
@@ -95,7 +93,7 @@ CREATE TABLE IF NOT EXISTS `user_login_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '登陆时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vDeviceID` varchar(64) DEFAULT NULL COMMENT '设备唯一标示',
   `vDeviceModel` varchar(255) DEFAULT NULL COMMENT '设备型号',
@@ -122,8 +120,8 @@ CREATE TABLE IF NOT EXISTS `user_logout_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dLogoutTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '玩家下线时间 yyyy-mm-dd hh:ii:ss',
-  `dLoginTime` datetime DEFAULT '0000-00-00 00:00:00' COMMENT '上一次登陆时间 yyyy-mm-dd hh:ii:ss',
+  `dLogoutTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
+  `dLoginTime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vDeviceID` varchar(64) DEFAULT NULL COMMENT '设备唯一标示',
   `vDeviceModel` varchar(255) DEFAULT NULL COMMENT '设备型号',
@@ -151,7 +149,7 @@ CREATE TABLE IF NOT EXISTS `user_register_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '建造角色的时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vDeviceID` varchar(64) DEFAULT NULL COMMENT '设备唯一标示',
   `vDeviceModel` varchar(255) DEFAULT NULL COMMENT '设备型号',
@@ -184,7 +182,7 @@ CREATE TABLE IF NOT EXISTS `user_effective_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '建造角色的时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vDeviceID` varchar(64) DEFAULT NULL COMMENT '设备唯一标示',
   `vDeviceModel` varchar(255) DEFAULT NULL COMMENT '设备型号',
@@ -215,7 +213,7 @@ CREATE TABLE IF NOT EXISTS `user_strong_effective_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '建造角色的时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iChannelID` int(11) NOT NULL DEFAULT '0' COMMENT '区ID',
   `vDeviceID` varchar(64) DEFAULT NULL COMMENT '设备唯一标示',
   `vDeviceModel` varchar(255) DEFAULT NULL COMMENT '设备型号',
@@ -246,7 +244,7 @@ CREATE TABLE IF NOT EXISTS `pay_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '获得时间 yyyy-mm-dd hh:ii:ss',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iMoney` int(11) DEFAULT NULL COMMENT '玩家获得货币数量',
   `iPreMoney` int(11) unsigned DEFAULT NULL COMMENT '交易前货币数量',
   `iAftMoney` int(11) unsigned DEFAULT NULL COMMENT '交易后货币数量',
@@ -277,7 +275,7 @@ CREATE TABLE IF NOT EXISTS `user_upgrade_log` (
   `iClassID` int(11) DEFAULT NULL COMMENT '角色职业/种类 ID',
   `iRoleLevel` smallint(6) DEFAULT '0' COMMENT '玩家角色等级',
   `vIP` varchar(255) DEFAULT NULL COMMENT '玩家IP地址',
-  `dDateTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '行为时间',
+  `dDateTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `iRoleExp` int(11) unsigned DEFAULT '0' COMMENT '角色经验值',
   `iTotalOnlineTime` int(11) unsigned DEFAULT NULL COMMENT '玩家总在线时长',
   `iUpgradeTime` int(11) unsigned DEFAULT NULL COMMENT '本次升级耗时',
@@ -301,7 +299,7 @@ CREATE TABLE IF NOT EXISTS `user_upgrade_log` (
 USE tlog;
 
 CREATE TABLE IF NOT EXISTS `GameSvrState` (
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameIP` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)服务器IP',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
   KEY `idx_zone` (`iZoneAreaID`)
@@ -310,7 +308,7 @@ CREATE TABLE IF NOT EXISTS `GameSvrState` (
 
 CREATE TABLE IF NOT EXISTS `PlayerRegister` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -341,7 +339,7 @@ CREATE TABLE IF NOT EXISTS `PlayerRegister` (
 
 CREATE TABLE IF NOT EXISTS `PlayerLogin` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -376,7 +374,7 @@ CREATE TABLE IF NOT EXISTS `PlayerLogin` (
 
 CREATE TABLE IF NOT EXISTS `PlayerLogout` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -410,7 +408,7 @@ CREATE TABLE IF NOT EXISTS `PlayerLogout` (
 
 CREATE TABLE IF NOT EXISTS `MoneyFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -432,7 +430,7 @@ CREATE TABLE IF NOT EXISTS `MoneyFlow` (
 
 CREATE TABLE IF NOT EXISTS `ItemFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -458,7 +456,7 @@ CREATE TABLE IF NOT EXISTS `ItemFlow` (
 
 CREATE TABLE IF NOT EXISTS `PlayerExpFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -478,7 +476,7 @@ CREATE TABLE IF NOT EXISTS `PlayerExpFlow` (
 
 CREATE TABLE IF NOT EXISTS `SnsFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -495,7 +493,7 @@ CREATE TABLE IF NOT EXISTS `SnsFlow` (
 
 CREATE TABLE IF NOT EXISTS `RoundFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -516,7 +514,7 @@ CREATE TABLE IF NOT EXISTS `RoundFlow` (
 
 CREATE TABLE IF NOT EXISTS `GuideFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -532,7 +530,7 @@ CREATE TABLE IF NOT EXISTS `GuideFlow` (
 
 CREATE TABLE IF NOT EXISTS `VipLevelFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -549,7 +547,7 @@ CREATE TABLE IF NOT EXISTS `VipLevelFlow` (
 
 CREATE TABLE IF NOT EXISTS `ActivityFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -568,7 +566,7 @@ CREATE TABLE IF NOT EXISTS `ActivityFlow` (
 
 CREATE TABLE IF NOT EXISTS `TaskFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -588,7 +586,7 @@ CREATE TABLE IF NOT EXISTS `TaskFlow` (
 
 CREATE TABLE IF NOT EXISTS `LotteryFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -608,7 +606,7 @@ CREATE TABLE IF NOT EXISTS `LotteryFlow` (
 
 CREATE TABLE IF NOT EXISTS `GuildFlow` (
   `GameSvrId` varchar(25) NOT NULL DEFAULT '' COMMENT '(必填)登录的游戏服务器编号',
-  `dtEventTime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '(必填)游戏事件时间 yyyy-mm-dd hh:ii:ss',
+  `dtEventTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '采集时间 yyyy-mm-dd hh:ii:ss',
   `vGameAppid` varchar(32) NOT NULL DEFAULT '' COMMENT '(必填)游戏APPID',
   `PlatID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)ios 0/android 1',
   `iZoneAreaID` int(11) NOT NULL DEFAULT '0' COMMENT '(必填)针对分区分服的游戏填写分区id，用来唯一标示一个区；非分区分服游戏请填写0',
@@ -625,8 +623,6 @@ CREATE TABLE IF NOT EXISTS `GuildFlow` (
 
   KEY `idx_zone` (`iZoneAreaID`)
 ) ROW_FORMAT=DYNAMIC;
-
-
 
 USE gamelog;
 

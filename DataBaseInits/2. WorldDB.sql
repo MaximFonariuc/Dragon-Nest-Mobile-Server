@@ -1,4 +1,6 @@
-﻿#CREATE DATABASE IF NOT EXISTS world1 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS world1 DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;
+
+USE world1;
 
 CREATE TABLE IF NOT EXISTS account(
 	_id varchar(64) NOT NULL, 
@@ -307,12 +309,14 @@ CREATE TABLE IF NOT EXISTS cross_rolesummary (
 ) ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS openserverdate(
-	`_id` int not NULL,
-	`date` char(24) NOT NULL,
-	PRIMARY KEY(`_id`)
-) ROW_FORMAT=DYNAMIC;
-INSERT INTO openserverdate(`_id`, `date`) VALUES(1,DATE_FORMAT(NOW(),'%Y-%m-%d'));
+    `_id` int NOT NULL,
+    `date` char(24) NOT NULL,
+    PRIMARY KEY(`_id`)
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;
 
+INSERT INTO openserverdate(`_id`, `date`) 
+VALUES(1, DATE_FORMAT(NOW(), '%Y-%m-%d'))
+ON DUPLICATE KEY UPDATE `date` = DATE_FORMAT(NOW(), '%Y-%m-%d');
 
 CREATE TABLE IF NOT EXISTS wxpush(
 	`_id` int not NULL,
@@ -366,13 +370,13 @@ CREATE TABLE IF NOT EXISTS custombattle(
 ) ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS custombattlerole(
-	_id bigint NOT NULL,
-	system blob DEFAULT NULL,
-	custom blob DEFAULT NULL,
-	ctime timestamp,
-	mtime timestamp,
-	PRIMARY KEY (_id)
-) ROW_FORMAT=DYNAMIC;
+    _id bigint NOT NULL,
+    `system` blob DEFAULT NULL,
+    custom blob DEFAULT NULL,
+    ctime timestamp,
+    mtime timestamp,
+    PRIMARY KEY (_id)
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;
 
 CREATE TABLE IF NOT EXISTS rolereport(
 	_id bigint NOT NULL,

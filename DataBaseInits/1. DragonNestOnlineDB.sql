@@ -1,6 +1,4 @@
-
 CREATE DATABASE IF NOT EXISTS db_Dragon_Nest_online DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;
-
 
 USE db_Dragon_Nest_online;
 
@@ -14,4 +12,3 @@ CREATE TABLE IF NOT EXISTS `tb_dragonnest_onlinecnt` (
 
   PRIMARY KEY (`timekey`, `gameappid`, `gsid`, `zoneareaid`)
 ) ROW_FORMAT=DYNAMIC;
-
