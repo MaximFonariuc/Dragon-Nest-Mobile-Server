@@ -1,4 +1,5 @@
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -15,29 +16,34 @@ def _safe_relative_path(root, value):
     return target
 
 
+def _part_numbers(archive_base):
+    directory = os.path.dirname(archive_base)
+    prefix = os.path.basename(archive_base) + ".part"
+    numbers = []
+    for name in os.listdir(directory):
+        if name.startswith(prefix):
+            suffix = name[len(prefix):]
+            if suffix.isdigit():
+                numbers.append(int(suffix))
+    return sorted(numbers)
+
+
 def _assemble_parts(archive_base):
+    numbers = _part_numbers(archive_base)
+    if not numbers:
+        raise FileNotFoundError(f"No archive parts found for {archive_base}")
+    if numbers != list(range(1, numbers[-1] + 1)):
+        raise ValueError(f"Archive parts are missing or out of order for {archive_base}")
+
     temp_fd, temp_path = tempfile.mkstemp(
         prefix=".restore-", suffix=".zip", dir=os.path.dirname(archive_base)
     )
     try:
         with os.fdopen(temp_fd, "wb") as output:
-            part_number = 1
-            found = False
-            while True:
+            for part_number in numbers:
                 part_path = f"{archive_base}.part{part_number}"
-                if not os.path.isfile(part_path):
-                    break
-                found = True
                 with open(part_path, "rb") as source:
                     shutil.copyfileobj(source, output)
-                part_number += 1
-
-            if not found:
-                raise FileNotFoundError(f"No archive parts found for {archive_base}")
-
-            if os.path.exists(f"{archive_base}.part{part_number + 1}"):
-                raise ValueError(f"Archive parts are not contiguous for {archive_base}")
-
         return temp_path
     except Exception:
         if os.path.exists(temp_path):
@@ -80,13 +86,8 @@ def _restore_archive(archive_path, original_path):
 
 
 def _remove_parts(archive_base):
-    part_number = 1
-    while True:
-        part_path = f"{archive_base}.part{part_number}"
-        if not os.path.isfile(part_path):
-            break
-        os.remove(part_path)
-        part_number += 1
+    for part_number in _part_numbers(archive_base):
+        os.remove(f"{archive_base}.part{part_number}")
 
 
 def restore_files(directory):
