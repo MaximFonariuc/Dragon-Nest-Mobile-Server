@@ -10,7 +10,7 @@
 	<Listen>
 		<peer ip="0.0.0.0" handler="ctrllink" port="25000" sendBufSize="1024000" recvBufSize="1024000"/>
 		<peer ip="0.0.0.0" handler="clientlink" port="25001" sendBufSize="0" recvBufSize="0"/>
-		<peer ip="0.0.0.0" handler="gmtoollink" port="25002" sendBufSize="0" recvBufSize="0"/>
+		<peer ip="127.0.0.1" handler="gmtoollink" port="25002" sendBufSize="0" recvBufSize="0"/>
 		<peer ip="0.0.0.0" port="25003" handler="cslink" sendBufSize="1024000" recvBufSize="1024000"/>
 		
 		<peer ip="0.0.0.0" handler="mslink" port="28000" sendBufSize="1024000" recvBufSize="1024000"/>
