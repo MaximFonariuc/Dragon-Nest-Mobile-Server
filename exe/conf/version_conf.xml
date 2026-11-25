@@ -5,7 +5,7 @@
 
 	<Listen>
 		<peer ip="0.0.0.0" handler="clientlink" port="24001" sendBufSize="0" recvBufSize="0"/>
-		<peer ip="0.0.0.0" handler="gmtoollink" port="24002" sendBufSize="0" recvBufSize="0"/>
+		<peer ip="127.0.0.1" handler="gmtoollink" port="24002" sendBufSize="0" recvBufSize="0"/>
 	</Listen>
 
 	<!-- rolltype (day, hour) -->
