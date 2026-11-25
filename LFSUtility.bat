@@ -1,43 +1,41 @@
 @echo off
-REM Get the current directory where the .bat file is located
+setlocal EnableExtensions
+
 set "CURRENT_DIR=%~dp0"
 set "GIT_COMPRESSION_DIR=%CURRENT_DIR%GitCompression"
+set "PYTHON_PATH=python"
+set "RESULT=0"
 
-REM Check if the GitCompression folder exists
-if not exist "%GIT_COMPRESSION_DIR%" (
-    echo GitCompression folder not found!
-    pause
+if not exist "%GIT_COMPRESSION_DIR%\RestoreLFS.py" (
+    echo GitCompression scripts not found.
     exit /b 1
 )
 
-REM Specify the full path to Python
-set "PYTHON_PATH=python"
-
-REM Action selection
 echo Choose an action:
 echo 0. Compress files
-echo 1. Decompress files
-set /p choice="Enter 0 or 1: "
+echo 1. Restore files
+set /p "choice=Enter 0 or 1: "
 
-REM Run the corresponding script
 if "%choice%"=="0" (
-    echo Running compression script...
-    "%PYTHON_PATH%" "%GIT_COMPRESSION_DIR%\CompressLFS.py" "%CURRENT_DIR%\"
-    if %errorlevel% equ 0 (
-        echo Compression completed successfully.
+    "%PYTHON_PATH%" "%GIT_COMPRESSION_DIR%\CompressLFS.py" "%CURRENT_DIR%"
+    if errorlevel 1 (
+        echo Compression failed.
+        set "RESULT=1"
     ) else (
-        echo An error occurred during compression.
+        echo Compression completed successfully.
     )
 ) else if "%choice%"=="1" (
-    echo Running decompression script...
-    "%PYTHON_PATH%" "%GIT_COMPRESSION_DIR%\RestoreLFS.py" "%CURRENT_DIR%\"
-    if %errorlevel% equ 0 (
-        echo Decompression completed successfully.
+    "%PYTHON_PATH%" "%GIT_COMPRESSION_DIR%\RestoreLFS.py" "%CURRENT_DIR%"
+    if errorlevel 1 (
+        echo Restore failed.
+        set "RESULT=1"
     ) else (
-        echo An error occurred during decompression.
+        echo Restore completed successfully.
     )
 ) else (
     echo Invalid choice. Please enter 0 or 1.
+    set "RESULT=1"
 )
 
 pause
+exit /b %RESULT%
