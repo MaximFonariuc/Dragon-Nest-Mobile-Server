@@ -1,5 +1,5 @@
 import os
-import re
+import ntpath
 import shutil
 import sys
 import tempfile
@@ -8,9 +8,9 @@ import zipfile
 
 def _safe_relative_path(root, value):
     value = value.replace("\\", os.sep).replace("/", os.sep)
-    if os.path.isabs(value):
+    if os.path.isabs(value) or ntpath.isabs(value) or ntpath.splitdrive(value)[0]:
         raise ValueError(f"Absolute paths are not allowed in the restore log: {value}")
-    target = os.path.abspath(os.path.join(root, value))
+    target = os.path.realpath(os.path.join(root, value))
     if os.path.commonpath((root, target)) != root:
         raise ValueError(f"Path escapes the restore directory: {value}")
     return target
