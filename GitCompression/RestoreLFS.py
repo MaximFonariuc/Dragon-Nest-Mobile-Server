@@ -91,7 +91,7 @@ def _remove_parts(archive_base):
 
 
 def restore_files(directory):
-    root = os.path.abspath(directory)
+    root = os.path.realpath(directory)
     log_file = os.path.join(root, "compression_log.txt")
     if not os.path.isfile(log_file):
         print("No compression log found; nothing to restore.")
